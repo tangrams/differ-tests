@@ -22,3 +22,12 @@ http://tangrams.github.io/differ/?1=https://github.com/tangrams/refill-style/blo
 **latest refill style compared to 10 commits ago**
 
 http://tangrams.github.io/differ/?1=https://github.com/tangrams/refill-style/blob/gh-pages/refill-style.yaml&2=https://github.com/tangrams/refill-style/blob/gh-pages^^^^^^^^^^/refill-style.yaml
+
+**latest refill style compared to 2 weeks ago**
+
+http://tangrams.github.io/differ/?1=https://github.com/tangrams/refill-style/blob/gh-pages/refill-style.yaml&2=https://github.com/tangrams/refill-style/blob/gh-pages@{2weeks}/refill-style.yaml
+
+**latest refill style compared to 1 month ago**
+
+http://tangrams.github.io/differ/?1=https://github.com/tangrams/refill-style/blob/gh-pages/refill-style.yaml&2=https://github.com/tangrams/refill-style/blob/gh-pages@{1month}/refill-style.yaml
+
