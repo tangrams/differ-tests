@@ -1,0 +1,15 @@
+{
+    "origin": {
+    },
+
+    "tests": {
+        "buildings1": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "19/27.17316/78.04217"
+        },
+        "buildings2": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "37.5789912,126.9752173,17.17"
+        }
+    }
+}

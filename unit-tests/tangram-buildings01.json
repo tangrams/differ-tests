@@ -1,0 +1,31 @@
+{
+    "origin": {
+    },
+
+    "tests": {
+        "buildings1": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "19/27.17316/78.04217"
+        },
+        "buildings2": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "37.5789912,126.9752173,17.17"
+        },
+        "buildings3": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "18/27.17472/78.04202"
+        },
+        "buildings4": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "18/48.85292/2.34929"
+        },
+        "buildings5": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "16/48.8580/2.2940"
+        },
+        "buildings6": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "18/40.75167/-73.97549"
+        }
+    }
+}
