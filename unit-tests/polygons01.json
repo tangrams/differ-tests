@@ -1,0 +1,22 @@
+{
+    "origin": {
+        "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36",
+        "devicePixelRatio": 2,
+        "time": "Tue Mar 29 2016 17:40:09 GMT-0400 (EDT)"
+    },
+
+    "tests": {
+        "polygons1": {
+            "url": "polygons01.yaml",
+            "location": [0,0,10]
+        },
+        "polygons2": {
+            "url": "polygons01.yaml",
+            "location": [0,0,10]
+        },
+        "polygons3": {
+            "url": "polygons01.yaml",
+            "location": [0,0,10]
+        }
+   }
+}
