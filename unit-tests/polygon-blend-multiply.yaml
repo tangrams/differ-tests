@@ -1,0 +1,27 @@
+lights:
+    light1:
+        type: ambient
+        ambient: 1
+
+scene:
+    background:
+        color: red
+
+sources:
+    shapes:
+        type: GeoJSON
+        url: polygon.geojson
+
+styles:
+    blend-multiply:
+        base: polygons
+        blend: multiply
+
+layers:
+    polygons:
+        data: { source: shapes }
+        draw:
+            blend-multiply:
+                order: 1
+                color: [0, 1, 0]
+                # color: [0, 1, 0]
