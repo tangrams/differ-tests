@@ -1,0 +1,40 @@
+cameras:
+    camera1:
+        type: isometric
+        axis: [0, .5]
+
+lights:
+    light1:
+        type: point
+        direction: [0, 1, -.5]
+        origin: ground
+        position: [0, -100, 100]
+        diffuse: .3
+        ambient: .2
+
+sources:
+    osm:
+        type: GeoJSON
+        url:  esb.json
+
+layers:
+    earth:
+        data: { source: osm }
+        draw:
+            polygons:
+                order: 0
+                color: white
+    buildings:  
+        data: { source: osm }
+        draw:
+            polygons:
+                order: 1
+                color: white
+                # color: |
+                #     function () {
+                #         var h = feature.height;
+                #         h = Math.min((h + 50)/ 255, .8); // max brightness: .8
+                #         h = Math.max(h, .4); // min brightness: .4
+                #         return [h, h, h];
+                #     }
+                extrude: true

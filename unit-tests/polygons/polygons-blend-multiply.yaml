@@ -8,7 +8,7 @@ scene:
 sources:
     shapes:
         type: GeoJSON
-        url: shapes.json
+        url: ../shapes.geojson
 
 styles:
     blend-multiply:

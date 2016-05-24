@@ -2,23 +2,20 @@ lights:
     light1:
         type: ambient
         ambient: 1
-scene:
-    background:
-        color: black
 sources:
     shapes:
         type: GeoJSON
-        url: shapes.json
+        url: ../shapes.json
 
 styles:
-    blend-add:
+    custom:
         base: polygons
-        blend: add
+        blend: inlay
 
 layers:
     polygons:
         data: { source: shapes }
         draw:
-            blend-add:
+            custom:
                 order: 1
                 color: [0, .3, 0]
