@@ -1,4 +1,7 @@
 import: esb_lights.yaml
+scene:
+  background:
+    color: black
 lights:
     light1:
         type: point
