@@ -1,0 +1,27 @@
+lights:
+    light1:
+        type: ambient
+        ambient: 1
+
+scene:
+    background:
+        color: white
+
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../shapes.geojson
+
+styles:
+    custom:
+        base: lines
+        blend: multiply
+
+layers:
+    lines:
+        data: { source: shapes }
+        draw:
+            custom:
+                order: 1
+                color: green
+                width: 20px

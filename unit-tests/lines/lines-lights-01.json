@@ -1,0 +1,70 @@
+{
+    "origin": {
+        "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36",
+        "devicePixelRatio": 2,
+        "time": "Tue Mar 29 2016 17:40:09 GMT-0400 (EDT)"
+    },
+
+    "tests": {
+        "lines-lights-directional-01": {
+            "url": "lines-lights-directional01.yaml",
+            "location": [0,0,10]
+        },
+         "lines-lights-directional-02": {
+            "url": "lines-lights-directional01.yaml",
+            "location": "9.75/-0.2561/0.0364"
+        },
+         "lines-lights-directional-03": {
+            "url": "lines-lights-directional01.yaml",
+            "location": "10/-0.6125/-0.3234"
+        },
+         "lines-lights-directional-04": {
+            "url": "lines-lights-directional01.yaml",
+            "location": "10/-0.6173/0.0336"
+        },
+         "lines-lights-directional-05": {
+            "url": "lines-lights-directional01.yaml",
+            "location": "10/-0.6365/0.3495"
+        },
+         "lines-lights-directional-ambient-01": {
+            "url": "lines-lights-directional02.yaml",
+            "location": [0,0,10]
+        },
+         "lines-lights-directional-ambient-02": {
+            "url": "lines-lights-directional02.yaml",
+            "location": "9.75/-0.2561/0.0364"
+        },
+         "lines-lights-directional-ambient-03": {
+            "url": "lines-lights-directional02.yaml",
+            "location": "10/-0.6125/-0.3234"
+        },
+         "lines-lights-directional-ambient-04": {
+            "url": "lines-lights-directional02.yaml",
+            "location": "10/-0.6173/0.0336"
+        },
+         "lines-lights-directional-ambient-05": {
+            "url": "lines-lights-directional02.yaml",
+            "location": "10/-0.6365/0.3495"
+        },
+         "lines-lights-directional-diffuse-ambient-01": {
+            "url": "lines-lights-directional03.yaml",
+            "location": [0,0,10]
+        },
+         "lines-lights-directional-diffuse-ambient-02": {
+            "url": "lines-lights-directional03.yaml",
+            "location": "9.75/-0.2561/0.0364"
+        },
+         "lines-lights-directional-diffuse-ambient-03": {
+            "url": "lines-lights-directional03.yaml",
+            "location": "10/-0.6125/-0.3234"
+        },
+         "lines-lights-directional-diffuse-ambient-04": {
+            "url": "lines-lights-directional03.yaml",
+            "location": "10/-0.6173/0.0336"
+        },
+         "lines-lights-directional-diffuse-ambient-05": {
+            "url": "lines-lights-directional03.yaml",
+            "location": "10/-0.6365/0.3495"
+        }
+    }
+}

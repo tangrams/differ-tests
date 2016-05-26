@@ -1,0 +1,18 @@
+lights:
+    light1:
+        type: ambient
+        ambient: 1
+
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../shapes.geojson
+
+layers:
+    polygons:
+        data: { source: shapes }
+        draw:
+            lines:
+                order: 1
+                color: [0, 1, 0]
+                width: 20px
