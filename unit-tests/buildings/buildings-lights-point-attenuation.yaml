@@ -1,0 +1,6 @@
+import: esb_lights.yaml
+lights:
+    light1:
+        type: point
+        radius: [150px, 250px]
+        attenuation: .5

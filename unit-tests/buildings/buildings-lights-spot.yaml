@@ -1,0 +1,9 @@
+import: esb_lights.yaml
+scene:
+  background:
+    color: black
+lights:
+    light1:
+        type: spotlight
+        origin: ground
+        position: [0px, 0px, 150px]

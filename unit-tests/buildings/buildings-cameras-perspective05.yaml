@@ -1,0 +1,6 @@
+import: esb.yaml
+cameras:
+    camera1:
+        type: perspective
+        vanishing_point: [-250, -250]
+        fov: 5

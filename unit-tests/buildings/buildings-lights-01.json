@@ -1,0 +1,66 @@
+{
+    "origin": {
+        "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36",
+        "devicePixelRatio": 2,
+        "time": "Tue Mar 29 2016 17:40:09 GMT-0400 (EDT)"
+    },
+
+    "tests": {
+        "buildings-point": {
+            "url": "buildings-lights-point.yaml",
+            "location": "17/40.74854/-73.98564"
+        },
+        "buildings-point-diffuse": {
+            "url": "buildings-lights-point-diffuse.yaml",
+            "location": "17/40.74854/-73.98564"
+        },
+        "buildings-point-ambient": {
+            "url": "buildings-lights-point-ambient.yaml",
+            "location": "17/40.74854/-73.98564"
+        },
+        "buildings-point-specular": {
+            "url": "buildings-lights-point-specular.yaml",
+            "location": "17/40.74854/-73.98564"
+        },
+        "buildings-point-radius01": {
+            "url": "buildings-lights-point-radius01.yaml",
+            "location": "17/40.74854/-73.98564"
+        },
+        "buildings-point-radius02": {
+            "url": "buildings-lights-point-radius02.yaml",
+            "location": "17/40.74854/-73.98564"
+        },
+        "buildings-point-attenuation": {
+            "url": "buildings-lights-point-attenuation.yaml",
+            "location": "17/40.74854/-73.98564"
+        },
+        "buildings-directional": {
+            "url": "buildings-lights-directional.yaml",
+            "location": "17/40.74854/-73.98564"
+        },
+        "buildings-directional-diffuse": {
+            "url": "buildings-lights-directional-diffuse.yaml",
+            "location": "17/40.74854/-73.98564"
+        },
+        "buildings-directional-ambient": {
+            "url": "buildings-lights-directional-ambient.yaml",
+            "location": "17/40.74854/-73.98564"
+        },
+        "buildings-spot": {
+            "url": "buildings-lights-spot.yaml",
+            "location": "17/40.74854/-73.98564"
+        },
+        "buildings-spot-direction": {
+            "url": "buildings-lights-spot-direction.yaml",
+            "location": "17/40.74854/-73.98564"
+        },
+        "buildings-spot-diffuse": {
+            "url": "buildings-lights-spot-diffuse.yaml",
+            "location": "17/40.74854/-73.98564"
+        },
+        "buildings-spot-ambient": {
+            "url": "buildings-lights-spot-ambient.yaml",
+            "location": "17/40.74854/-73.98564"
+        }
+    }
+}

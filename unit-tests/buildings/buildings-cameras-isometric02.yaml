@@ -1,0 +1,6 @@
+import: esb.yaml
+
+cameras:
+    camera1:
+        type: isometric
+        axis: [-1, -1]

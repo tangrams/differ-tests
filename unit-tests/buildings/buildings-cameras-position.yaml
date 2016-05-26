@@ -1,0 +1,7 @@
+import: esb.yaml
+cameras:
+    camera1:
+        type: perspective
+        vanishing_point: [-50, -150]
+        focal_length: 5
+        position: [-73.98576,40.748,17]

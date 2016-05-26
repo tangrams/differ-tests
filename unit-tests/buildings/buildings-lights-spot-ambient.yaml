@@ -1,0 +1,7 @@
+import: esb_lights.yaml
+lights:
+    light1:
+        type: spotlight
+        direction: [1,1,-.5]
+        ambient: green
+        position: [-250px, -250px, 200px]

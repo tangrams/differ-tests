@@ -1,0 +1,5 @@
+import: esb_lights.yaml
+lights:
+    light1:
+        type: point
+        ambient: green

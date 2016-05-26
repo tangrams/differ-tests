@@ -1,0 +1,6 @@
+import: esb_lights.yaml
+lights:
+    light1:
+        type: point
+        position: [0, -200, 250]
+        radius: 250px
