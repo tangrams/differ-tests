@@ -5,7 +5,7 @@ lights:
 sources:
     shapes:
         type: GeoJSON
-        url: ../shapes.json
+        url: ../shapes.geojson
 
 styles:
     custom:

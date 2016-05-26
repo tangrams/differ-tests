@@ -1,12 +1,12 @@
-lights:
-    light1:
-        type: ambient
-        ambient: 1
+cameras:
+    camera1:
+        type: perspective
+        focal_length: 20
 
 sources:
     shapes:
         type: GeoJSON
-        url: ../shapes.geojson
+        url: ../shapes.json
 
 layers:
     polygons:

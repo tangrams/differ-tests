@@ -1,0 +1,11 @@
+# polygons tests
+
+# compare previous released version of tangram to the current version (one commit difference)
+http://localhost:8080/?1=http://localhost:8090/unit-tests/polygons/polygons-cameras01.json&2=http://localhost:8090/unit-tests/polygons/polygons-blend01.json&lib1=https://rawgit.com/tangrams/tangram/master%5E/dist/tangram.debug.js&lib2=https://rawgit.com/tangrams/tangram/master/dist/tangram.debug.js&go
+
+https://rawgit.com/tangrams/tangram/master%5E/dist/tangram.debug.js
+https://rawgit.com/tangrams/tangram/master/dist/tangram.debug.js
+
+http://localhost:8080/?1=http%3A//localhost%3A8090/unit-tests/polygons/polygons-lights01.json&2=http%3A//localhost%3A8090/unit-tests/polygons/polygons-lights01.json&lib1=https%3A//rawgit.com/tangrams/tangram/master%5E/dist/tangram.debug.js&lib2=https%3A//rawgit.com/tangrams/tangram/master/dist/tangram.debug.js&go
+
+http://localhost:8080/?1=http%3A//localhost%3A8090/unit-tests/polygons/polygons-cameras01.json&2=http%3A//localhost%3A8090/unit-tests/polygons/polygons-cameras01.json&lib1=https%3A//rawgit.com/tangrams/tangram/master%5E/dist/tangram.debug.js&lib2=https%3A//rawgit.com/tangrams/tangram/master/dist/tangram.debug.js&go

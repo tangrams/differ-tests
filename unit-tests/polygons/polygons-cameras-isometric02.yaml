@@ -1,12 +1,11 @@
-lights:
-    light1:
-        type: ambient
-        ambient: 1
-
+cameras:
+    camera1:
+        type: isometric
+        axis: [-1, -1]
 sources:
     shapes:
         type: GeoJSON
-        url: ../polygon.geojson
+        url: ../shapes.json
 
 layers:
     polygons:

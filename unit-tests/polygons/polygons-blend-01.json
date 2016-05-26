@@ -14,7 +14,7 @@
             "url": "polygons01.yaml",
             "location": "9.75/-0.2561/0.0364"
         },
-       "polygons2": {
+        "polygons2": {
             "url": "polygons01.yaml",
             "location": "10/-0.6125/-0.3234"
         },
@@ -34,7 +34,7 @@
             "url": "polygons-blend-add.yaml",
             "location": "9.75/-0.2561/0.0364"
         },
-       "blend-add3": {
+        "blend-add3": {
             "url": "polygons-blend-add.yaml",
             "location": "10/-0.6125/-0.3234"
         },
@@ -54,7 +54,7 @@
             "url": "polygons-blend-multiply.yaml",
             "location": "9.75/-0.2561/0.0364"
         },
-       "blend-multiply3": {
+        "blend-multiply3": {
             "url": "polygons-blend-multiply.yaml",
             "location": "10/-0.6125/-0.3234"
         },
@@ -74,7 +74,7 @@
             "url": "polygons-blend-inlay.yaml",
             "location": "9.75/-0.2561/0.0364"
         },
-       "blend-inlay3": {
+        "blend-inlay3": {
             "url": "polygons-blend-inlay.yaml",
             "location": "10/-0.6125/-0.3234"
         },
@@ -94,7 +94,7 @@
             "url": "polygons-blend-overlay.yaml",
             "location": "9.75/-0.2561/0.0364"
         },
-       "blend-overlay3": {
+        "blend-overlay3": {
             "url": "polygons-blend-overlay.yaml",
             "location": "10/-0.6125/-0.3234"
         },

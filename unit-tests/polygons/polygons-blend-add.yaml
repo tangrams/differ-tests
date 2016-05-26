@@ -4,14 +4,14 @@ lights:
         ambient: 1
 scene:
     background:
-        color: black
+        color: gray
 sources:
     shapes:
         type: GeoJSON
-        url: ../shapes.json
+        url: ../shapes.geojson
 
 styles:
-    blend-add:
+    custom:
         base: polygons
         blend: add
 
@@ -19,6 +19,7 @@ layers:
     polygons:
         data: { source: shapes }
         draw:
-            blend-add:
+            custom:
                 order: 1
                 color: [0, .3, 0]
+                extrude: true

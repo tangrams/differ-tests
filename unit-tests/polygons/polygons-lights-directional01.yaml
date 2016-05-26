@@ -1,12 +1,12 @@
 lights:
     light1:
-        type: ambient
-        ambient: 1
-
+        type: directional
+        direction: [0, 0, -1]
+        diffuse: 1
 sources:
     shapes:
         type: GeoJSON
-        url: ../shapes.geojson
+        url: ../shapes.json
 
 layers:
     polygons:
