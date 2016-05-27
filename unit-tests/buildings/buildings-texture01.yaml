@@ -1,0 +1,38 @@
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../esb.geojson
+cameras:
+    camera1:
+        type: perspective
+        vanishing_point: [-50, -150]
+lights:
+    light1:
+        type: point
+        origin: ground
+        position: [0, -250, 250]
+layers:
+    buildings:
+        data: { source: shapes }
+        draw:
+            checkers:
+                order: 1
+                color: [1, 1, 1]
+                extrude: true
+
+styles:
+    checkers:
+        base: polygons
+        material:
+            diffuse:
+                texture:
+                    url: uv_checkers.png
+                mapping: uv
+cameras:
+    camera1:
+        type: isometric
+
+# layers:
+#     buildings:
+#         draw:
+#             style: checkers
