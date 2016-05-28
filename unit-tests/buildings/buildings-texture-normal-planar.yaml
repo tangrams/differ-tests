@@ -1,0 +1,37 @@
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../esb.geojson
+
+cameras:
+    camera1:
+        type: isometric
+        axis: [0, .5]
+
+
+styles:
+    rock:
+        base: polygons
+        material:
+            normal:
+                texture: rock.jpg
+                mapping: planar
+            ambient: 0
+            diffuse: 1
+            specular: 1
+
+lights:
+    light1:
+        type: directional
+        direction: [-1, 1, -1]
+        diffuse: 1
+        ambient: 0
+        specular: 1
+layers:
+    buildings:
+        data: { source: shapes }
+        draw:
+            rock:
+                order: 1
+                color: grey
+                extrude: true

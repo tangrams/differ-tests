@@ -1,0 +1,16 @@
+{
+    "tests": {
+        "outline1": {
+            "url": "outline01.yaml",
+            "location": [0.01,0,10]
+        },
+        "outline-butt2": {
+            "url": "outline01.yaml",
+            "location": "10/0.35/0.3355"
+        },
+        "outline-square": {
+            "url": "outline-square-cap.yaml",
+            "location": "10/0.35/0.3355"
+        }
+    }
+}
