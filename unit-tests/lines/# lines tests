@@ -6,6 +6,11 @@ http://localhost:8080/?1=http://localhost:8090/unit-tests/lines/lines-cameras01.
 https://rawgit.com/tangrams/tangram/master%5E/dist/tangram.debug.js
 https://rawgit.com/tangrams/tangram/master/dist/tangram.debug.js
 
-http://localhost:8080/?1=http%3A//localhost%3A8090/unit-tests/lines/lines-lights01.json&2=http%3A//localhost%3A8090/unit-tests/lines/lines-lights01.json&lib1=https%3A//rawgit.com/tangrams/tangram/master%5E/dist/tangram.debug.js&lib2=https%3A//rawgit.com/tangrams/tangram/master/dist/tangram.debug.js&go
+# lights tests
+http://localhost:8080/?1=http%3A//localhost%3A8090/unit-tests/lines/lines-lights-01.json&2=http%3A//localhost%3A8090/unit-tests/lines/lines-lights-01.json&lib1=https%3A//rawgit.com/tangrams/tangram/master%5E/dist/tangram.debug.js&lib2=https%3A//rawgit.com/tangrams/tangram/master/dist/tangram.debug.js&go
 
-http://localhost:8080/?1=http%3A//localhost%3A8090/unit-tests/lines/lines-cameras01.json&2=http%3A//localhost%3A8090/unit-tests/lines/lines-cameras01.json&lib1=https%3A//rawgit.com/tangrams/tangram/master%5E/dist/tangram.debug.js&lib2=https%3A//rawgit.com/tangrams/tangram/master/dist/tangram.debug.js&go
+# cameras tests
+http://localhost:8080/?1=http%3A//localhost%3A8090/unit-tests/lines/lines-cameras-01.json&2=http%3A//localhost%3A8090/unit-tests/lines/lines-cameras-01.json&lib1=https%3A//rawgit.com/tangrams/tangram/master%5E/dist/tangram.debug.js&lib2=https%3A//rawgit.com/tangrams/tangram/master/dist/tangram.debug.js&go
+
+# blend tests
+http://localhost:8080/?1=http%3A//localhost%3A8090/unit-tests/lines/lines-blend-01.json&2=http%3A//localhost%3A8090/unit-tests/lines/lines-blend-01.json&lib1=https%3A//mapzen.com/tangram/0.7/tangram.debug.js&lib2=https%3A//mapzen.com/tangram/0.7/tangram.debug.js&go

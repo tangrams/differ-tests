@@ -1,0 +1,104 @@
+{
+    "tests": {
+        "lines-cap-butt1": {
+            "url": "lines-cap-butt01.yaml",
+            "location": "10/0.40/0.3825"
+        },
+        "lines-cap-butt2": {
+            "url": "lines-cap-butt02.yaml",
+            "location": "10/0.40/0.3825"
+        },
+        "lines-cap-butt3": {
+            "url": "lines-cap-butt03.yaml",
+            "location": "10/0.40/0.3825"
+        },
+        "lines-cap-round1": {
+            "url": "lines-cap-round01.yaml",
+            "location": "10/0.40/0.3825"
+        },
+        "lines-cap-round2": {
+            "url": "lines-cap-round02.yaml",
+            "location": "10/0.40/0.3825"
+        },
+        "lines-cap-round3": {
+            "url": "lines-cap-round03.yaml",
+            "location": "10/0.40/0.3825"
+        },
+        "lines-cap-square1": {
+            "url": "lines-cap-square01.yaml",
+            "location": "10/0.40/0.3825"
+        },
+        "lines-cap-square2": {
+            "url": "lines-cap-square02.yaml",
+            "location": "10/0.40/0.3825"
+        },
+        "lines-cap-square3": {
+            "url": "lines-cap-square03.yaml",
+            "location": "10/0.40/0.3825"
+        },
+        "lines-join-bevel1": {
+            "url": "lines-join-bevel01.yaml",
+            "location": "10/-0.5939/0.0591"
+        },
+        "lines-join-bevel2": {
+            "url": "lines-join-bevel02.yaml",
+            "location": "10/-0.5939/0.0591"
+        },
+        "lines-join-bevel3": {
+            "url": "lines-join-bevel03.yaml",
+            "location": "10/-0.5939/0.0591"
+        },
+        "lines-join-bevel4": {
+            "url": "lines-join-bevel04.yaml",
+            "location": "10/0.3687/-0.4079"
+        },
+        "lines-join-bevel5": {
+            "url": "lines-join-bevel03.yaml",
+            "location": "10/0.3687/-0.4079"
+        },
+        "lines-join-round1": {
+            "url": "lines-join-round01.yaml",
+            "location": "10/-0.5939/0.0591"
+        },
+        "lines-join-round2": {
+            "url": "lines-join-round02.yaml",
+            "location": "10/-0.5939/0.0591"
+        },
+        "lines-join-round3": {
+            "url": "lines-join-round03.yaml",
+            "location": "10/-0.5939/0.0591"
+        },
+        "lines-join-round4": {
+            "url": "lines-join-round04.yaml",
+            "location": "10/0.3687/-0.4079"
+        },
+        "lines-join-round5": {
+            "url": "lines-join-round01.yaml",
+            "location": "10/0.3687/-0.4079"
+        },
+        "lines-join-round6": {
+            "url": "lines-join-round02.yaml",
+            "location": "10/0.3687/-0.4079"
+        },
+        "lines-join-mitre1": {
+            "url": "lines-join-mitre01.yaml",
+            "location": "10/-0.5939/0.0591"
+        },
+        "lines-join-mitre2": {
+            "url": "lines-join-mitre02.yaml",
+            "location": "10/-0.5939/0.0591"
+        },
+        "lines-join-mitre3": {
+            "url": "lines-join-mitre03.yaml",
+            "location": "10/-0.5939/0.0591"
+        },
+        "lines-join-mitre4": {
+            "url": "lines-join-mitre04.yaml",
+            "location": "10/0.3687/-0.4079"
+        },
+        "lines-join-mitre5": {
+            "url": "lines-join-mitre01.yaml",
+            "location": "10/0.3687/-0.4079"
+        }
+    }
+}

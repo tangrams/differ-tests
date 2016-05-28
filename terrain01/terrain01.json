@@ -1,0 +1,428 @@
+{
+    "tests": {
+        "terrain1": {
+        	"url": "terrain01.yaml",
+        	"location": [90, -180, 0]
+    	},
+		"terrain2": {
+			"url": "terrain01.yaml",
+			"location": [90, -180, 1]
+		},
+		"terrain3": {
+			"url": "terrain01.yaml",
+			"location": [90, -180, 2]
+		},
+		"terrain4": {
+			"url": "terrain01.yaml",
+			"location": [90, 0, 2]
+		},
+		"terrain5": {
+			"url": "terrain01.yaml",
+			"location": [90, -180, 3]
+		},
+		"terrain6": {
+			"url": "terrain01.yaml",
+			"location": [90, -60, 3]
+		},
+		"terrain7": {
+			"url": "terrain01.yaml",
+			"location": [90, 60, 3]
+		},
+		"terrain8": {
+			"url": "terrain01.yaml",
+			"location": [-30, -180, 3]
+		},
+		"terrain9": {
+			"url": "terrain01.yaml",
+			"location": [-30, -60, 3]
+		},
+		"terrain10": {
+			"url": "terrain01.yaml",
+			"location": [-30, 60, 3]
+		},
+		"terrain11": {
+			"url": "terrain01.yaml",
+			"location": [90, -180, 4]
+		},
+		"terrain12": {
+			"url": "terrain01.yaml",
+			"location": [90, -90, 4]
+		},
+		"terrain13": {
+			"url": "terrain01.yaml",
+			"location": [90, 0, 4]
+		},
+		"terrain14": {
+			"url": "terrain01.yaml",
+			"location": [0, -180, 4]
+		},
+		"terrain15": {
+			"url": "terrain01.yaml",
+			"location": [0, -90, 4]
+		},
+		"terrain16": {
+			"url": "terrain01.yaml",
+			"location": [0, 0, 4]
+		},
+		"terrain17": {
+			"url": "terrain01.yaml",
+			"location": [90, -180, 5]
+		},
+		"terrain18": {
+			"url": "terrain01.yaml",
+			"location": [90, -90, 5]
+		},
+		"terrain19": {
+			"url": "terrain01.yaml",
+			"location": [90, 0, 5]
+		},
+		"terrain20": {
+			"url": "terrain01.yaml",
+			"location": [0, -180, 5]
+		},
+		"terrain21": {
+			"url": "terrain01.yaml",
+			"location": [0, -90, 5]
+		},
+		"terrain22": {
+			"url": "terrain01.yaml",
+			"location": [0, 0, 5]
+		},
+		"terrain23": {
+			"url": "terrain01.yaml",
+			"location": [90, -180, 6]
+		},
+		"terrain24": {
+			"url": "terrain01.yaml",
+			"location": [90, -90, 6]
+		},
+		"terrain25": {
+			"url": "terrain01.yaml",
+			"location": [90, 0, 6]
+		},
+		"terrain26": {
+			"url": "terrain01.yaml",
+			"location": [0, -180, 6]
+		},
+		"terrain27": {
+			"url": "terrain01.yaml",
+			"location": [0, -90, 6]
+		},
+		"terrain28": {
+			"url": "terrain01.yaml",
+			"location": [0, 0, 6]
+		},
+		"terrain29": {
+			"url": "terrain01.yaml",
+			"location": [90, -180, 7]
+		},
+		"terrain30": {
+			"url": "terrain01.yaml",
+			"location": [90, -90, 7]
+		},
+		"terrain31": {
+			"url": "terrain01.yaml",
+			"location": [90, 0, 7]
+		},
+		"terrain32": {
+			"url": "terrain01.yaml",
+			"location": [0, -180, 7]
+		},
+		"terrain33": {
+			"url": "terrain01.yaml",
+			"location": [0, -90, 7]
+		},
+		"terrain34": {
+			"url": "terrain01.yaml",
+			"location": [0, 0, 7]
+		},
+		"terrain35": {
+			"url": "terrain01.yaml",
+			"location": [90, -180, 8]
+		},
+		"terrain36": {
+			"url": "terrain01.yaml",
+			"location": [90, -90, 8]
+		},
+		"terrain37": {
+			"url": "terrain01.yaml",
+			"location": [90, 0, 8]
+		},
+		"terrain38": {
+			"url": "terrain01.yaml",
+			"location": [0, -180, 8]
+		},
+		"terrain39": {
+			"url": "terrain01.yaml",
+			"location": [0, -90, 8]
+		},
+		"terrain40": {
+			"url": "terrain01.yaml",
+			"location": [0, 0, 8]
+		},
+		"terrain41": {
+			"url": "terrain01.yaml",
+			"location": [90, -180, 9]
+		},
+		"terrain42": {
+			"url": "terrain01.yaml",
+			"location": [90, -90, 9]
+		},
+		"terrain43": {
+			"url": "terrain01.yaml",
+			"location": [90, 0, 9]
+		},
+		"terrain44": {
+			"url": "terrain01.yaml",
+			"location": [0, -180, 9]
+		},
+		"terrain45": {
+			"url": "terrain01.yaml",
+			"location": [0, -90, 9]
+		},
+		"terrain46": {
+			"url": "terrain01.yaml",
+			"location": [0, 0, 9]
+		},
+		"terrain47": {
+			"url": "terrain01.yaml",
+			"location": [90, -180, 10]
+		},
+		"terrain48": {
+			"url": "terrain01.yaml",
+			"location": [90, -90, 10]
+		},
+		"terrain49": {
+			"url": "terrain01.yaml",
+			"location": [90, 0, 10]
+		},
+		"terrain50": {
+			"url": "terrain01.yaml",
+			"location": [0, -180, 10]
+		},
+		"terrain51": {
+			"url": "terrain01.yaml",
+			"location": [0, -90, 10]
+		},
+		"terrain52": {
+			"url": "terrain01.yaml",
+			"location": [0, 0, 10]
+		},
+		"terrain53": {
+			"url": "terrain01.yaml",
+			"location": [90, -180, 11]
+		},
+		"terrain54": {
+			"url": "terrain01.yaml",
+			"location": [90, -90, 11]
+		},
+		"terrain55": {
+			"url": "terrain01.yaml",
+			"location": [90, 0, 11]
+		},
+		"terrain56": {
+			"url": "terrain01.yaml",
+			"location": [0, -180, 11]
+		},
+		"terrain57": {
+			"url": "terrain01.yaml",
+			"location": [0, -90, 11]
+		},
+		"terrain58": {
+			"url": "terrain01.yaml",
+			"location": [0, 0, 11]
+		},
+		"terrain59": {
+			"url": "terrain01.yaml",
+			"location": [90, -180, 12]
+		},
+		"terrain60": {
+			"url": "terrain01.yaml",
+			"location": [90, -90, 12]
+		},
+		"terrain61": {
+			"url": "terrain01.yaml",
+			"location": [90, 0, 12]
+		},
+		"terrain62": {
+			"url": "terrain01.yaml",
+			"location": [0, -180, 12]
+		},
+		"terrain63": {
+			"url": "terrain01.yaml",
+			"location": [0, -90, 12]
+		},
+		"terrain64": {
+			"url": "terrain01.yaml",
+			"location": [0, 0, 12]
+		},
+		"terrain65": {
+			"url": "terrain01.yaml",
+			"location": [90, -180, 13]
+		},
+		"terrain66": {
+			"url": "terrain01.yaml",
+			"location": [90, -90, 13]
+		},
+		"terrain67": {
+			"url": "terrain01.yaml",
+			"location": [90, 0, 13]
+		},
+		"terrain68": {
+			"url": "terrain01.yaml",
+			"location": [0, -180, 13]
+		},
+		"terrain69": {
+			"url": "terrain01.yaml",
+			"location": [0, -90, 13]
+		},
+		"terrain70": {
+			"url": "terrain01.yaml",
+			"location": [0, 0, 13]
+		},
+		"terrain71": {
+			"url": "terrain01.yaml",
+			"location": [90, -180, 14]
+		},
+		"terrain72": {
+			"url": "terrain01.yaml",
+			"location": [90, -90, 14]
+		},
+		"terrain73": {
+			"url": "terrain01.yaml",
+			"location": [90, 0, 14]
+		},
+		"terrain74": {
+			"url": "terrain01.yaml",
+			"location": [0, -180, 14]
+		},
+		"terrain75": {
+			"url": "terrain01.yaml",
+			"location": [0, -90, 14]
+		},
+		"terrain76": {
+			"url": "terrain01.yaml",
+			"location": [0, 0, 14]
+		},
+		"terrain77": {
+			"url": "terrain01.yaml",
+			"location": [90, -180, 15]
+		},
+		"terrain78": {
+			"url": "terrain01.yaml",
+			"location": [90, -90, 15]
+		},
+		"terrain79": {
+			"url": "terrain01.yaml",
+			"location": [90, 0, 15]
+		},
+		"terrain80": {
+			"url": "terrain01.yaml",
+			"location": [0, -180, 15]
+		},
+		"terrain81": {
+			"url": "terrain01.yaml",
+			"location": [0, -90, 15]
+		},
+		"terrain82": {
+			"url": "terrain01.yaml",
+			"location": [0, 0, 15]
+		},
+		"terrain83": {
+			"url": "terrain01.yaml",
+			"location": [90, -180, 16]
+		},
+		"terrain84": {
+			"url": "terrain01.yaml",
+			"location": [90, -90, 16]
+		},
+		"terrain85": {
+			"url": "terrain01.yaml",
+			"location": [90, 0, 16]
+		},
+		"terrain86": {
+			"url": "terrain01.yaml",
+			"location": [0, -180, 16]
+		},
+		"terrain87": {
+			"url": "terrain01.yaml",
+			"location": [0, -90, 16]
+		},
+		"terrain88": {
+			"url": "terrain01.yaml",
+			"location": [0, 0, 16]
+		},
+		"terrain89": {
+			"url": "terrain01.yaml",
+			"location": [90, -180, 17]
+		},
+		"terrain90": {
+			"url": "terrain01.yaml",
+			"location": [90, -90, 17]
+		},
+		"terrain91": {
+			"url": "terrain01.yaml",
+			"location": [90, 0, 17]
+		},
+		"terrain92": {
+			"url": "terrain01.yaml",
+			"location": [0, -180, 17]
+		},
+		"terrain93": {
+			"url": "terrain01.yaml",
+			"location": [0, -90, 17]
+		},
+		"terrain94": {
+			"url": "terrain01.yaml",
+			"location": [0, 0, 17]
+		},
+		"terrain95": {
+			"url": "terrain01.yaml",
+			"location": [90, -180, 18]
+		},
+		"terrain96": {
+			"url": "terrain01.yaml",
+			"location": [90, -90, 18]
+		},
+		"terrain97": {
+			"url": "terrain01.yaml",
+			"location": [90, 0, 18]
+		},
+		"terrain98": {
+			"url": "terrain01.yaml",
+			"location": [0, -180, 18]
+		},
+		"terrain99": {
+			"url": "terrain01.yaml",
+			"location": [0, -90, 18]
+		},
+		"terrain100": {
+			"url": "terrain01.yaml",
+			"location": [0, 0, 18]
+		},
+		"terrain101": {
+			"url": "terrain01.yaml",
+			"location": [90, -180, 19]
+		},
+		"terrain102": {
+			"url": "terrain01.yaml",
+			"location": [90, -90, 19]
+		},
+		"terrain103": {
+			"url": "terrain01.yaml",
+			"location": [90, 0, 19]
+		},
+		"terrain104": {
+			"url": "terrain01.yaml",
+			"location": [0, -180, 19]
+		},
+		"terrain105": {
+			"url": "terrain01.yaml",
+			"location": [0, -90, 19]
+		},
+		"terrain106": {
+			"url": "terrain01.yaml",
+			"location": [0, 0, 19]
+		}
+	}
+}
