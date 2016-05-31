@@ -48,16 +48,16 @@
             "url": "lines-uvs-cap-bevel03.yaml",
             "location": "10/-0.5939/0.0591"
         },
-        "lines-uvs-join-round-join1": {
-            "url": "lines-uvs-join-round-join01.yaml",
+        "lines-uvs-join-round1": {
+            "url": "lines-uvs-join-round01.yaml",
             "location": "10/-0.5939/0.0591"
         },
-        "lines-uvs-join-round-join2": {
-            "url": "lines-uvs-join-round-join02.yaml",
+        "lines-uvs-join-round2": {
+            "url": "lines-uvs-join-round02.yaml",
             "location": "10/-0.5939/0.0591"
         },
-        "lines-uvs-join-round-join3": {
-            "url": "lines-uvs-join-round-join03.yaml",
+        "lines-uvs-join-round3": {
+            "url": "lines-uvs-join-round03.yaml",
             "location": "10/-0.5939/0.0591"
         },
         "lines-uvs-join-miter1": {
