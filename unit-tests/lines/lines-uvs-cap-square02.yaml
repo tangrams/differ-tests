@@ -1,0 +1,43 @@
+cameras:
+    perspective:
+        type: perspective
+        vanishing_point: [0, -500]
+
+lights:
+    directional1:
+        type: directional
+        direction: [.1, .5, -1]
+        diffuse: .7
+        ambient: .5
+
+styles:
+    uvs:
+        base: lines
+        texcoords: true
+        shaders:
+            blocks:
+                color: |
+                    // if (v_texcoord.x < 0.) {
+                    color.rgb = vec3(fract(v_texcoord), 0.);
+                    // }
+                    // color.rgb = vec3(fract(clamp(v_texcoord, 0., 1.)), 0.);
+                    // }
+                    // color.rgb = vec3(fract(v_texcoord.x), 0., 0.);
+                    // color.rgb = vec3(mod(v_texcoord, 1.), 0.);
+                    // color.rgb = vec3(v_texcoord, 0.);
+                    // color.rgb = vec3(v_texcoord.x, fract(v_texcoord.y+0.005), 0.);
+
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../shapes.geojson
+
+layers:
+    lines:
+        data: { source: shapes }
+        draw:
+            uvs:
+                order: 1
+                color: '#777'
+                width: 30px
+                cap: square

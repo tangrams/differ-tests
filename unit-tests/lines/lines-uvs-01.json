@@ -1,0 +1,76 @@
+{
+    "tests": {
+        "lines-uvs-cap-round1": {
+            "url": "lines-uvs-cap-round01.yaml",
+            "location": "10/0.40/0.3825"
+        },
+        "lines-uvs-cap-round2": {
+            "url": "lines-uvs-cap-round02.yaml",
+            "location": "10/0.40/0.3825"
+        },
+        "lines-uvs-cap-round3": {
+            "url": "lines-uvs-cap-round03.yaml",
+            "location": "10/0.40/0.3825"
+        },
+        "lines-uvs-cap-butt1": {
+            "url": "lines-uvs-cap-butt01.yaml",
+            "location": "10/0.40/0.3825"
+        },
+        "lines-uvs-cap-butt2": {
+            "url": "lines-uvs-cap-butt02.yaml",
+            "location": "10/0.40/0.3825"
+        },
+        "lines-uvs-cap-butt3": {
+            "url": "lines-uvs-cap-butt03.yaml",
+            "location": "10/0.40/0.3825"
+        },
+        "lines-uvs-cap-square1": {
+            "url": "lines-uvs-cap-square01.yaml",
+            "location": "10/0.40/0.3825"
+        },
+        "lines-uvs-cap-square2": {
+            "url": "lines-uvs-cap-square02.yaml",
+            "location": "10/0.40/0.3825"
+        },
+        "lines-uvs-cap-square3": {
+            "url": "lines-uvs-cap-square03.yaml",
+            "location": "10/0.40/0.3825"
+        },
+        "lines-uvs-cap-bevel1": {
+            "url": "lines-uvs-cap-bevel01.yaml",
+            "location": "10/-0.5939/0.0591"
+        },
+        "lines-uvs-cap-bevel2": {
+            "url": "lines-uvs-cap-bevel02.yaml",
+            "location": "10/-0.5939/0.0591"
+        },
+        "lines-uvs-cap-bevel3": {
+            "url": "lines-uvs-cap-bevel03.yaml",
+            "location": "10/-0.5939/0.0591"
+        },
+        "lines-uvs-join-round-join1": {
+            "url": "lines-uvs-join-round-join01.yaml",
+            "location": "10/-0.5939/0.0591"
+        },
+        "lines-uvs-join-round-join2": {
+            "url": "lines-uvs-join-round-join02.yaml",
+            "location": "10/-0.5939/0.0591"
+        },
+        "lines-uvs-join-round-join3": {
+            "url": "lines-uvs-join-round-join03.yaml",
+            "location": "10/-0.5939/0.0591"
+        },
+        "lines-uvs-join-miter1": {
+            "url": "lines-uvs-join-miter01.yaml",
+            "location": "10/-0.5939/0.0591"
+        },
+        "lines-uvs-join-miter2": {
+            "url": "lines-uvs-join-miter02.yaml",
+            "location": "10/-0.5939/0.0591"
+        },
+        "lines-uvs-join-miter3": {
+            "url": "lines-uvs-join-miter03.yaml",
+            "location": "10/-0.5939/0.0591"
+        }
+    }
+}
