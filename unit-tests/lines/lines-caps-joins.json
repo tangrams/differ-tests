@@ -1,5 +1,9 @@
 {
     "tests": {
+        "lines-cap-default": {
+            "url": "lines-cap-default.yaml",
+            "location": "10/0.40/0.3825"
+        },
         "lines-cap-butt1": {
             "url": "lines-cap-butt01.yaml",
             "location": "10/0.40/0.3825"

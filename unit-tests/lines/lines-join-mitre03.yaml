@@ -10,5 +10,5 @@ layers:
             lines:
                 order: 1
                 color: green
-                width: 100px
+                width: 60px
                 join: mitre

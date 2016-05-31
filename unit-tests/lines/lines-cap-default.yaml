@@ -10,5 +10,5 @@ layers:
             lines:
                 order: 1
                 color: green
-                width: 60px
-                cap: round
+                width: 20px
+                
