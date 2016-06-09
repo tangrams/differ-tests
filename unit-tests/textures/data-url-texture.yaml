@@ -1,0 +1,21 @@
+﻿sources:
+    mapzen:
+        type: TopoJSON
+        url:  https://vector.mapzen.com/osm/all/{z}/{x}/{y}.topojson?api_key=vector-tiles-P6dkVl4
+styles:
+    data_url_texture:
+        base: polygons
+        shaders:
+            uniforms:
+                data_url_texture: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQIW2P8/5/hPwAIAgL/oEs8+AAAAABJRU5ErkJggg== # yellow pixel
+            blocks:
+                filter: |
+                    color = texture2D(data_url_texture, vec2(0.)); // yellow
+
+layers:
+    earth:
+        data: { source: mapzen }
+        draw:
+            data_url_texture:
+                order: 0
+                color: white

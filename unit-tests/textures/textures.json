@@ -1,0 +1,8 @@
+{
+    "tests": {
+        "data-url-texture": {
+            "url": "data-url-texture.yaml",
+            "location": [40.7020, -74.0083, 12]
+        }
+    }
+}
