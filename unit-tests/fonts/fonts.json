@@ -1,0 +1,16 @@
+{
+    "tests": {
+        "remote-font": {
+            "url": "remote-font.yaml",
+            "location": [40.6838, -73.9832, 13]
+        },
+        "relative-font": {
+            "url": "relative-font.yaml",
+            "location": [40.6838, -73.9832, 13]
+        },
+        "multiple-faces": {
+            "url": "multiple-faces.yaml",
+            "location": [40.6838, -73.9832, 14]
+        }
+    }
+}

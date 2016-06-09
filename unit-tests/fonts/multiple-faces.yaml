@@ -1,0 +1,43 @@
+sources:
+    mapzen:
+        type: TopoJSON
+        url: https://vector.mapzen.com/osm/all/{z}/{x}/{y}.topojson?api_key=vector-tiles-P6dkVl4
+
+fonts:
+    Open Sans:
+        - weight: 300
+          url: open sans-300normal.ttf
+        - weight: 800
+          style: italic
+          url: open sans-800italic.ttf
+
+scene:
+    background:
+        color: '#555'
+
+layers:
+    water:
+        data: { source: mapzen }
+        draw:
+            polygons:
+                order: 1
+                color: '#ddd'
+
+    landuse:
+        data: { source: mapzen }
+        draw:
+            text:
+                priority: 1
+                font:
+                    family: Open Sans
+                    weight: 300
+
+    pois:
+        data: { source: mapzen }
+        draw:
+            text:
+                priority: 2
+                font:
+                    family: Open Sans
+                    weight: 800
+                    style: italic
