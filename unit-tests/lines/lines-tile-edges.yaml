@@ -1,0 +1,43 @@
+sources:
+    mapzen:
+        type: TopoJSON
+        url: https://vector.mapzen.com/osm/all/{z}/{x}/{y}.topojson
+
+cameras:
+    perspective:
+        type: flat
+
+layers:
+    earth:
+        data: { source: mapzen }
+        draw:
+            polygons:
+                order: 0
+                color: '#555'
+            lines:
+                color: blue
+                width: 2px
+                tile_edges: true
+    water:
+        data: { source: mapzen }
+        draw:
+            polygons:
+                order: 1
+                color: '#ddd'
+            lines:
+                order: 3
+                color: gray
+                width: 2px
+                tile_edges: true
+    
+    landuse:
+        data: { source: mapzen }
+        draw:
+            polygons:
+                order: 2
+                color: lightgreen
+            lines:
+                order: 3
+                color: red
+                width: 2px
+                tile_edges: true

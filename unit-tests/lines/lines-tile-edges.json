@@ -1,0 +1,92 @@
+{
+    "tests": {
+        "lines-no-tile-edges01": {
+            "url": "lines-no-tile-edges.yaml",
+            "location": [0.0,0,10]
+        },
+        "lines-no-tile-edges02": {
+            "url": "lines-no-tile-edges.yaml",
+            "location": [0.0,0,11]
+        },
+        "lines-no-tile-edges03": {
+            "url": "lines-no-tile-edges.yaml",
+            "location": [0.0,0,12]
+        },
+        "lines-no-tile-edges04": {
+            "url": "lines-no-tile-edges.yaml",
+            "location": [0.0,0,13]
+        },
+        "lines-no-tile-edges05": {
+            "url": "lines-no-tile-edges.yaml",
+            "location": [40.6556, -73.9764,10]
+        },
+        "lines-no-tile-edges06": {
+            "url": "lines-no-tile-edges.yaml",
+            "location": [40.6556, -73.9764,11]
+        },
+        "lines-no-tile-edges07": {
+            "url": "lines-no-tile-edges.yaml",
+            "location": [40.6556, -73.9764,12]
+        },
+        "lines-no-tile-edges08": {
+            "url": "lines-no-tile-edges.yaml",
+            "location": [40.6556, -73.9764,13]
+        },
+        "lines-no-tile-edges09": {
+            "url": "lines-no-tile-edges.yaml",
+            "location": [40.6556, -73.9764,14]
+        },
+        "lines-no-tile-edges10": {
+            "url": "lines-no-tile-edges.yaml",
+            "location": [40.6556, -73.9764,15]
+        },
+        "lines-no-tile-edges11": {
+            "url": "lines-no-tile-edges.yaml",
+            "location": [40.6556, -73.9764,16]
+        },
+        "lines-tile-edges01": {
+            "url": "lines-tile-edges.yaml",
+            "location": [0.0,0,10]
+        },
+        "lines-tile-edges02": {
+            "url": "lines-tile-edges.yaml",
+            "location": [0.0,0,11]
+        },
+        "lines-tile-edges03": {
+            "url": "lines-tile-edges.yaml",
+            "location": [0.0,0,12]
+        },
+        "lines-tile-edges04": {
+            "url": "lines-tile-edges.yaml",
+            "location": [0.0,0,13]
+        },
+        "lines-tile-edges05": {
+            "url": "lines-tile-edges.yaml",
+            "location": [40.6556, -73.9764,10]
+        },
+        "lines-tile-edges06": {
+            "url": "lines-tile-edges.yaml",
+            "location": [40.6556, -73.9764,11]
+        },
+        "lines-tile-edges07": {
+            "url": "lines-tile-edges.yaml",
+            "location": [40.6556, -73.9764,12]
+        },
+        "lines-tile-edges08": {
+            "url": "lines-tile-edges.yaml",
+            "location": [40.6556, -73.9764,13]
+        },
+        "lines-tile-edges09": {
+            "url": "lines-tile-edges.yaml",
+            "location": [40.6556, -73.9764,14]
+        },
+        "lines-tile-edges10": {
+            "url": "lines-tile-edges.yaml",
+            "location": [40.6556, -73.9764,15]
+        },
+        "lines-tile-edges11": {
+            "url": "lines-tile-edges.yaml",
+            "location": [40.6556, -73.9764,16]
+        }
+    }
+}
