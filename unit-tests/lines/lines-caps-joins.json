@@ -84,24 +84,24 @@
             "url": "lines-join-round02.yaml",
             "location": "10/0.3687/-0.4079"
         },
-        "lines-join-mitre1": {
-            "url": "lines-join-mitre01.yaml",
+        "lines-join-miter1": {
+            "url": "lines-join-miter01.yaml",
             "location": "10/-0.5939/0.0591"
         },
-        "lines-join-mitre2": {
-            "url": "lines-join-mitre02.yaml",
+        "lines-join-miter2": {
+            "url": "lines-join-miter02.yaml",
             "location": "10/-0.5939/0.0591"
         },
-        "lines-join-mitre3": {
-            "url": "lines-join-mitre03.yaml",
+        "lines-join-miter3": {
+            "url": "lines-join-miter03.yaml",
             "location": "10/-0.5939/0.0591"
         },
-        "lines-join-mitre4": {
-            "url": "lines-join-mitre04.yaml",
+        "lines-join-miter4": {
+            "url": "lines-join-miter04.yaml",
             "location": "10/0.3687/-0.4079"
         },
-        "lines-join-mitre5": {
-            "url": "lines-join-mitre01.yaml",
+        "lines-join-miter5": {
+            "url": "lines-join-miter01.yaml",
             "location": "10/0.3687/-0.4079"
         }
     }
