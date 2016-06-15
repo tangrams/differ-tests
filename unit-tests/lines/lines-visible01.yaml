@@ -4,10 +4,11 @@ sources:
         url: ../shapes.geojson
 
 layers:
-    polygons:
+    lines:
         data: { source: shapes }
         draw:
             lines:
                 order: 1
                 color: green
                 width: 20px
+                visible: false

@@ -10,30 +10,6 @@
             "url": "lines01.yaml",
             "location": [0,0,10]
         },
-        "lines2": {
-            "url": "lines01.yaml",
-            "location": "10/-0.6125/-0.3234"
-        },
-         "lines3": {
-            "url": "lines01.yaml",
-            "location": "9.75/-0.27/0.0368"
-        },
-         "lines4": {
-            "url": "lines01.yaml",
-            "location": "10/-0.6173/0.0336"
-        },
-         "lines5": {
-            "url": "lines01.yaml",
-            "location": "10/-0.6365/0.3495"
-        },
-         "lines6": {
-            "url": "lines01.yaml",
-            "location": "10/0.2733/-0.4031"
-        },
-         "lines7": {
-            "url": "lines01.yaml",
-            "location": "10/0.40/0.3825"
-        },
         "blend-add1": {
             "url": "lines-blend-add.yaml",
             "location": [0,0,10]
