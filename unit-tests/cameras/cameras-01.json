@@ -6,36 +6,36 @@
     },
 
     "tests": {
-        "buildings-cameras-perspective-01": {
-            "url": "buildings-cameras-perspective01.yaml",
+        "cameras-perspective-01": {
+            "url": "cameras-perspective01.yaml",
             "location": "17/40.74854/-73.98564"
         },
          "perspective-focal_length-01": {
-            "url": "buildings-cameras-perspective02.yaml",
+            "url": "cameras-perspective02.yaml",
             "location": "17/40.74854/-73.98564"
         },
          "perspective-focal_length-02": {
-            "url": "buildings-cameras-perspective03.yaml",
+            "url": "cameras-perspective03.yaml",
             "location": "17/40.74854/-73.98564"
         },
          "perspective-vanishing-point": {
-            "url": "buildings-cameras-perspective04.yaml",
+            "url": "cameras-perspective04.yaml",
             "location": "17/40.74854/-73.98564"
         },
          "perspective-fov": {
-            "url": "buildings-cameras-perspective05.yaml",
+            "url": "cameras-perspective05.yaml",
             "location": "17/40.74854/-73.98564"
         },
-        "buildings-cameras-isometric-01": {
-            "url": "buildings-cameras-isometric01.yaml",
+        "cameras-isometric-01": {
+            "url": "cameras-isometric01.yaml",
             "location": "17/40.74854/-73.98564"
         },
          "axis": {
-            "url": "buildings-cameras-isometric02.yaml",
+            "url": "cameras-isometric02.yaml",
             "location": "17/40.74854/-73.98564"
         },
          "position": {
-            "url": "buildings-cameras-position.yaml",
+            "url": "cameras-position.yaml",
             "location": "17/0/0"
         }
     }
