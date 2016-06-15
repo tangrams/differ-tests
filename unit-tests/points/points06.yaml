@@ -1,0 +1,48 @@
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../shapes.geojson
+        generate_label_centroids: true
+
+# here we define and name the texture
+textures:
+    pois:
+        url: ../textures/aquarium.png
+        filtering: mipmap
+
+# here we reference the above texture
+styles:
+    pois-style:
+        base: points
+        texture: pois
+
+layers:
+    points:
+        data: { source: shapes }
+        filter: { $geometry: point }
+        draw:
+            points:
+                style: pois-style
+                order: 2
+                size: 32px
+    polys:
+        data: { source: shapes }
+        # filter: { $geometry: polygons }
+        draw:
+            lines:
+                order: 1
+                width: 2px
+                color: green
+    labels:
+        data: {source: shapes}
+        filter:
+            label_placement: yes
+        draw:
+            text:
+                order: 100
+                text_source: name
+                collide: false
+                font:
+                    family: Arial
+                    size: 14px
+                    fill: black
