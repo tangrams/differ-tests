@@ -11,4 +11,4 @@ layers:
                 order: 1
                 color: green
                 width: 5px
-                join: mitre
+                join: miter
