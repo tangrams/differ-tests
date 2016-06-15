@@ -103,6 +103,22 @@
         "lines-join-miter5": {
             "url": "lines-join-miter01.yaml",
             "location": "10/0.3687/-0.4079"
+        },
+        "lines-join-miter-limit1": {
+            "url": "lines-join-miter-limit-01.yaml",
+            "location": "10/0.3687/-0.4079"
+        },
+        "lines-join-miter-limit2": {
+            "url": "lines-join-miter-limit-02.yaml",
+            "location": "10/0.3687/-0.4079"
+        },
+        "lines-join-miter-limit3": {
+            "url": "lines-join-miter-limit-03.yaml",
+            "location": "10/0.3687/-0.4079"
+        },
+        "lines-join-miter-limit4": {
+            "url": "lines-join-miter-limit-04.yaml",
+            "location": "10/0.3687/-0.4079"
         }
     }
 }
