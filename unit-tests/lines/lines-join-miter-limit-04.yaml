@@ -1,0 +1,15 @@
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../shapes.geojson
+
+layers:
+    lines:
+        data: { source: shapes }
+        draw:
+            lines:
+                order: 1
+                color: green
+                width: 10px
+                join: miter
+                miter_limit: 10
