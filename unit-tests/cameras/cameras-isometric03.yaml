@@ -2,3 +2,4 @@ import: ../buildings/esb.yaml
 cameras:
     camera1:
         type: isometric
+        fov: 1

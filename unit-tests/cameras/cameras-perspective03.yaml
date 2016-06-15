@@ -1,5 +1,4 @@
-import: esb.yaml
-
+import: ../buildings/esb.yaml
 cameras:
     camera1:
         type: perspective

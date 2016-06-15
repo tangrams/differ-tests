@@ -2,5 +2,7 @@ import: ../buildings/esb.yaml
 cameras:
     camera1:
         type: perspective
-        vanishing_point: [-250, -250]
-        fov: 5
+        zoom: 18
+    camera2:
+        type: isometric
+        active: true

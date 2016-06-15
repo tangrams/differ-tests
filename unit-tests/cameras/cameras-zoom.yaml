@@ -1,4 +1,5 @@
 import: ../buildings/esb.yaml
 cameras:
     camera1:
-        type: isometric
+        type: perspective
+        zoom: 20

@@ -6,7 +6,7 @@
     },
 
     "tests": {
-        "cameras-perspective-01": {
+        "perspective-01": {
             "url": "cameras-perspective01.yaml",
             "location": "17/40.74854/-73.98564"
         },
@@ -26,17 +26,29 @@
             "url": "cameras-perspective05.yaml",
             "location": "17/40.74854/-73.98564"
         },
-        "cameras-isometric-01": {
+        "isometric-01": {
             "url": "cameras-isometric01.yaml",
             "location": "17/40.74854/-73.98564"
         },
-         "axis": {
+         "isometric-axis": {
             "url": "cameras-isometric02.yaml",
             "location": "17/40.74854/-73.98564"
         },
          "position": {
             "url": "cameras-position.yaml",
-            "location": "17/0/0"
+            "location": "17/40.74854/-73.98564"
+        },
+         "zoom": {
+            "url": "cameras-zoom.yaml",
+            "location": "17/40.74854/-73.98564"
+        },
+         "active": {
+            "url": "cameras-active.yaml",
+            "location": "17/40.74854/-73.98564"
+        },
+         "flat": {
+            "url": "cameras-flat01.yaml",
+            "location": "17/40.74854/-73.98564"
         }
     }
 }
