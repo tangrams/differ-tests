@@ -7,11 +7,11 @@
             "url": "points01.yaml",
             "location": "11/-1.0244/0.0439"
         },
-        "sprite": {
+        "texture": {
             "url": "points02.yaml",
             "location": "11/-1.0244/0.0439"
         },
-        "sprite-tint": {
+        "texture-tint": {
             "url": "points09.yaml",
             "location": "11/-1.0244/0.0439"
         },
@@ -19,13 +19,13 @@
             "url": "points03.yaml",
             "location": "11/-1.3587/0.0398"
         },
-        "points6": {
-            "url": "points02.yaml",
+        "sprites": {
+            "url": "points04.yaml",
             "location": "11/-1.7850/0.0192"
         },
         "sprite_default": {
             "url": "points04.yaml",
-            "location": "11/-1.0244/0.0439"
+            "location": "11/-1.0059/0.0608"
         },
         "collide: true": {
             "url": "points02.yaml",

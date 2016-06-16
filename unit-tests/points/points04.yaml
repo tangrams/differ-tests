@@ -6,10 +6,11 @@ sources:
 # here we define and name the texture
 textures:
     pois:
-        url: ../textures/aquarium.png
-        filtering: mipmap
+        url: ../textures/sprites.png
         sprites:
-            sprite1: [0, 0, 38, 38]
+            candy: [0, 0, 38, 38]
+            burger: [38, 0, 38, 38]
+            octopus: [76, 0, 38, 38]
 
 # here we reference the above texture
 styles:
@@ -24,6 +25,20 @@ layers:
         draw:
             points:
                 style: pois-style
-                order: 1
+                sprite_default: candy
                 size: 32px
-                sprite_default: sprite1
+        candy:
+            filter: { name: point4 }
+            draw:
+                points:
+                    sprite: candy
+        burger:
+            filter: { name: point5 }
+            draw:
+                points:
+                    sprite: burger
+        octopus:
+            filter: { name: point6 }
+            draw:
+                points:
+                    sprite: octopus
