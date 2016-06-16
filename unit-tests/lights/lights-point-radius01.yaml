@@ -1,0 +1,9 @@
+import: lights.yaml
+scene:
+  background:
+    color: black
+lights:
+    light1:
+        type: point
+        position: [0, -200, 250]
+        radius: 250px

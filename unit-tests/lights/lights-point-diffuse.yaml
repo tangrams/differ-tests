@@ -1,0 +1,4 @@
+import: lights.yaml
+lights:
+    light1:
+        diffuse: green

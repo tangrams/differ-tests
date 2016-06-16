@@ -1,0 +1,39 @@
+scene:
+    background:
+        color: gray
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../box.geojson
+cameras:
+    camera1:
+        fov: 10
+        vanishing_point: [-50, -250]
+lights:
+    light1:
+        type: ambient
+        origin: ground
+        position: [-50, -150, 150]
+layers:
+    earth:
+        data: { source: shapes }
+        draw:
+            polygons:
+                order: 0
+                color: white
+            lines:
+              color: green
+              order: 10
+              width: 2px
+
+    buildings:
+        data: { source: shapes }
+        draw:
+            polygons:
+                order: 1
+                color: white
+                extrude: true
+            lines:
+              color: green
+              order: 10
+              width: 2px
