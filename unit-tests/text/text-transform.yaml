@@ -1,0 +1,62 @@
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../shapes.geojson
+
+layers:
+    tests:
+        data: { source: shapes }
+        draw:
+            text:
+                text_source: function() { return "aBcDe FgHiJ"}
+                font:
+                    size: 24px
+                    fill: black
+        capitalize:
+            filter: { name: label1 }
+            draw:
+                text:
+                    font:
+                        transform: capitalize
+        upper:
+            filter: { name: label2 }
+            draw:
+                text:
+                    font:
+                        transform: uppercase
+        lower:
+            filter: { name: label3 }
+            draw:
+                text:
+                    font:
+                        transform: lowercase
+        lighter:
+            filter: { name: label4 }
+            draw:
+                text:
+                    font:
+                        weight: lighter
+        normal:
+            filter: { name: label5 }
+            draw:
+                text:
+                    font:
+                        weight: normal
+        bold:
+            filter: { name: label6 }
+            draw:
+                text:
+                    font:
+                        weight: bold
+        bolder:
+            filter: { name: label7 }
+            draw:
+                text:
+                    font:
+                        weight: bolder
+        700:
+            filter: { name: label8 }
+            draw:
+                text:
+                    font:
+                        weight: 700

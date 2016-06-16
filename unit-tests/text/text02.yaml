@@ -31,6 +31,10 @@ layers:
                     priority: 2
                     font:
                         family: Times
+                        fill: lightblue
+                        style: bold
+                        size: 24px
+                        stroke: { color: blue, width: 4 }
         repeat-distance:
             filter: { name: "8" }
             draw:
