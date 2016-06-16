@@ -3,40 +3,26 @@ sources:
         type: GeoJSON
         url: ../points.geojson
 
-# here we define and name the texture
-textures:
-    aquarium:
-        url: ../textures/aquarium.png
-        filtering: mipmap
-    burger:
-        url: ../textures/burger.png
-        filtering: mipmap
-
-# here we reference the above texture
 styles:
     aquarium:
         base: points
-        texture: aquarium
+        texture: ../textures/aquarium.png
     burger:
         base: points
-        texture: burger
+        texture: ../textures/burger.png
 
 layers:
     tests:
-        interactive: true
         data: { source: shapes }
-        filter: { $geometry: point }
         aquarium:
             filter: { name: "point2" }
             draw:
                 points:
                     style: aquarium
-                    order: 1
                     size: 32px
         burger:
             filter: { name: point3 }
             draw:
                 points:
                     style: burger
-                    order: 1
                     size: 32px

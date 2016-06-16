@@ -3,16 +3,10 @@ sources:
         type: GeoJSON
         url: ../shapes.geojson
 
-# textures:
-#     acquarium:
-#         url: ../textures/aquarium.png
 layers:
     tests:
         data: { source: shapes }
-        filter: { $geometry: point }
         draw:
             points:
-                order: 1
                 color: green
                 width: 20px
-                # texture: ../textures/aquarium.png

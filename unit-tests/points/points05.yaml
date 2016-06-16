@@ -3,25 +3,16 @@ sources:
         type: GeoJSON
         url: ../shapes.geojson
 
-# here we define and name the texture
-textures:
-    pois:
-        url: ../textures/aquarium.png
-        filtering: mipmap
-
-# here we reference the above texture
 styles:
     pois-style:
         base: points
-        texture: pois
+        texture: ../textures/aquarium.png
 
 layers:
     tests:
         data: { source: shapes }
-        filter: { $geometry: point }
         draw:
             points:
                 style: pois-style
-                order: 1
                 size: 32px
                 collide: false
