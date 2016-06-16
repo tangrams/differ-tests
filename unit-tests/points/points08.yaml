@@ -3,20 +3,41 @@ sources:
         type: GeoJSON
         url: ../shapes.geojson
 
+# here we define and name the texture
+textures:
+    pois:
+        url: ../textures/aquarium.png
+        filtering: mipmap
+
+# here we reference the above texture
+styles:
+    pois-style:
+        base: points
+        texture: pois
+
 layers:
+    icons:
+        data: { source: shapes }
+        filter: { $geometry: point }
+        draw:
+            points:
+                style: pois-style
+                size: 32px
     label:
         data: { source: shapes }
         filter: { $geometry: point }
         draw:
-            text1:
-                style: text
+            text:
                 text_source: function() {return "LABEL"}
                 collide: false
                 font:
                     size: 32px
                     fill: red
-            text2:
-                style: text
+    offset:
+        data: { source: shapes }
+        filter: { $geometry: point }
+        draw:
+            text:
                 text_source: function() {return "OFFSET"}
                 collide: false
                 offset: [-20px, -20px]

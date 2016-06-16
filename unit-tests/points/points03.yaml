@@ -1,29 +1,42 @@
 sources:
     shapes:
         type: GeoJSON
-        url: ../shapes.geojson
+        url: ../points.geojson
 
 # here we define and name the texture
 textures:
-    pois:
+    aquarium:
         url: ../textures/aquarium.png
         filtering: mipmap
-        sprites:
-            sprite1: [0, 0, 38, 38]
+    burger:
+        url: ../textures/burger.png
+        filtering: mipmap
 
 # here we reference the above texture
 styles:
-    pois-style:
+    aquarium:
         base: points
-        texture: pois
+        texture: aquarium
+    burger:
+        base: points
+        texture: burger
 
 layers:
     tests:
+        interactive: true
         data: { source: shapes }
         filter: { $geometry: point }
-        draw:
-            points:
-                style: pois-style
-                order: 1
-                size: 32px
-                sprite: sprite1
+        aquarium:
+            filter: { name: "point2" }
+            draw:
+                points:
+                    style: aquarium
+                    order: 1
+                    size: 32px
+        burger:
+            filter: { name: point3 }
+            draw:
+                points:
+                    style: burger
+                    order: 1
+                    size: 32px
