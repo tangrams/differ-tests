@@ -54,6 +54,34 @@
         "text-anchor-bottom-right": {
             "url": "text-anchor.yaml",
             "location": "11/-2.8813/0.4096"
+        },
+         "text_wrap:default": {
+            "url": "text-wrap.yaml",
+            "location": "11/-2.2159/-0.3320"
+        },
+        "text_wrap:10": {
+            "url": "text-wrap.yaml",
+            "location": "11/-2.2255/0.0299"
+        },
+        "text_wrap:false": {
+            "url": "text-wrap.yaml",
+            "location": "11/-2.2331/0.3677"
+        },
+        "font:family": {
+            "url": "text02.yaml",
+            "location": "11/-2.2317/0.3979"
+        },
+        "font:priority": {
+            "url": "text02.yaml",
+            "location": "9.68833/-2.1844/0.1303"
+        },
+        "font:repeat_distance": {
+            "url": "text02.yaml",
+            "location": "11/-0.3069/0.0154"
+        },
+        "font:repeat_group": {
+            "url": "text02.yaml",
+            "location": "11.12917/0.4369/0.3507"
         }
-   }
+    }
 }

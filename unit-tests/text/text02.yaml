@@ -1,0 +1,53 @@
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../shapes.geojson
+
+layers:
+    tests:
+        data: { source: shapes }
+        # filter: {$geometry: line}
+        draw:
+            lines:
+                width: 2px
+                color: green
+            text:
+                text_source: name
+                priority: 3
+                font:
+                    size: 24px
+                    fill: black
+        priority1:
+            filter: { name: label2 }
+            draw:
+                text:
+                    text_source: function() {return "priority 1"}
+                    priority: 1
+        priority2:
+            filter: { name: label3 }
+            draw:
+                text:
+                    text_source: function() {return "Times New Roman"}
+                    priority: 2
+                    font:
+                        family: Times
+        repeat-distance:
+            filter: { name: "8" }
+            draw:
+                lines:
+                    width: 2px
+                    color: blue
+                text:
+                    collide: false
+                    text_source: function() {return "LABEL"}
+                    repeat_distance: 0px
+        repeat-group:
+            filter: { cross: "true" }
+            draw:
+                lines:
+                    width: 2px
+                    color: blue
+                text:
+                    collide: false
+                    # text_source: function() {return "CROSS"}
+                    repeat_distance: 0px
