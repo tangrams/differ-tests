@@ -1,0 +1,31 @@
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../shapes.geojson
+
+# here we define and name the texture
+textures:
+    pois:
+        url: ../textures/aquarium.png
+
+# here we reference the above texture
+styles:
+    pois-style:
+        base: points
+        texture: ../textures/aquarium.png
+
+layers:
+    tests:
+        data: { source: shapes }
+        draw:
+            filter: { $geometry: point }
+            text:
+                text_source: function() {return "LABEL"}
+                collide: false
+                font:
+                    size: 32px
+                    fill: black
+            points:
+                style: pois-style
+                size: 32px
+    

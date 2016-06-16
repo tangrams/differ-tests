@@ -1,0 +1,45 @@
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../shapes.geojson
+
+# here we define and name the texture
+textures:
+    pois:
+        url: ../textures/aquarium.png
+
+# here we reference the above texture
+styles:
+    pois-style:
+        base: points
+        texture: ../textures/aquarium.png
+
+layers:
+    tests:
+        data: { source: shapes }
+        draw:
+            text:
+                # text_source: function() {return "LABEL"}
+                text_source: function() {return "The five boxing wizards jump quickly."}
+                collide: false
+                font:
+                    size: 24px
+                    fill: black
+            # points:
+            #     style: pois-style
+            #     size: 32px
+        align-left:
+            filter: { name: label1 }
+            draw:
+                text:
+                    align: left
+        align-center:
+            filter: { name: label2 }
+            draw:
+                text:
+                    align: center
+        align-right:
+            filter: { name: label3 }
+            draw:
+                text:
+                    align: right
