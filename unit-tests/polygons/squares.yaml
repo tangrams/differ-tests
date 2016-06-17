@@ -1,0 +1,27 @@
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../squares.geojson
+cameras:
+    camera1:
+        type: perspective
+        vanishing_point: [-50, -150]
+lights:
+    light1:
+        type: point
+        origin: ground
+        # position: [0, 0, 0]
+layers:
+    earth:
+        data: { source: shapes }
+        # filter: { not: { name: [1, 3, 7, 9] } }
+        draw:
+            polygons:
+                order: 0
+                color: green
+        # top-left:
+        #     filter: { name: 1 }
+        #     visible: false
+        # top-right:
+        #     filter: { name: 3 }
+        #     visible: false
