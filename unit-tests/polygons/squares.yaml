@@ -25,3 +25,9 @@ layers:
         # top-right:
         #     filter: { name: 3 }
         #     visible: false
+        # bottom-left:
+        #     filter: { name: 7 }
+        #     visible: false
+        # bottom-right:
+        #     filter: { name: 9 }
+        #     visible: false
