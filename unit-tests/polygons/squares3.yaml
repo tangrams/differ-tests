@@ -1,7 +1,7 @@
 sources:
     shapes:
         type: GeoJSON
-        url: ../squares2.geojson
+        url: ../squares3.geojson
 cameras:
     camera1:
         type: perspective
