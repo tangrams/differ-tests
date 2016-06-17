@@ -1,19 +1,18 @@
-scene:
-    background:
-        color: white
 sources:
     shapes:
         type: GeoJSON
-        url: ../box.geojson
+        url: ../boxtest2.geojson
 cameras:
     camera1:
-        fov: 10
-        vanishing_point: [-50, -250]
+        type: perspective
+        vanishing_point: [-2000, -4000]
 lights:
     light1:
         type: point
         origin: ground
-        position: [-50, -150, 150]
+        diffuse: 2
+        position: [0, -1000, 1000]
+
 layers:
     earth:
         data: { source: shapes }
@@ -21,10 +20,11 @@ layers:
             polygons:
                 order: 0
                 color: white
+                # extrude: 500
     buildings:
         data: { source: shapes }
         draw:
             polygons:
                 order: 1
-                color: white
-                extrude: true
+                color: lightblue
+                extrude: 50

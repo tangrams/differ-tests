@@ -8,59 +8,59 @@
     "tests": {
         "point": {
             "url": "lights-point.yaml",
-            "location": "16/0/0"
+            "location": "13.6/0.015/-0.0150"
         },
         "point-diffuse": {
             "url": "lights-point-diffuse.yaml",
-            "location": "16/0/0"
+            "location": "13.6/0.015/-0.0150"
         },
         "point-ambient": {
             "url": "lights-point-ambient.yaml",
-            "location": "16/0/0"
+            "location": "13.6/0.015/-0.0150"
         },
         "point-specular": {
             "url": "lights-point-specular.yaml",
-            "location": "16/0/0"
+            "location": "13.6/0.015/-0.0150"
         },
         "point-radius01": {
             "url": "lights-point-radius01.yaml",
-            "location": "16/0/0"
+            "location": "13.6/0.015/-0.0150"
         },
         "point-radius02": {
             "url": "lights-point-radius02.yaml",
-            "location": "16/0/0"
+            "location": "13.6/0.015/-0.0150"
         },
         "point-attenuation": {
             "url": "lights-point-attenuation.yaml",
-            "location": "16/0/0"
+            "location": "13.6/0.015/-0.0150"
         },
         "directional": {
             "url": "lights-directional.yaml",
-            "location": "16/0/0"
+            "location": "13.6/0.015/-0.0150"
         },
         "directional-diffuse": {
             "url": "lights-directional-diffuse.yaml",
-            "location": "16/0/0"
+            "location": "13.6/0.015/-0.0150"
         },
         "directional-ambient": {
             "url": "lights-directional-ambient.yaml",
-            "location": "16/0/0"
+            "location": "13.6/0.015/-0.0150"
         },
         "spot": {
             "url": "lights-spot.yaml",
-            "location": "16/0/0"
+            "location": "13.6/0.015/-0.0150"
         },
         "spot-direction": {
             "url": "lights-spot-direction.yaml",
-            "location": "16/0/0"
+            "location": "13.6/0.015/-0.0150"
         },
         "spot-diffuse": {
             "url": "lights-spot-diffuse.yaml",
-            "location": "16/0/0"
+            "location": "13.6/0.015/-0.0150"
         },
         "spot-ambient": {
             "url": "lights-spot-ambient.yaml",
-            "location": "16/0/0"
+            "location": "13.6/0.015/-0.0150"
         }
     }
 }

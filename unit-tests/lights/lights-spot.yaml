@@ -6,4 +6,6 @@ lights:
     light1:
         type: spotlight
         origin: ground
+        diffuse: .5
+        ambient: 0
         position: [0px, 0px, 150px]
