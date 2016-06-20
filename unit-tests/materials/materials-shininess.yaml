@@ -1,0 +1,6 @@
+import: materials.yaml
+lights:
+lights:
+    light1:
+        specular: 2.
+        shininess: 50

@@ -1,0 +1,5 @@
+import: materials.yaml
+lights:
+lights:
+    light1:
+        ambient: 2.
