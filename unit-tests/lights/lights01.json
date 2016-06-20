@@ -86,6 +86,10 @@
             "url": "lights-spot-ambient.yaml",
             "location": "13.6/0.015/-0.0150"
         },
+        "spot-specular": {
+            "url": "lights-spot-specular.yaml",
+            "location": "13.6/0.015/-0.0150"
+        },
         "spot-attenuation": {
             "url": "lights-spot-attenuation.yaml",
             "location": "13.6/0.015/-0.0150"

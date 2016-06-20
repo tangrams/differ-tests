@@ -1,0 +1,30 @@
+import: lights.yaml
+scene:
+  background:
+    color: black
+styles:
+    specstyle:
+        base: polygons
+        material:
+            diffuse: .75
+            specular: .5
+            shininess: 100.
+lights:
+    light1:
+        type: spotlight
+        origin: ground
+        diffuse: white
+        ambient: 0
+        position: [0px, 0px, 150px]
+        specular: red
+layers:
+    earth:
+        data: { source: shapes }
+        draw:
+            polygons:
+                style: specstyle
+    buildings:
+        data: { source: shapes }
+        draw:
+            polygons:
+                style: specstyle
