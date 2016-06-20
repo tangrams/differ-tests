@@ -7,5 +7,7 @@ lights:
         type: spotlight
         origin: ground
         diffuse: .5
-        ambient: green
+        ambient: 0
         position: [0px, 0px, 150px]
+        angle: 40
+        exponent: 5

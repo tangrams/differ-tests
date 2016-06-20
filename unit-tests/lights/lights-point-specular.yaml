@@ -1,5 +1,31 @@
 import: lights.yaml
+
+styles:
+    specstyle:
+        base: polygons
+        extrude: 100
+        material:
+            diffuse: .75
+            specular: .25
+            shininess: 20.
 lights:
     light1:
-        type: point
+        diffuse: white
         specular: red
+
+layers:
+    earth:
+        data: { source: shapes }
+        draw:
+            polygons:
+                style: specstyle
+                order: 0
+                # color: white
+    buildings:
+        data: { source: shapes }
+        draw:
+            polygons:
+                style: specstyle
+                order: 1
+                # color: lightblue
+                # extrude: 50

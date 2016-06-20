@@ -1,6 +1,12 @@
 import: lights.yaml
+scene:
+  background:
+    color: black
 lights:
     light1:
         type: spotlight
-        direction: [1,1,-1]
-        position: [-250px, -250px, 200px]
+        origin: ground
+        diffuse: .5
+        ambient: 0
+        position: [0px, 0px, 150px]
+        direction: [.25,-.25,-1]

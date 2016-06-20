@@ -34,8 +34,16 @@
             "url": "lights-point-attenuation.yaml",
             "location": "13.6/0.015/-0.0150"
         },
+        "point-visible": {
+            "url": "lights-point-visible.yaml",
+            "location": "13.6/0.015/-0.0150"
+        },
         "directional": {
             "url": "lights-directional.yaml",
+            "location": "13.6/0.015/-0.0150"
+        },
+        "directional-direction": {
+            "url": "lights-directional-direction.yaml",
             "location": "13.6/0.015/-0.0150"
         },
         "directional-diffuse": {
@@ -46,8 +54,20 @@
             "url": "lights-directional-ambient.yaml",
             "location": "13.6/0.015/-0.0150"
         },
+        "directional-visible:false": {
+            "url": "lights-directional-visible.yaml",
+            "location": "13.6/0.015/-0.0150"
+        },
         "spot": {
             "url": "lights-spot.yaml",
+            "location": "13.6/0.015/-0.0150"
+        },
+        "spot-angle": {
+            "url": "lights-spot-angle.yaml",
+            "location": "13.6/0.015/-0.0150"
+        },
+        "spot-exponent": {
+            "url": "lights-spot-exponent.yaml",
             "location": "13.6/0.015/-0.0150"
         },
         "spot-direction": {
@@ -60,6 +80,14 @@
         },
         "spot-ambient": {
             "url": "lights-spot-ambient.yaml",
+            "location": "13.6/0.015/-0.0150"
+        },
+        "spot-attenuation": {
+            "url": "lights-spot-attenuation.yaml",
+            "location": "13.6/0.015/-0.0150"
+        },
+        "spot-visible": {
+            "url": "lights-spot-visible.yaml",
             "location": "13.6/0.015/-0.0150"
         }
     }
