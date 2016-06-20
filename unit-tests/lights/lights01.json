@@ -54,6 +54,10 @@
             "url": "lights-directional-ambient.yaml",
             "location": "13.6/0.015/-0.0150"
         },
+        "directional-specular": {
+            "url": "lights-directional-specular.yaml",
+            "location": "13.6/0.015/-0.0150"
+        },
         "directional-visible:false": {
             "url": "lights-directional-visible.yaml",
             "location": "13.6/0.015/-0.0150"

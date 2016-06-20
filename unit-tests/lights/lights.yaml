@@ -20,7 +20,6 @@ layers:
             polygons:
                 order: 0
                 color: white
-                # extrude: 500
     buildings:
         data: { source: shapes }
         draw:
