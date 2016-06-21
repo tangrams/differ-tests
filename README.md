@@ -5,19 +5,19 @@ tests and pre-rendered images for the Tangram [differ](http://github.com/tangram
 
 **tangram v.6 vs tangram v.7**
 
-http://tangrams.github.io/differ/?1=https://github.com/tangrams/differ-tests/blob/master/tangram01.json&2=https://github.com/tangrams/differ-tests/blob/master/tangram01.json&lib1=0.6&lib2=0.7&go
+http://tangrams.github.io/differ/?1=https%3A//tangrams.github.io/differ-tests/tangram01.json&2=https%3A//tangrams.github.io/differ-tests/tangram01.json&lib1=0.6&lib2=0.7&go
 
 **tangram v.6 (pre-prendered) vs tangram v.7 (pre-prendered)**
 
-http://tangrams.github.io/differ/?1=https%3A//github.com/tangrams/differ-tests/blob/master/tangram01-v.6/tangram01-v.6.json&2=https%3A//github.com/tangrams/differ-tests/blob/master/tangram01-v.7/tangram01-v.7.json&go
+http://tangrams.github.io/differ/?1=https%3A//tangrams.github.io/differ-tests/style_reference/tangram01-v.6/tangram01-v.6.json&2=https%3A//tangrams.github.io/differ-tests/style_reference/tangram01-v.6/tangram01-v.6.json&go
 
 **tangram v.5 (pre-rendered) vs tangram v.6 (pre-rendered)**
 
-http://tangrams.github.io/differ/?1=https%3A//github.com/tangrams/differ-tests/blob/master/tangram01-v.5/tangram01-v.5.json&2=https%3A//github.com/tangrams/differ-tests/blob/master/tangram01-v.6/tangram01-v.6.json&go
+http://tangrams.github.io/differ/?1=https%3A//tangrams.github.io/differ-tests/style_reference/tangram01-v.5/tangram01-v.5.json&2=https%3A//tangrams.github.io/differ-tests/style_reference/tangram01-v.6/tangram01-v.6.json&go
 
 **tiles**
 
-http://tangrams.github.io/differ/?1=https%3A//github.com/tangrams/differ-tests/blob/master/tiles/tiles01.json&2=https%3A//github.com/tangrams/differ-tests/blob/master/tiles/tiles01.json&ignore2&go
+http://tangrams.github.io/differ/?1=https%3A//tangrams.github.io/differ-tests/tiles/tiles01.json&2=https%3A//tangrams.github.io/differ-tests/tiles/tiles01.json&ignore2&go
 
 **latest refill style compared to the previous commit**
 
