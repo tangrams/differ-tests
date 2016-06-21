@@ -1,7 +1,7 @@
 sources:
     shapes:
         type: GeoJSON
-        url: ../boxtest4.geojson
+        url: ../assets/boxtest4.geojson
 
 layers:
     earth:
