@@ -4,7 +4,7 @@ cameras:
 sources:
     shapes:
         type: GeoJSON
-        url: ../shapes.geojson
+        url: ../assets/shapes.geojson
 
 layers:
     lines:

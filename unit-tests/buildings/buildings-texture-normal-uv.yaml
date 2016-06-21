@@ -1,37 +1,42 @@
 sources:
     shapes:
         type: GeoJSON
-        url: ../esb.geojson
-
+        url: ../assets/boxtest2.geojson
 cameras:
     camera1:
-        type: isometric
-        axis: [0, .5]
-
-
+        type: perspective
+        vanishing_point: [-2000, -4000]
 styles:
-    rock:
+    matstyle:
         base: polygons
         material:
+            diffuse: .75
+            ambient: .25
+            specular: 1.
+            shininess: 1.
             normal:
-                texture: rock.jpg
+                texture: ../assets/rock.jpg
                 mapping: uv
-            ambient: 0
-            diffuse: 1
-            specular: 1
-
 lights:
     light1:
-        type: directional
-        direction: [-1, 1, -1]
-        diffuse: 1
-        ambient: 0
-        specular: 1
+        type: point
+        origin: ground
+        position: [0, -500, 500]
+        specular: red
+
 layers:
+    earth:
+        data: { source: shapes }
+        draw:
+            polygons:
+                order: 0
+                style: matstyle
+                color: white
     buildings:
         data: { source: shapes }
         draw:
-            rock:
+            polygons:
                 order: 1
-                color: grey
-                extrude: true
+                style: matstyle
+                color: lightblue
+                extrude: 50

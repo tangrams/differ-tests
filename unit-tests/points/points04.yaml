@@ -1,7 +1,7 @@
 sources:
     shapes:
         type: GeoJSON
-        url: ../shapes.geojson
+        url: ../assets/shapes.geojson
 
 # here we define and name the texture
 textures:

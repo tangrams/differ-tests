@@ -1,7 +1,7 @@
 sources:
     shapes:
         type: GeoJSON
-        url: ../boxtest2.geojson
+        url: ../assets/boxtest2.geojson
 cameras:
     camera1:
         type: perspective

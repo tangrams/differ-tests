@@ -1,7 +1,7 @@
 sources:
     shapes:
         type: GeoJSON
-        url: ../esb.geojson
+        url: ../assets/esb.geojson
 cameras:
     camera1:
         type: perspective
