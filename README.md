@@ -35,3 +35,22 @@ http://tangrams.github.io/differ/?1=https://github.com/tangrams/refill-style/blo
 
 http://tangrams.github.io/differ/?1=https://github.com/tangrams/refill-style/blob/gh-pages/refill-style.yaml&2=https://github.com/tangrams/refill-style/blob/gh-pages@{1month}/refill-style.yaml&go
 
+## unit-tests
+
+**blend modes**
+http://tangrams.github.io/differ/?1=https%3A//tangrams.github.io/differ-tests/unit-tests/polygons/polygons-blend-01.json&2=https%3A//tangrams.github.io/differ-tests/unit-tests/polygons/polygons-blend-01.json&lib1=0.7&lib2=0.8&go
+
+**lines**
+http://tangrams.github.io/differ/?1=https%3A//tangrams.github.io/differ-tests/unit-tests/lines/lines01.json&2=https%3A//tangrams.github.io/differ-tests/unit-tests/lines/lines01.json&lib1=0.7&lib2=0.8&go
+
+**caps and joins**
+http://tangrams.github.io/differ/?1=https%3A//tangrams.github.io/differ-tests/unit-tests/lines/lines-caps-joins.json&2=https%3A//tangrams.github.io/differ-tests/unit-tests/lines/lines-caps-joins.json&lib1=0.7&lib2=0.8&go
+
+**line uvs**
+http://tangrams.github.io/differ/?1=https%3A//tangrams.github.io/differ-tests/unit-tests/lines/lines-uvs-01.json&2=https%3A//tangrams.github.io/differ-tests/unit-tests/lines/lines-uvs-01.json&lib1=0.7&lib2=0.8&go
+
+**lights**
+http://tangrams.github.io/differ/?1=https%3A//tangrams.github.io/differ-tests/unit-tests/lights/lights01.json&2=https%3A//tangrams.github.io/differ-tests/unit-tests/lights/lights01.json&lib1=0.7&lib2=0.8&go
+
+**cameras**
+http://tangrams.github.io/differ/?1=https%3A//tangrams.github.io/differ-tests/unit-tests/cameras/cameras01.json&2=https%3A//tangrams.github.io/differ-tests/unit-tests/cameras/cameras01.json&lib1=0.7&lib2=0.8&go
