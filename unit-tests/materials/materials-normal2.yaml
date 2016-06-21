@@ -12,13 +12,17 @@ styles:
         material:
             diffuse: .75
             ambient: .25
-            specular: .5
-            shininess: 100.
+            specular: 1.
+            shininess: 1.
+            normal:
+                texture: ../images/rock.jpg
+                mapping: uv
 lights:
     light1:
         type: point
         origin: ground
         position: [0, -500, 500]
+        specular: red
 
 layers:
     earth:

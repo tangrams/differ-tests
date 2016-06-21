@@ -1,0 +1,8 @@
+import: materials.yaml
+styles:
+    matstyle:
+        base: polygons
+        material:
+            normal:
+                texture: ../assets/sofa.png
+                mapping: planar
