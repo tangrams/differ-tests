@@ -1,5 +1,5 @@
 # differ-tests
-tests and pre-rendered images for the Tangram [differ](http://github.com/tangrams/differ).
+Test files, test suites, and reference images for Tangram's [Differ](http://github.com/tangrams/differ) test framework.
 
 ## tests
 
