@@ -1,4 +1,4 @@
-sources:
+    sources:
     shapes:
         type: GeoJSON
         url: ../assets/boxtest2.geojson
