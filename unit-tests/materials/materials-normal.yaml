@@ -5,4 +5,4 @@ styles:
         material:
             normal:
                 texture: ../assets/sofa.png
-                # mapping: uv
+                mapping: uv
