@@ -3,6 +3,18 @@
         "data-url-texture": {
             "url": "data-url-texture.yaml",
             "location": [40.7020, -74.0083, 12]
+        },
+        "filtering-linear": {
+            "url": "filtering-linear.yaml",
+            "location": "2.05/76.31/-51.72"
+        },
+        "filtering-mipmap": {
+            "url": "filtering-mipmap.yaml",
+            "location": "2.05/76.31/-51.72"
+        },
+        "filtering-nearest": {
+            "url": "filtering-nearest.yaml",
+            "location": "2.05/76.31/-51.72"
         }
     }
 }

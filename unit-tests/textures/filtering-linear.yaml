@@ -1,0 +1,24 @@
+﻿sources:
+    mapzen:
+        type: TopoJSON
+        url:  https://vector.mapzen.com/osm/all/{z}/{x}/{y}.topojson?api_key=vector-tiles-P6dkVl4
+textures:
+    burger:
+        url: burger.png
+        filtering: linear
+styles:
+    burger-style:
+        base: points
+        texture: burger
+layers:
+    earth:
+        data: { source: mapzen }
+        draw:
+            lines:
+                color: black
+                width: 1px
+    places:
+        data: { source: mapzen }
+        draw:
+            burger-style:
+                size: 128px
