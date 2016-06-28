@@ -1,0 +1,29 @@
+sources:
+    osm:
+        type: TopoJSONTiles
+        url:  http://vector.mapzen.com/osm/all/{z}/{x}/{y}.topojson?api_key=vector-tiles-HqUVidw
+        scripts: ['https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v2.0.0/turf.min.js']
+cameras:
+    camera1:
+        type: perspective
+        vanishing_point: [-2000, -4000]
+lights:
+    light1:
+        type: point
+        origin: ground
+        position: [0, -500, 500]
+
+layers:
+    earth:
+        data: { source: shapes }
+        draw:
+            polygons:
+                order: 0
+                color: white
+    buildings:
+        data: { source: shapes }
+        draw:
+            polygons:
+                order: 1
+                color: lightblue
+                extrude: 50
