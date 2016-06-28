@@ -26,6 +26,18 @@
             "url": "sources-raster.yaml",
             "location": "5/49.611/-56.470"
         },
+        "sources-filtering-mipmap": {
+            "url": "sources-filtering-mipmap.yaml",
+            "location": "5/49.611/-56.470"
+        },
+        "sources-filtering-linear": {
+            "url": "sources-filtering-linear.yaml",
+            "location": "5/49.611/-56.470"
+        },
+        "sources-filtering-mipmap": {
+            "url": "sources-filtering-mipmap.yaml",
+            "location": "5/49.611/-56.470"
+        },
         "sources-max_zoom": {
             "url": "sources-max_zoom.yaml",
             "location": "4.5/54.96/-4.570"
@@ -37,18 +49,6 @@
         "sources-extra_data": {
             "url": "sources-extra_data.yaml",
             "location": "5/49.724/-56.206"
-        },
-        "sources-filtering-mipmap": {
-            "url": "sources-filtering-mipmap.yaml",
-            "location": "13.6/0.015/-0.0150"
-        },
-        "sources-filtering-linear": {
-            "url": "sources-filtering-linear.yaml",
-            "location": "13.6/0.015/-0.0150"
-        },
-        "sources-filtering-mipmap": {
-            "url": "sources-filtering-mipmap.yaml",
-            "location": "13.6/0.015/-0.0150"
         }
     }
 }
