@@ -1,10 +1,10 @@
 sources:
-    normals:
+    stamen:
         type: Raster
-        url: https://terrain-preview.mapzen.com/normal/{z}/{x}/{y}.png
+        url: http://a.tile.stamen.com/terrain-background/{z}/{x}/{y}.jpg
 layers:
     earth:
-        data: { source: normals }
+        data: { source: stamen }
         draw:
             raster:
                 order: 0

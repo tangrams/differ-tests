@@ -3,10 +3,41 @@ sources:
         type: TopoJSONTiles
         url:  http://vector.mapzen.com/osm/all/{z}/{x}/{y}.topojson?api_key=vector-tiles-HqUVidw
         scripts: ['external_script.js']
+        transform: |
+            function (data) {
+                // manipulate data
+                if (data.places) {
+                    data.places.features.forEach(function(feature) {
+                        if (feature.properties.name) {
+                            feature.properties.name = testvar;
+                        }
+                    });
+                }
+                return data;
+            }
+
 layers:
     earth:
-        data: { source: shapes }
+        data: { source: osm }
         draw:
             polygons:
                 order: 0
-                color: green
+                color: grey
+    water:
+        data: { source: osm }
+        draw:
+            polygons:
+                order: 0
+                color: lightgrey
+    places:
+        data: { source: osm }
+        draw:
+            text:
+                order: 1
+                text_source: name
+                font:
+                    family: Arial
+                    size: 16px
+                    weight: bold
+                    fill: darkgreen
+                    stroke: { color: white, width: 4 }
