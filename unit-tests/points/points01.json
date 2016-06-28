@@ -20,7 +20,7 @@
             "location": "11/-1.3587/0.0398"
         },
         "sprites": {
-            "url": "points04.yaml",
+            "url": "points-sprites.yaml",
             "location": "11/-1.7850/0.0192"
         },
         "sprite_default": {
