@@ -8,15 +8,15 @@
             "location": "11/-1.0244/0.0439"
         },
         "texture": {
-            "url": "points02.yaml",
+            "url": "points-texture.yaml",
             "location": "11/-1.0244/0.0439"
         },
         "texture-tint": {
-            "url": "points09.yaml",
+            "url": "points-tint.yaml",
             "location": "11/-1.0244/0.0439"
         },
         "textures": {
-            "url": "points03.yaml",
+            "url": "points-textures.yaml",
             "location": "11/-1.3587/0.0398"
         },
         "sprites": {
@@ -24,23 +24,23 @@
             "location": "11/-1.7850/0.0192"
         },
         "sprite_default": {
-            "url": "points04.yaml",
+            "url": "points-sprites.yaml",
             "location": "11/-1.0059/0.0608"
         },
         "collide: true": {
-            "url": "points02.yaml",
+            "url": "points-texture.yaml",
             "location": "10/-1.3210/0.0364"
         },
         "collide: false": {
-            "url": "points05.yaml",
+            "url": "points-no-collide.yaml",
             "location": "10/-1.3210/0.0364"
         },
         "centroid": {
-            "url": "points06.yaml",
+            "url": "points-centroid.yaml",
             "location": "11/0.0350/0.0137"
         },
         "offset": {
-            "url": "points07.yaml",
+            "url": "points-offset.yaml",
             "location": "12/-1.3549/0.0210"
         }
     }
