@@ -8,4 +8,4 @@ layers:
         draw:
             polygons:
                 order: 0
-                color: blue
+                color: green

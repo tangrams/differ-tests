@@ -10,7 +10,7 @@
             "url": "sources-geojson.yaml",
             "location": "2/51.7/21.4"
         },
-        "sources-geojson": {
+        "sources-external-geojson": {
             "url": "sources-external-geojson.yaml",
             "location": "13.6/0.015/-0.0150"
         },
@@ -24,11 +24,11 @@
         },
         "sources-raster": {
             "url": "sources-raster.yaml",
-            "location": "2/51.7/21.4"
+            "location": "4.5/54.96/-4.570"
         },
         "sources-max_zoom": {
             "url": "sources-max_zoom.yaml",
-            "location": "13.6/0.015/-0.0150"
+            "location": "4.5/54.96/-4.570"
         },
         "sources-scripts": {
             "url": "sources-scripts.yaml",
@@ -48,14 +48,6 @@
         },
         "sources-filtering-mipmap": {
             "url": "sources-filtering-mipmap.yaml",
-            "location": "13.6/0.015/-0.0150"
-        },
-        "sources-raster": {
-            "url": "sources-raster.yaml",
-            "location": "13.6/0.015/-0.0150"
-        },
-        "sources-raster": {
-            "url": "sources-raster.yaml",
             "location": "13.6/0.015/-0.0150"
         }
     }

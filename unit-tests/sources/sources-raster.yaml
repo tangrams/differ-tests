@@ -1,0 +1,10 @@
+sources:
+    normals:
+        type: Raster
+        url: https://terrain-preview.mapzen.com/normal/{z}/{x}/{y}.png
+layers:
+    earth:
+        data: { source: normals }
+        draw:
+            raster:
+                order: 0
