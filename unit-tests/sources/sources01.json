@@ -49,6 +49,10 @@
         "sources-extra_data": {
             "url": "sources-extra_data.yaml",
             "location": "5/49.724/-56.206"
+        },
+        "sources-rasters": {
+            "url": "sources-rasters.yaml",
+            "location": "13/40.7825/-73.9670"
         }
     }
 }
