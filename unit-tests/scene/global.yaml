@@ -1,0 +1,11 @@
+global:
+    color: green
+
+scene:
+    background:
+        color: global.color
+
+sources:
+    shapes:
+        type: GeoJSON
+        url: /
