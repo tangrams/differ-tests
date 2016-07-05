@@ -6,10 +6,6 @@
     },
 
     "tests": {
-        "world-1": {
-            "url": "scene.yaml",
-            "location": [0,0,0]
-        },
         "cinnabar-1": {
             "url": "https://raw.githubusercontent.com/tangrams/cinnabar-style/gh-pages/cinnabar-style.yaml",
             "location": [0,0,1]
