@@ -17,8 +17,8 @@ styles:
 layers:
     tests:
         data: { source: shapes }
+        filter: { $geometry: point }
         draw:
-            filter: { $geometry: point }
             text:
                 text_source: function() {return "LABEL"}
                 collide: false
