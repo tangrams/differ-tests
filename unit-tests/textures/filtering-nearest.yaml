@@ -13,14 +13,12 @@ styles:
 layers:
     earth:
         data: { source: mapzen }
-        filter: {name: Greenland}
         draw:
             lines:
                 color: black
                 width: 1px
     places:
         data: { source: mapzen }
-        filter: {name: Greenland}
         draw:
             burger-style:
                 size: 128px
