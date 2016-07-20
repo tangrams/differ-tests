@@ -19,23 +19,3 @@ layers:
                     collide: false
                     color: blue
                     size: 10px
-                    text:
-                        collide: false
-                        text_source: function() {return "SR:0"}
-                        font:
-                            size: 10pt
-                            fill: white
-
-        first:
-            filter: { scalerank: 1 }
-            draw:
-                points:
-                    collide: false
-                    color: green
-                    size: 10px
-                    text:
-                        collide: false
-                        text_source: function() {return "SR:1"}
-                        font:
-                            size: 10pt
-                            fill: white
