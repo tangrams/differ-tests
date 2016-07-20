@@ -1,0 +1,41 @@
+sources:
+    mapzen:
+        type: TopoJSON
+        url: https://vector.mapzen.com/osm/all/{z}/{x}/{y}.topojson
+#------------------------------------------------
+layers:
+    water:
+        data: { source: mapzen }
+        draw:
+            polygons:
+                color: '#333336'
+
+    places:
+        data: { source: mapzen}
+        top:
+            filter: {scalerank: 0}
+            draw:
+                points:
+                    collide: false
+                    color: blue
+                    size: 10px
+                    text:
+                        collide: false
+                        text_source: function() {return "SR:0"}
+                        font:
+                            size: 10pt
+                            fill: white
+
+        first:
+            filter: { scalerank: 1 }
+            draw:
+                points:
+                    collide: false
+                    color: green
+                    size: 10px
+                    text:
+                        collide: false
+                        text_source: function() {return "SR:1"}
+                        font:
+                            size: 10pt
+                            fill: white
