@@ -25,7 +25,6 @@ layers:
         draw:
             text:
                 font:
-                    fill: [.6, 1., .6]
                     family: global.font-family
                     size: global.font-size
     earth:
@@ -39,7 +38,6 @@ layers:
         draw:
             text:
                 font:
-                    fill: [.6, 1., .6]
                     family: global.font-family
                     size: global.font-size
     water:
@@ -53,7 +51,6 @@ layers:
         draw:
             text:
                 font:
-                    fill: [.6, 1., .6]
                     family: global.font-family
                     size: global.font-size
     buildings:
@@ -67,7 +64,6 @@ layers:
         draw:
             text:
                 font:
-                    fill: [.6, 1., .6]
                     family: global.font-family
                     size: global.font-size
     landuse:
@@ -81,7 +77,6 @@ layers:
         draw:
             text:
                 font:
-                    fill: [.6, 1., .6]
                     family: global.font-family
                     size: global.font-size
     labels:
@@ -89,7 +84,6 @@ layers:
         draw:
             text:
                 font:
-                    fill: [.6, 1., .6]
                     family: global.font-family
                     size: global.font-size
     pois:
@@ -97,7 +91,6 @@ layers:
         draw:
             text:
                 font:
-                    fill: [.6, 1., .6]
                     family: global.font-family
                     size: global.font-size
     places:
@@ -105,7 +98,6 @@ layers:
         draw:
             text:
                 font:
-                    fill: [.6, 1., .6]
                     family: global.font-family
                     size: global.font-size
     roads:
@@ -119,7 +111,6 @@ layers:
         draw:
             text:
                 font:
-                    fill: [.6, 1., .6]
                     family: global.font-family
                     size: global.font-size
     transit:
@@ -133,6 +124,5 @@ layers:
         draw:
             text:
                 font:
-                    fill: [.6, 1., .6]
                     family: global.font-family
                     size: global.font-size
