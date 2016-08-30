@@ -23,9 +23,9 @@ layers:
     boundaries-labels:
         data: { source: osm, layer: boundaries }
         draw:
-            color: [.6, 1., .6]
             text:
                 font:
+                    fill: [.6, 1., .6]
                     family: global.font-family
                     size: global.font-size
     earth:
@@ -37,9 +37,9 @@ layers:
     earth-labels:
         data: { source: osm, layer: earth }
         draw:
-            color: [.6, 1., .6]
             text:
                 font:
+                    fill: [.6, 1., .6]
                     family: global.font-family
                     size: global.font-size
     water:
@@ -51,9 +51,9 @@ layers:
     water-labels:
         data: { source: osm, layer: water }
         draw:
-            color: [.6, 1., .6]
             text:
                 font:
+                    fill: [.6, 1., .6]
                     family: global.font-family
                     size: global.font-size
     buildings:
@@ -65,9 +65,9 @@ layers:
     buildings-labels:
         data: { source: osm, layer: buildings }
         draw:
-            color: [.6, 1., .6]
             text:
                 font:
+                    fill: [.6, 1., .6]
                     family: global.font-family
                     size: global.font-size
     landuse:
@@ -79,33 +79,33 @@ layers:
     landuse_labels:
         data: { source: osm }
         draw:
-            color: [.6, 1., .6]
             text:
                 font:
+                    fill: [.6, 1., .6]
                     family: global.font-family
                     size: global.font-size
     labels:
         data: { source: osm }
         draw:
-            color: [.6, 1., .6]
             text:
                 font:
+                    fill: [.6, 1., .6]
                     family: global.font-family
                     size: global.font-size
     pois:
         data: { source: osm }
         draw:
-            color: [.6, 1., .6]
             text:
                 font:
+                    fill: [.6, 1., .6]
                     family: global.font-family
                     size: global.font-size
     places:
         data: { source: osm }
         draw:
-            color: [.6, 1., .6]
             text:
                 font:
+                    fill: [.6, 1., .6]
                     family: global.font-family
                     size: global.font-size
     roads:
@@ -117,9 +117,9 @@ layers:
     roads-labels:
         data: { source: osm, layer: roads }
         draw:
-            color: [.6, 1., .6]
             text:
                 font:
+                    fill: [.6, 1., .6]
                     family: global.font-family
                     size: global.font-size
     transit:
@@ -131,8 +131,8 @@ layers:
     transit-labels:
         data: { source: osm, layer: transit }
         draw:
-            color: [.6, 1., .6]
             text:
                 font:
+                    fill: [.6, 1., .6]
                     family: global.font-family
                     size: global.font-size
