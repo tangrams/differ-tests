@@ -43,3 +43,18 @@ layers:
             draw:
                 text:
                     text_wrap: false
+        max-lines-align-center:
+            filter: {name: label4 }
+            draw:
+                text:
+                    text_source: function(){ return "this is a very very very very long label" }
+                    text_wrap: true
+                    max_lines: 2
+        max-lines-align-right:
+            filter: {name: label5 }
+            draw:
+                text:
+                    text_source: function(){ return "this is a very very very very long label" }
+                    text_wrap: true
+                    max_lines: 2
+                    align: right
