@@ -6,7 +6,7 @@ lights:
 sources:
     shapes:
         type: GeoJSON
-        url: polygon.geojson
+        url: ../assets/shapes.geojson
 
 styles:
     blend-add:
