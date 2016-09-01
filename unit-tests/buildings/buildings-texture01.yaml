@@ -31,7 +31,7 @@ cameras:
     camera1:
         type: isometric
 
-# layers:
-#     buildings:
-#         draw:
-#             style: checkers
+layers:
+    buildings:
+        draw:
+            style: checkers
