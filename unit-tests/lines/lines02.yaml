@@ -6,7 +6,7 @@ lights:
 sources:
     shapes:
         type: GeoJSON
-        url: shapes.json
+        url: shapes.geojson
 
 layers:
     polygons:
