@@ -12,7 +12,7 @@
             "location": "11/-1.0244/0.0439"
         },
         "texture-tint": {
-            "url": "points-tint.yaml",
+            "url": "points-texture-tint.yaml",
             "location": "11/-1.0244/0.0439"
         },
         "textures": {
