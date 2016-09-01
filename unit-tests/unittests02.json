@@ -17,6 +17,21 @@
         },
         "buildings2": {
             "url": "http://localhost:9001/unit-tests/buildings/buildings-textures-01.json"
+        },
+        "lights": {
+            "url": "http://localhost:9001/unit-tests/lights/lights01.json"
+        },
+        "points": {
+            "url": "http://localhost:9001/unit-tests/points/points01.json"
+        },
+        "polygons1": {
+            "url": "http://localhost:9001/unit-tests/polygons/polygons-blend-01.json"
+        },
+        "polygons2": {
+            "url": "http://localhost:9001/unit-tests/polygons/polygons-cameras-01.json"
+        },
+        "polygons3": {
+            "url": "http://localhost:9001/unit-tests/polygons/polygons-lights-01.json"
         }
     }
 }
