@@ -25,8 +25,7 @@ styles:
         base: polygons
         material:
             diffuse:
-                texture:
-                    url: uv_checkers.png
+                texture: ../assets/uv_checkers.png
                 mapping: uv
 cameras:
     camera1:
