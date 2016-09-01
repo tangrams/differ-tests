@@ -1,0 +1,20 @@
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../assets/shapes.geojson
+
+layers:
+    polygons:
+        data: { source: shapes }
+        lines:
+            draw:
+                lines:
+                    order: 1
+                    color: green
+                    width: 20px
+        linesz:
+            draw:
+                lines:
+                    order: 2
+                    color: orange
+                    width: 10px
