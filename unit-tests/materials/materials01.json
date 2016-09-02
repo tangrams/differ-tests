@@ -42,6 +42,10 @@
             "url": "materials-texture.yaml",
             "location": "13.6/0.015/-0.0150"
         },
+        "materials-texture-alpha": {
+            "url": "materials-texture-alpha.yaml",
+            "location": "13.6/0.015/-0.0150"
+        },
         "materials-mapping-uv": {
             "url": "materials-mapping-uv.yaml",
             "location": "13.6/0.015/-0.0150"
