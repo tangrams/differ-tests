@@ -43,6 +43,10 @@
             "location": "13.6/0.015/-0.0150"
         },
         "materials-texture-alpha": {
+            "url": "materials-texture-alpha2.yaml",
+            "location": "13.6/0.015/-0.0150"
+        },
+        "materials-texture-alpha-lit": {
             "url": "materials-texture-alpha.yaml",
             "location": "13.6/0.015/-0.0150"
         },
