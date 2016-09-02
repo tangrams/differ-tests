@@ -1,0 +1,40 @@
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../assets/boxtest2.geojson
+cameras:
+    camera1:
+        type: perspective
+        vanishing_point: [-2000, -4000]
+styles:
+    matstyle:
+        blend: overlay
+        base: polygons
+        material:
+            diffuse:
+                texture: ../assets/star.png
+                mapping: uv
+            ambient: [1, 1, 1, 1]
+            specular: .5
+            shininess: 100.
+lights:
+    light1:
+        type: directional
+        diffuse: 2
+
+layers:
+    earth:
+        data: { source: shapes }
+        draw:
+            polygons:
+                order: 0
+                style: matstyle
+                color: white
+    buildings:
+        data: { source: shapes }
+        draw:
+            polygons:
+                order: 1
+                style: matstyle
+                color: lightblue
+                extrude: 50
