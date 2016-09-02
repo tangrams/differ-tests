@@ -17,7 +17,7 @@ styles:
 lights:
     light1:
         type: directional
-        diffuse: 2
+        diffuse: 1
 
 layers:
     earth:
