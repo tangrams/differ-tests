@@ -7,10 +7,31 @@
 
     "tests": {
         "cameras": {
-            "url": "http://localhost:9001/unit-tests/cameras/cameras01.json"
+            "url": "unit-tests/cameras/cameras02.json"
+        },
+        "sources": {
+            "url": "unit-tests/sources/sources01.json"
+        },
+        "buildings1": {
+            "url": "unit-tests/buildings/buildings-lights-01.json"
+        },
+        "buildings2": {
+            "url": "unit-tests/buildings/buildings-textures-01.json"
         },
         "lights": {
-            "url": "http://localhost:9001/unit-tests/lights/lights01.json"
+            "url": "unit-tests/lights/lights01.json"
+        },
+        "points": {
+            "url": "unit-tests/points/points01.json"
+        },
+        "polygons1": {
+            "url": "unit-tests/polygons/polygons-blend-01.json"
+        },
+        "polygons2": {
+            "url": "unit-tests/polygons/polygons-cameras-01.json"
+        },
+        "polygons3": {
+            "url": "unit-tests/polygons/polygons-lights-01.json"
         }
     }
 }
