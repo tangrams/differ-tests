@@ -1,7 +1,7 @@
 sources:
     shapes:
         type: GeoJSON
-        url: ../esb.geojson
+        url: ../assets/esb.geojson
 cameras:
     camera1:
         type: isometric
@@ -11,8 +11,7 @@ styles:
         base: polygons
         material:
             diffuse:
-                texture:
-                    url: uv_checkers.png
+                texture: ../assets/uv_checkers.png
                 mapping: planar
 layers:
     buildings:

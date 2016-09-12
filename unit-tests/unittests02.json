@@ -1,0 +1,37 @@
+{
+    "origin": {
+        "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36",
+        "devicePixelRatio": 2,
+        "time": "Tue Mar 29 2016 17:40:09 GMT-0400 (EDT)"
+    },
+
+    "tests": {
+        "cameras": {
+            "url": "http://localhost:9001/unit-tests/cameras/cameras02.json"
+        },
+        "sources": {
+            "url": "http://localhost:9001/unit-tests/sources/sources01.json"
+        },
+        "buildings1": {
+            "url": "http://localhost:9001/unit-tests/buildings/buildings-lights-01.json"
+        },
+        "buildings2": {
+            "url": "http://localhost:9001/unit-tests/buildings/buildings-textures-01.json"
+        },
+        "lights": {
+            "url": "http://localhost:9001/unit-tests/lights/lights01.json"
+        },
+        "points": {
+            "url": "http://localhost:9001/unit-tests/points/points01.json"
+        },
+        "polygons1": {
+            "url": "http://localhost:9001/unit-tests/polygons/polygons-blend-01.json"
+        },
+        "polygons2": {
+            "url": "http://localhost:9001/unit-tests/polygons/polygons-cameras-01.json"
+        },
+        "polygons3": {
+            "url": "http://localhost:9001/unit-tests/polygons/polygons-lights-01.json"
+        }
+    }
+}

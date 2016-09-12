@@ -1,2 +1,2 @@
-console.log('external script test');
+// console.log('external script test');
 var testvar = "SCRIPT TEST"

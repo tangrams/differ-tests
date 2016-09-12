@@ -25,14 +25,13 @@ styles:
         base: polygons
         material:
             diffuse:
-                texture:
-                    url: uv_checkers.png
+                texture: ../assets/uv_checkers.png
                 mapping: uv
 cameras:
     camera1:
         type: isometric
 
-# layers:
-#     buildings:
-#         draw:
-#             style: checkers
+layers:
+    buildings:
+        draw:
+            style: checkers

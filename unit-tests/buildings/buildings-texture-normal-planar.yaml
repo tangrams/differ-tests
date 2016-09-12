@@ -1,20 +1,19 @@
 sources:
     shapes:
         type: GeoJSON
-        url: ../esb.geojson
+        url: ../assets/esb.geojson
 
 cameras:
     camera1:
         type: isometric
         axis: [0, .5]
 
-
 styles:
     rock:
         base: polygons
         material:
             normal:
-                texture: rock.jpg
+                texture: ../assets/rock.jpg
                 mapping: planar
             ambient: 0
             diffuse: 1
