@@ -11,12 +11,6 @@ styles:
         base: points
         texture: burger
 layers:
-    earth:
-        data: { source: mapzen }
-        draw:
-            lines:
-                color: black
-                width: 1px
     places:
         data: { source: mapzen }
         draw:
