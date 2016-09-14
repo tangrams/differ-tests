@@ -7,7 +7,7 @@ styles:
         base: polygons
         shaders:
             uniforms:
-                data_url_texture: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQIW2P8/5/hPwAIAgL/oEs8+AAAAABJRU5ErkJggg== # yellow pixel
+                data_url_texture: data:image/gif;base64,R0lGODlhAQABAJEAAAAAAP///wD/AP///yH5BAEAAAMALAAAAAABAAEAAAICVAEAOw== # green pixel
             blocks:
                 filter: |
                     color = texture2D(data_url_texture, vec2(0.)); // yellow
