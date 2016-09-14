@@ -1,7 +1,7 @@
 sources:
     shapes:
         type: GeoJSON
-        url: ../points.geojson
+        url: ../assets/points.geojson
 
 styles:
     aquarium:
