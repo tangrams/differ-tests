@@ -12,37 +12,21 @@
         },
          "polygons-lights-directional-02": {
             "url": "polygons-lights-directional01.yaml",
-            "location": "9.75/-0.2561/0.0364"
+            "location": "10/-0.6125/-0.3234"
         },
          "polygons-lights-directional-03": {
             "url": "polygons-lights-directional01.yaml",
-            "location": "10/-0.6125/-0.3234"
-        },
-         "polygons-lights-directional-04": {
-            "url": "polygons-lights-directional01.yaml",
             "location": "10/-0.6173/0.0336"
         },
-         "polygons-lights-directional-05": {
+         "polygons-lights-directional-04": {
             "url": "polygons-lights-directional01.yaml",
             "location": "10/-0.6365/0.3495"
         },
          "polygons-lights-directional-ambient-01": {
             "url": "polygons-lights-directional02.yaml",
-            "location": "9.75/-0.2561/0.0364"
-        },
-         "polygons-lights-directional-ambient-02": {
-            "url": "polygons-lights-directional02.yaml",
-            "location": "9.75/-0.2561/0.0364"
-        },
-         "polygons-lights-directional-ambient-03": {
-            "url": "polygons-lights-directional02.yaml",
-            "location": "9.75/-0.2561/0.0364"
-        },
-         "polygons-lights-directional-ambient-04": {
-            "url": "polygons-lights-directional02.yaml",
             "location": "10/-0.6173/0.0336"
         },
-         "polygons-lights-directional-ambient-05": {
+         "polygons-lights-directional-ambient-02": {
             "url": "polygons-lights-directional02.yaml",
             "location": "10/-0.6365/0.3495"
         },
@@ -52,17 +36,13 @@
         },
          "polygons-lights-directional-diffuse-ambient-02": {
             "url": "polygons-lights-directional03.yaml",
-            "location": "9.75/-0.2561/0.0364"
+            "location": "10/-0.6125/-0.3234"
         },
          "polygons-lights-directional-diffuse-ambient-03": {
             "url": "polygons-lights-directional03.yaml",
-            "location": "10/-0.6125/-0.3234"
-        },
-         "polygons-lights-directional-diffuse-ambient-04": {
-            "url": "polygons-lights-directional03.yaml",
             "location": "10/-0.6173/0.0336"
         },
-         "polygons-lights-directional-diffuse-ambient-05": {
+         "polygons-lights-directional-diffuse-ambient-04": {
             "url": "polygons-lights-directional03.yaml",
             "location": "10/-0.6365/0.3495"
         }

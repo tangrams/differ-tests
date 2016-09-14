@@ -72,17 +72,13 @@
         },
          "blend-inlay2": {
             "url": "polygons-blend-inlay.yaml",
-            "location": "9.75/-0.2561/0.0364"
+            "location": "10/-0.6125/-0.3234"
         },
         "blend-inlay3": {
             "url": "polygons-blend-inlay.yaml",
-            "location": "10/-0.6125/-0.3234"
-        },
-         "blend-inlay4": {
-            "url": "polygons-blend-inlay.yaml",
             "location": "10/-0.6173/0.0336"
         },
-         "blend-inlay5": {
+         "blend-inlay4": {
             "url": "polygons-blend-inlay.yaml",
             "location": "10/-0.6365/0.3495"
         },
@@ -90,21 +86,13 @@
             "url": "polygons-blend-overlay.yaml",
             "location": [0,0,10]
         },
-         "blend-overlay2": {
-            "url": "polygons-blend-overlay.yaml",
-            "location": "9.75/-0.2561/0.0364"
-        },
-        "blend-overlay3": {
+        "blend-overlay2": {
             "url": "polygons-blend-overlay.yaml",
             "location": "10/-0.6125/-0.3234"
         },
-         "blend-overlay4": {
+         "blend-overlay3": {
             "url": "polygons-blend-overlay.yaml",
             "location": "10/-0.6173/0.0336"
-        },
-         "blend-overlay5": {
-            "url": "polygons-blend-overlay.yaml",
-            "location": "10/-0.6365/0.3495"
         }
     }
 }
