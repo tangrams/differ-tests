@@ -7,7 +7,7 @@
 
     "tests": {
         "cameras": {
-            "url": "cameras/cameras02.json"
+            "url": "cameras/cameras01.json"
         },
         "sources": {
             "url": "sources/sources01.json"
@@ -32,6 +32,12 @@
         },
         "polygons3": {
             "url": "polygons/polygons-lights-01.json"
+        },
+        "textures": {
+            "url": "textures/textures.json"
+        },
+        "fonts": {
+            "url": "fonts/fonts.json"
         }
     }
 }
