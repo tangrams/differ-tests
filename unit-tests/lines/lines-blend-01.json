@@ -6,119 +6,119 @@
     },
 
     "tests": {
-        "lines1": {
+        "lines-blend-01": {
             "url": "lines01.yaml",
             "location": [0,0,10]
         },
-        "blend-add1": {
+        "lines-blend-add1": {
             "url": "lines-blend-add.yaml",
             "location": [0,0,10]
         },
-         "blend-add2": {
+        "lines-blend-add2": {
             "url": "lines-blend-add.yaml",
             "location": "9.75/-0.27/0.0368"
         },
-        "blend-add3": {
+        "lines-blend-add3": {
             "url": "lines-blend-add.yaml",
             "location": "10/-0.6125/-0.3234"
         },
-         "blend-add4": {
+        "lines-blend-add4": {
             "url": "lines-blend-add.yaml",
             "location": "10/-0.6173/0.0336"
         },
-         "blend-add5": {
+        "lines-blend-add5": {
             "url": "lines-blend-add.yaml",
             "location": "10/-0.6365/0.3495"
         },
-         "blend-add6": {
+        "lines-blend-add6": {
             "url": "lines-blend-add.yaml",
             "location": "10/0.2733/-0.4031"
         },
-         "blend-add7": {
+        "lines-blend-add7": {
             "url": "lines-blend-add.yaml",
             "location": "10/0.40/0.3825"
         },
-        "blend-multiply1": {
+        "lines-blend-multiply1": {
             "url": "lines-blend-multiply.yaml",
             "location": [0,0,10]
         },
-         "blend-multiply2": {
+        "lines-blend-multiply2": {
             "url": "lines-blend-multiply.yaml",
             "location": "9.75/-0.27/0.0368"
         },
-        "blend-multiply3": {
+        "lines-blend-multiply3": {
             "url": "lines-blend-multiply.yaml",
             "location": "10/-0.6125/-0.3234"
         },
-         "blend-multiply4": {
+        "lines-blend-multiply4": {
             "url": "lines-blend-multiply.yaml",
             "location": "10/-0.6173/0.0336"
         },
-         "blend-multiply5": {
+        "lines-blend-multiply5": {
             "url": "lines-blend-multiply.yaml",
             "location": "10/-0.6365/0.3495"
         },
-         "blend-multiply6": {
+        "lines-blend-multiply6": {
             "url": "lines-blend-multiply.yaml",
             "location": "10/0.2733/-0.4031"
         },
-         "blend-multiply7": {
+        "lines-blend-multiply7": {
             "url": "lines-blend-multiply.yaml",
             "location": "10/0.40/0.3825"
         },
-        "blend-inlay1": {
+        "lines-blend-inlay1": {
             "url": "lines-blend-inlay.yaml",
             "location": [0,0,10]
         },
-         "blend-inlay2": {
+        "lines-blend-inlay2": {
             "url": "lines-blend-inlay.yaml",
             "location": "9.75/-0.27/0.0368"
         },
-        "blend-inlay3": {
+        "lines-blend-inlay3": {
             "url": "lines-blend-inlay.yaml",
             "location": "10/-0.6125/-0.3234"
         },
-         "blend-inlay4": {
+        "lines-blend-inlay4": {
             "url": "lines-blend-inlay.yaml",
             "location": "10/-0.6173/0.0336"
         },
-         "blend-inlay5": {
+        "lines-blend-inlay5": {
             "url": "lines-blend-inlay.yaml",
             "location": "10/-0.6365/0.3495"
         },
-         "blend-inlay6": {
+        "lines-blend-inlay6": {
             "url": "lines-blend-inlay.yaml",
             "location": "10/0.2733/-0.4031"
         },
-         "blend-inlay7": {
+        "lines-blend-inlay7": {
             "url": "lines-blend-inlay.yaml",
             "location": "10/0.40/0.3825"
         },
-        "blend-overlay1": {
+        "lines-blend-overlay1": {
             "url": "lines-blend-overlay.yaml",
             "location": [0,0,10]
         },
-         "blend-overlay2": {
+        "lines-blend-overlay2": {
             "url": "lines-blend-overlay.yaml",
             "location": "9.75/-0.27/0.0368"
         },
-        "blend-overlay3": {
+        "lines-blend-overlay3": {
             "url": "lines-blend-overlay.yaml",
             "location": "10/-0.6125/-0.3234"
         },
-         "blend-overlay4": {
+        "lines-blend-overlay4": {
             "url": "lines-blend-overlay.yaml",
             "location": "10/-0.6173/0.0336"
         },
-         "blend-overlay5": {
+        "lines-blend-overlay5": {
             "url": "lines-blend-overlay.yaml",
             "location": "10/-0.6365/0.3495"
         },
-         "blend-overlay6": {
+        "lines-blend-overlay6": {
             "url": "lines-blend-overlay.yaml",
             "location": "10/0.2733/-0.4031"
         },
-         "blend-overlay7": {
+        "lines-blend-overlay7": {
             "url": "lines-blend-overlay.yaml",
             "location": "10/0.40/0.3825"
         }

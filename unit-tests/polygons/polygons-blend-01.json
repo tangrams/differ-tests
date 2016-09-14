@@ -6,83 +6,83 @@
     },
 
     "tests": {
-        "polygons1": {
+        "polygons-blend-01": {
             "url": "polygons01.yaml",
             "location": [0,0,10]
         },
-         "polygons3": {
+        "polygons-blend-02": {
             "url": "polygons01.yaml",
             "location": "10/-0.6125/-0.3234"
         },
-        "polygons2": {
+        "polygons-blend-03": {
             "url": "polygons01.yaml",
             "location": "10/-0.6125/-0.3234"
         },
-         "polygons4": {
+        "polygons-blend-04": {
             "url": "polygons01.yaml",
             "location": "10/-0.6173/0.0336"
         },
-         "polygons5": {
+        "polygons-blend-05": {
             "url": "polygons01.yaml",
             "location": "10/-0.6365/0.3495"
         },
-        "blend-add1": {
+        "polygons-blend-add1": {
             "url": "polygons-blend-add.yaml",
             "location": [0,0,10]
         },
-         "blend-add2": {
+        "polygons-blend-add2": {
             "url": "polygons-blend-add.yaml",
             "location": "10/-0.6125/-0.3234"
         },
-        "blend-add3": {
+        "polygons-blend-add3": {
             "url": "polygons-blend-add.yaml",
             "location": "10/-0.6173/0.0336"
         },
-         "blend-add4": {
+        "polygons-blend-add4": {
             "url": "polygons-blend-add.yaml",
             "location": "10/-0.6365/0.3495"
         },
-        "blend-multiply1": {
+        "polygons-blend-multiply1": {
             "url": "polygons-blend-multiply.yaml",
             "location": [0,0,10]
         },
-         "blend-multiply2": {
+        "polygons-blend-multiply2": {
             "url": "polygons-blend-multiply.yaml",
             "location": "10/-0.6125/-0.3234"
         },
-        "blend-multiply3": {
+        "polygons-blend-multiply3": {
             "url": "polygons-blend-multiply.yaml",
             "location": "10/-0.6173/0.0336"
         },
-         "blend-multiply4": {
+        "polygons-blend-multiply4": {
             "url": "polygons-blend-multiply.yaml",
             "location": "10/-0.6365/0.3495"
         },
-        "blend-inlay1": {
+        "polygons-blend-inlay1": {
             "url": "polygons-blend-inlay.yaml",
             "location": [0,0,10]
         },
-         "blend-inlay2": {
+        "polygons-blend-inlay2": {
             "url": "polygons-blend-inlay.yaml",
             "location": "10/-0.6125/-0.3234"
         },
-        "blend-inlay3": {
+        "polygons-blend-inlay3": {
             "url": "polygons-blend-inlay.yaml",
             "location": "10/-0.6173/0.0336"
         },
-         "blend-inlay4": {
+        "polygons-blend-inlay4": {
             "url": "polygons-blend-inlay.yaml",
             "location": "10/-0.6365/0.3495"
         },
-        "blend-overlay1": {
+        "polygons-blend-overlay1": {
             "url": "polygons-blend-overlay.yaml",
             "location": [0,0,10]
         },
-        "blend-overlay2": {
+        "polygons-blend-overlay2": {
             "url": "polygons-blend-overlay.yaml",
             "location": "10/-0.6125/-0.3234"
         },
-         "blend-overlay3": {
+        "polygons-blend-overlay3": {
             "url": "polygons-blend-overlay.yaml",
             "location": "10/-0.6173/0.0336"
         }
