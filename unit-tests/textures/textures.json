@@ -6,15 +6,15 @@
         },
         "filtering-linear": {
             "url": "filtering-linear.yaml",
-            "location": "2.05/76.31/-51.72"
+            "location": "2.12387/77.85/-44.65"
         },
         "filtering-mipmap": {
             "url": "filtering-mipmap.yaml",
-            "location": "2.05/76.31/-51.72"
+            "location": "2.12387/77.85/-44.65"
         },
         "filtering-nearest": {
             "url": "filtering-nearest.yaml",
-            "location": "2.05/76.31/-51.72"
+            "location": "2.12387/77.85/-44.65"
         }
     }
 }
