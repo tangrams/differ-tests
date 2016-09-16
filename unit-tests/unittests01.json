@@ -33,6 +33,27 @@
         "polygons3": {
             "url": "polygons/polygons-lights-01.json"
         },
+        "lines1": {
+            "url": "lines/lines01.json"
+        },
+        "lines2": {
+            "url": "lines/lines-blend-01.json"
+        },
+        "lines3": {
+            "url": "lines/lines-uvs-01.json"
+        },
+        "lines4": {
+            "url": "lines/lines-cameras-01.json"
+        },
+        "lines5": {
+            "url": "lines/lines-lights-01.json"
+        },
+        "lines6": {
+            "url": "lines/lines-caps-joins.json"
+        },
+        "lines7": {
+            "url": "lines/lines-outline.json"
+        },
         "textures": {
             "url": "textures/textures.json"
         },
