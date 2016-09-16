@@ -31,11 +31,11 @@
             "url": "lines01.yaml",
             "location": "10/0.40/0.3825"
         },
-        "visible:false": {
+        "lines-visible-false": {
             "url": "lines-visible01.yaml",
             "location": "10/-0.6125/-0.3234"
         },
-        "z": {
+        "lines-z": {
             "url": "lines-z.yaml",
             "location": "10/-0.6125/-0.3234"
         }
