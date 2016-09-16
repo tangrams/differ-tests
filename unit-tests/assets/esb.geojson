@@ -892,4 +892,23 @@
         }
       }
   ]
-},"earth":{"type":"FeatureCollection","features":[{"geometry":{"type":"Polygon","coordinates":[[[-73.98468018,40.74725696],[-73.98742676,40.74725696],[-73.98742676,40.74933773],[-73.98468018,40.74933773],[-73.98468018,40.74725696]]]},"type":"Feature","properties":{"sort_key":10,"source":"openstreetmapdata.com","kind":"earth","id":480514}}]}}
+},"earth":{"type":"FeatureCollection","features":[{"geometry":{"type":"Polygon","coordinates":[[[
+              -73.98368018,
+              40.74725696
+            ],
+            [
+              -73.98742676,
+              40.74725696
+            ],
+            [
+              -73.98742676,
+              40.75033773
+            ],
+            [
+              -73.98368018,
+              40.75033773
+            ],
+            [
+              -73.98368018,
+              40.74725696
+            ]]]},"type":"Feature","properties":{"sort_key":10,"source":"openstreetmapdata.com","kind":"earth","id":480514}}]}}
