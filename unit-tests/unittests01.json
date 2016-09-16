@@ -38,6 +38,9 @@
         },
         "fonts": {
             "url": "fonts/fonts.json"
+        },
+        "text": {
+            "url": "text/text01.json"
         }
     }
 }
