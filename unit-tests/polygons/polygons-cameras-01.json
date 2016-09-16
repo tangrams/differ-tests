@@ -10,19 +10,19 @@
             "url": "polygons-cameras-perspective01.yaml",
             "location": [0,0,10]
         },
-         "perspective-focal_length-01": {
+         "polygons-cameras-perspective-focal_length-01": {
             "url": "polygons-cameras-perspective02.yaml",
             "location": [0,0,10]
         },
-         "perspective-focal_length-02": {
+         "polygons-cameras-perspective-focal_length-02": {
             "url": "polygons-cameras-perspective03.yaml",
             "location": [0,0,10]
         },
-         "perspective-vaninshing-point": {
+         "polygons-cameras-perspective-vanishing-point": {
             "url": "polygons-cameras-perspective04.yaml",
             "location": [0,0,10]
         },
-         "perspective-fov": {
+         "polygons-cameras-perspective-fov": {
             "url": "polygons-cameras-perspective05.yaml",
             "location": [0,0,10]
         },
@@ -30,7 +30,7 @@
             "url": "polygons-cameras-isometric01.yaml",
             "location": [0,0,10]
         },
-         "axis": {
+         "polygons-cameras-axis": {
             "url": "polygons-cameras-isometric02.yaml",
             "location": [0,0,10]
         }

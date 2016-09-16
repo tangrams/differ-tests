@@ -6,95 +6,95 @@
     },
 
     "tests": {
-        "point": {
+        "lights-point": {
             "url": "lights-point.yaml",
             "location": "13.6/0.015/-0.0150"
         },
-        "point-diffuse": {
+        "lights-point-diffuse": {
             "url": "lights-point-diffuse.yaml",
             "location": "13.6/0.015/-0.0150"
         },
-        "point-ambient": {
+        "lights-point-ambient": {
             "url": "lights-point-ambient.yaml",
             "location": "13.6/0.015/-0.0150"
         },
-        "point-specular": {
+        "lights-point-specular": {
             "url": "lights-point-specular.yaml",
             "location": "13.6/0.015/-0.0150"
         },
-        "point-radius01": {
+        "lights-point-radius01": {
             "url": "lights-point-radius01.yaml",
             "location": "13.6/0.015/-0.0150"
         },
-        "point-radius02": {
+        "lights-point-radius02": {
             "url": "lights-point-radius02.yaml",
             "location": "13.6/0.015/-0.0150"
         },
-        "point-attenuation": {
+        "lights-point-attenuation": {
             "url": "lights-point-attenuation.yaml",
             "location": "13.6/0.015/-0.0150"
         },
-        "point-visible": {
+        "lights-point-visible": {
             "url": "lights-point-visible.yaml",
             "location": "13.6/0.015/-0.0150"
         },
-        "directional": {
+        "lights-directional": {
             "url": "lights-directional.yaml",
             "location": "13.6/0.015/-0.0150"
         },
-        "directional-direction": {
+        "lights-directional-direction": {
             "url": "lights-directional-direction.yaml",
             "location": "13.6/0.015/-0.0150"
         },
-        "directional-diffuse": {
+        "lights-directional-diffuse": {
             "url": "lights-directional-diffuse.yaml",
             "location": "13.6/0.015/-0.0150"
         },
-        "directional-ambient": {
+        "lights-directional-ambient": {
             "url": "lights-directional-ambient.yaml",
             "location": "13.6/0.015/-0.0150"
         },
-        "directional-specular": {
+        "lights-directional-specular": {
             "url": "lights-directional-specular.yaml",
             "location": "13.6/0.015/-0.0150"
         },
-        "directional-visible:false": {
+        "lights-directional-visible:false": {
             "url": "lights-directional-visible.yaml",
             "location": "13.6/0.015/-0.0150"
         },
-        "spot": {
+        "lights-spot": {
             "url": "lights-spot.yaml",
             "location": "13.6/0.015/-0.0150"
         },
-        "spot-angle": {
+        "lights-spot-angle": {
             "url": "lights-spot-angle.yaml",
             "location": "13.6/0.015/-0.0150"
         },
-        "spot-exponent": {
+        "lights-spot-exponent": {
             "url": "lights-spot-exponent.yaml",
             "location": "13.6/0.015/-0.0150"
         },
-        "spot-direction": {
+        "lights-spot-direction": {
             "url": "lights-spot-direction.yaml",
             "location": "13.6/0.015/-0.0150"
         },
-        "spot-diffuse": {
+        "lights-spot-diffuse": {
             "url": "lights-spot-diffuse.yaml",
             "location": "13.6/0.015/-0.0150"
         },
-        "spot-ambient": {
+        "lights-spot-ambient": {
             "url": "lights-spot-ambient.yaml",
             "location": "13.6/0.015/-0.0150"
         },
-        "spot-specular": {
+        "lights-spot-specular": {
             "url": "lights-spot-specular.yaml",
             "location": "13.6/0.015/-0.0150"
         },
-        "spot-attenuation": {
+        "lights-spot-attenuation": {
             "url": "lights-spot-attenuation.yaml",
             "location": "13.6/0.015/-0.0150"
         },
-        "spot-visible": {
+        "lights-spot-visible": {
             "url": "lights-spot-visible.yaml",
             "location": "13.6/0.015/-0.0150"
         }

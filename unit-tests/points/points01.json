@@ -3,43 +3,43 @@
     },
 
     "tests": {
-        "points1": {
+        "points01": {
             "url": "points01.yaml",
             "location": "11/-1.0244/0.0439"
         },
-        "texture": {
+        "points-texture": {
             "url": "points-texture.yaml",
             "location": "11/-1.0244/0.0439"
         },
-        "texture-tint": {
+        "points-texture-tint": {
             "url": "points-texture-tint.yaml",
             "location": "11/-1.0244/0.0439"
         },
-        "textures": {
+        "points-textures": {
             "url": "points-textures.yaml",
             "location": "11/-1.3587/0.0398"
         },
-        "sprites": {
+        "points-sprites": {
             "url": "points-sprites.yaml",
             "location": "11/-1.7850/0.0192"
         },
-        "sprite_default": {
+        "points-sprite_default": {
             "url": "points-sprites.yaml",
             "location": "11/-1.0059/0.0608"
         },
-        "collide: true": {
+        "points-collide: true": {
             "url": "points-texture.yaml",
             "location": "10/-1.3210/0.0364"
         },
-        "collide: false": {
+        "points-collide: false": {
             "url": "points-no-collide.yaml",
             "location": "10/-1.3210/0.0364"
         },
-        "centroid": {
+        "points-centroid": {
             "url": "points-centroid.yaml",
             "location": "11/0.0350/0.0137"
         },
-        "offset": {
+        "points-offset": {
             "url": "points-offset.yaml",
             "location": "12/-1.3549/0.0210"
         }
