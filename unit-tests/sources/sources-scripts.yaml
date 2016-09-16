@@ -1,7 +1,7 @@
 sources:
     osm:
         type: TopoJSON
-        url:  http://vector.mapzen.com/osm/all/{z}/{x}/{y}.topojson?api_key=vector-tiles-HqUVidw
+        url:  https://vector.mapzen.com/osm/all/{z}/{x}/{y}.topojson?api_key=vector-tiles-HqUVidw
         scripts: ['external_script.js']
         transform: |
             function (data) {
