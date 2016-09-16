@@ -1,7 +1,7 @@
 sources:
     stamen-terrain:
         type: Raster
-        url: http://a.tile.stamen.com/terrain-background/{z}/{x}/{y}.jpg
+        url: https://a.tile.stamen.com/terrain-background/{z}/{x}/{y}.jpg
     mapzen-osm:
         type: TopoJSON
         url: https://vector.mapzen.com/osm/all/{z}/{x}/{y}.topojson
