@@ -1,0 +1,20 @@
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../assets/shapes.geojson
+
+styles:
+    test:
+        base: polygons
+        shaders:
+            blocks:
+                color: |
+                    color = vec4(.5, 1., .5, 1.);
+
+layers:
+    shapes:
+        data: { source: shapes }
+        draw:
+            test:
+                order: 0
+                color: red

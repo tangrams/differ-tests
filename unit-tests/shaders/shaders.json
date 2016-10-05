@@ -1,0 +1,8 @@
+{
+    "tests": {
+        "shaders-": {
+            "url": "shaders1.yaml",
+            "location": [0,0,10]
+        }
+    }
+}
