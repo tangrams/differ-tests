@@ -9,14 +9,12 @@ layers:
         lines:
             draw:
                 lines:
-                    color: orange
                     order: 1
+                    color: [0, 1, 0]
                     width: 20px
-    polygons2:
-        data: { source: shapes }
-        lines:
+        lines2:
             draw:
                 lines:
                     order: 2
-                    color: [0, 1, 0]
+                    color: orange
                     width: 10px

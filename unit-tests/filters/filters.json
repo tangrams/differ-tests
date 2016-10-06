@@ -1,0 +1,28 @@
+{
+    "tests": {
+        "filters-$geometry-polygons": {
+            "url": "filters-$geometry-polygon.yaml",
+            "location": [-0.1,0,8]
+        },
+        "filters-$geometry-lines": {
+            "url": "filters-$geometry-line.yaml",
+            "location": [-0.1,0,8]
+        },
+        "filters-$geometry-points": {
+            "url": "filters-$geometry-point.yaml",
+            "location": "6/-1.0244/0.0439"
+        },
+        "filters-name": {
+            "url": "filters-name.yaml",
+            "location": [-0.1,0,8]
+        },
+        "filters-name-en": {
+            "url": "filters-name-en.yaml",
+            "location": [-0.1,0,8]
+        },
+        "filters-function-name-en": {
+            "url": "filters-function-name-en.yaml",
+            "location": [-0.1,0,8]
+        }
+    }
+}

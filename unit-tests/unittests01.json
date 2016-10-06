@@ -65,6 +65,12 @@
         },
         "shaders": {
             "url": "shaders/shaders.json"
+        },
+        "filters": {
+            "url": "filters/filters.json"
+        },
+        "layers": {
+            "url": "layers/layers.json"
         }
     }
 }

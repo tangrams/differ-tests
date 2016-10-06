@@ -6,7 +6,11 @@
     },
 
     "tests": {
-        "sublayer": {
+        "layers-sublayer": {
+            "url": "sublayer.yaml",
+            "location": "13.6/0.015/-0.0150"
+        },
+        "layers-duplicate-sublayer": {
             "url": "sublayer.yaml",
             "location": "13.6/0.015/-0.0150"
         }

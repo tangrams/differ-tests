@@ -1,0 +1,24 @@
+cameras:
+    camera1:
+        type: isometric
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../assets/shapes.geojson
+layers:
+    lines:
+        data: { source: shapes }
+        draw:
+            lines:
+                order: 0
+                width: 1px
+                color: red
+        names:
+            filter: |
+                function() { return feature['name:en']; }
+            draw:
+                text:
+                    text_source: name:en
+                    font:
+                        size: 14px
+                        fill: [0, 1, 0]

@@ -1,0 +1,23 @@
+cameras:
+    camera1:
+        type: isometric
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../assets/shapes.geojson
+layers:
+    lines:
+        data: { source: shapes }
+        draw:
+            lines:
+                order: 0
+                width: 1px
+                color: red
+        polys:
+            filter:
+                $geometry: line
+            draw:
+                lines:
+                    order: 1
+                    width: 10px
+                    color: [0, 1, 0]
