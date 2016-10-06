@@ -20,8 +20,8 @@
             "url": "filters-name-en.yaml",
             "location": [-0.1,0,8]
         },
-        "filters-function-name-en": {
-            "url": "filters-function-name-en.yaml",
+        "filters-function": {
+            "url": "filters-function.yaml",
             "location": [-0.1,0,8]
         }
     }

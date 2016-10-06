@@ -8,11 +8,11 @@
     "tests": {
         "layers-sublayer": {
             "url": "sublayer.yaml",
-            "location": "13.6/0.015/-0.0150"
+            "location": "8/0.015/-0.0150"
         },
         "layers-duplicate-sublayer": {
-            "url": "sublayer.yaml",
-            "location": "13.6/0.015/-0.0150"
+            "url": "diplicate-sublayer.yaml",
+            "location": "8/0.015/-0.0150"
         }
     }
 }
