@@ -4,7 +4,8 @@
         {
       "type": "Feature",
       "properties": {
-        "name": "8"
+        "name": "8",
+        "name:en": "eight"
       },
       "geometry": {
         "type": "LineString",
