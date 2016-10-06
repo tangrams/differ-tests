@@ -62,6 +62,9 @@
         },
         "text": {
             "url": "text/text01.json"
+        },
+        "shaders": {
+            "url": "shaders/shaders.json"
         }
     }
 }

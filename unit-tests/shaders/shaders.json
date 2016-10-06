@@ -1,7 +1,23 @@
 {
     "tests": {
-        "shaders-": {
-            "url": "shaders1.yaml",
+        "shaders-color": {
+            "url": "shaders-color.yaml",
+            "location": [0,0,10]
+        },
+        "shaders-normal": {
+            "url": "shaders-normal.yaml",
+            "location": [0,0,10]
+        },
+        "shaders-position": {
+            "url": "shaders-position.yaml",
+            "location": [0,0,10]
+        },
+        "shaders-global": {
+            "url": "shaders-global.yaml",
+            "location": [0,0,10]
+        },
+        "shaders-uniforms": {
+            "url": "shaders-uniforms.yaml",
             "location": [0,0,10]
         }
     }

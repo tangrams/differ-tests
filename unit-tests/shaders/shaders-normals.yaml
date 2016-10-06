@@ -1,0 +1,25 @@
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../assets/shapes.geojson
+
+lights:
+    light1:
+        type: point
+        diffuse: 1.
+        ambient: .5
+styles:
+    test:
+        base: polygons
+        shaders:
+            blocks:
+                normal: |
+                    vec3 pos = worldPosition().xyz*0.1;
+                    normal.x = sin(pos.x / 50.);
+layers:
+    shapes:
+        data: { source: shapes }
+        draw:
+            test:
+                order: 0
+                color: green

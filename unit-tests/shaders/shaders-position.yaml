@@ -1,0 +1,21 @@
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../assets/shapes.geojson
+
+styles:
+    test:
+        base: polygons
+        shaders:
+            blocks:
+                position: |
+                    position.y = position.y + sin(position.y) * 2500.;
+                    position.x = position.x + sin(position.x) * 2500.;
+
+layers:
+    shapes:
+        data: { source: shapes }
+        draw:
+            test:
+                order: 0
+                color: [.5, 1., .5]

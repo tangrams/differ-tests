@@ -1,0 +1,22 @@
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../assets/shapes.geojson
+
+styles:
+    test:
+        base: polygons
+        shaders:
+            uniforms:
+                u_color: [0., 1., 0., 1.]
+            blocks:
+                color: |
+                    color = u_color;
+
+layers:
+    shapes:
+        data: { source: shapes }
+        draw:
+            test:
+                order: 0
+                color: red
