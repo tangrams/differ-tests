@@ -1,7 +1,7 @@
 sources:
     mapzen:
         type: TopoJSON
-        url: https://vector.mapzen.com/osm/all/{z}/{x}/{y}.topojson?api_key=vector-tiles-P6dkVl4
+        url: http://tile.dev.mapzen.com/mapzen/vector/v1/all/{z}/{x}/{y}.topojson?api_key=vector-tiles-P6dkVl4
 
 cameras:
     perspective:
