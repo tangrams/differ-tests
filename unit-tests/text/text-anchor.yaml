@@ -18,58 +18,67 @@ layers:
     tests:
         data: { source: shapes }
         draw:
-            text:
-                text_source: name
-                collide: false
-                font:
-                    size: 32px
-                    fill: black
             points:
                 # style: pois-style
                 size: 20px
                 color: lightblue
+                text:
+                    text_source: name
+                    collide: false
+                    font:
+                        size: 32px
+                        fill: black
         anchor-top-left:
             filter: { name: label1 }
             draw:
-                text:
-                    anchor: top-left
+                points:
+                    text:
+                        anchor: top-left
         anchor-top:
             filter: { name: label2 }
             draw:
-                text:
-                    anchor: top
+                points:
+                    text:
+                        anchor: top
         anchor-top-right:
             filter: { name: label3 }
             draw:
-                text:
-                    anchor: top-right
+                points:
+                    text:
+                        anchor: top-right
         anchor-left:
             filter: { name: label4 }
             draw:
-                text:
-                    anchor: left
+                points:
+                    text:
+                        anchor: left
         anchor-center:
             filter: { name: label5 }
             draw:
-                text:
-                    anchor: center
+                points:
+                    text:
+                        anchor: center
         anchor-right:
             filter: { name: label6 }
             draw:
-                text:
-                    anchor: right
+                points:
+                    text:
+                        anchor: right
         anchor-bottom-left:
             filter: { name: label7 }
             draw:
-                text:
-                    anchor: bottom-left
+                points:
+                    text:
+                        anchor: bottom-left
         anchor-bottom:
             filter: { name: label8 }
             draw:
-                text:
-                    anchor: bottom
+                points:
+                    text:
+                        anchor: bottom
         anchor-bottom-right:
             filter: { name: label9 }
             draw:
-                text:
-                    anchor: bottom-right
+                points:
+                    text:
+                        anchor: bottom-right
