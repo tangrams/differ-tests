@@ -15,8 +15,8 @@ styles:
                 texture: ../assets/star.png
                 mapping: uv
             ambient: [1, 1, 1, 1]
-            specular: .5
-            shininess: 100.
+            # specular: .5
+            # shininess: 100.
 lights:
     light1:
         type: directional
