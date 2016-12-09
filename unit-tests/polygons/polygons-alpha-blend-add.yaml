@@ -21,4 +21,4 @@ layers:
         draw:
             custom:
                 order: 1
-                color: [0, .25, 0]
+                color: [0, .25, 0, .25]

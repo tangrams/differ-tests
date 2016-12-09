@@ -21,4 +21,4 @@ layers:
         draw:
             blend-multiply:
                 order: 1
-                color: [0, .75, 0]
+                color: [0, .5, 0]
