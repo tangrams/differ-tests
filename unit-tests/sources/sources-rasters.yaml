@@ -4,7 +4,7 @@ sources:
         url: http://a.tile.stamen.com/terrain-background/{z}/{x}/{y}.jpg
     mapzen-osm:
         type: TopoJSON
-        url: https://tile.mapzen.com/mapzen/vector/v1/all/{z}/{x}/{y}.topojson?api_key=mapzen-QF1osLn
+        url: https://tile.mapzen.com/mapzen/vector/v1/all/{z}/{x}/{y}.topojson?api_key=mapzen-7AQT7zc
         rasters: [stamen-terrain] # attach stamen terrain
 
 layers:
