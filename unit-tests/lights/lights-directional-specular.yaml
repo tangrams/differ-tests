@@ -17,9 +17,11 @@ layers:
         data: { source: shapes }
         draw:
             polygons:
+                order: 0
                 style: specstyle
     buildings:
         data: { source: shapes }
         draw:
             polygons:
+                order: 1
                 style: specstyle

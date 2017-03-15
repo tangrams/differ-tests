@@ -18,6 +18,7 @@ layers:
         data: { source: osm }
         draw:
             blend-lines:
+                order: 0
                 color: [.6, .6, .6]
                 width: global.line-width
     boundaries-labels:
@@ -31,6 +32,7 @@ layers:
         data: { source: osm }
         draw:
             blend-lines:
+                order: 1
                 color: [1., .6, .6]
                 width: global.line-width
     earth-labels:
@@ -44,6 +46,7 @@ layers:
         data: { source: osm }
         draw:
             blend-lines:
+                order: 2
                 color: [.6, .6, 1.]
                 width: global.line-width
     water-labels:
@@ -57,6 +60,7 @@ layers:
         data: { source: osm }
         draw:
             blend-lines:
+                order: 3
                 color: [1., .6, 1.]
                 width: global.line-width
     buildings-labels:
@@ -70,6 +74,7 @@ layers:
         data: { source: osm }
         draw:
             blend-lines:
+                order: 4
                 color: [.6, 1., .6]
                 width: global.line-width
     landuse_labels:
@@ -104,6 +109,7 @@ layers:
         data: { source: osm }
         draw:
             blend-lines:
+                order: 5
                 color: [1., 1., 1.]
                 width: global.line-width
     roads-labels:
@@ -117,6 +123,7 @@ layers:
         data: { source: osm }
         draw:
             blend-lines:
+                order: 6
                 color: [.6, .6, 1.]
                 width: global.line-width
     transit-labels:
