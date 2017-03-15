@@ -3,7 +3,7 @@ sources:
         type: GeoJSON
         url: https://tile.mapzen.com/mapzen/vector/v1/all/{z}/{x}/{y}.json
         url_params:
-            api_key: vector-tiles-HqUVidw
+            api_key: mapzen-7AQT7zc
 layers:
     earth:
         data: { source: shapes }
