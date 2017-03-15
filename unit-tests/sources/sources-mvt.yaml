@@ -1,7 +1,9 @@
 sources:
     shapes:
         type: MVT
-        url: https://tile.mapzen.com/mapzen/vector/v1/all/{z}/{x}/{y}.mvt?api_key=vector-tiles-HqUVidw
+        url: https://tile.mapzen.com/mapzen/vector/v1/all/{z}/{x}/{y}.mvt
+        url_params:
+            api_key: vector-tiles-HqUVidw
 layers:
     earth:
         data: { source: shapes }
