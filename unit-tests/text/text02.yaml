@@ -6,9 +6,9 @@ sources:
 layers:
     tests:
         data: { source: shapes }
-        # filter: {$geometry: line}
         draw:
             lines:
+                order: 0
                 width: 2px
                 color: green
             text:
@@ -39,6 +39,7 @@ layers:
             filter: { name: "8" }
             draw:
                 lines:
+                    order: 1
                     width: 2px
                     color: blue
                 text:
@@ -49,6 +50,7 @@ layers:
             filter: { cross: "true" }
             draw:
                 lines:
+                    order: 2
                     width: 2px
                     color: blue
                 text:
