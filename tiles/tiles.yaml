@@ -1,5 +1,5 @@
 sources:
-    osm:
+    mapzen:
         type: TopoJSON
         url:  https://tile.mapzen.com/mapzen/vector/v1/all/{z}/{x}/{y}.topojson
         url_params:
@@ -17,119 +17,119 @@ scene:
         color: black
 layers:
     boundaries:
-        data: { source: osm }
+        data: { source: mapzen }
         draw:
             blend-lines:
                 order: 0
                 color: [.6, .6, .6]
                 width: global.line-width
     boundaries-labels:
-        data: { source: osm, layer: boundaries }
+        data: { source: mapzen, layer: boundaries }
         draw:
             text:
                 font:
                     family: global.font-family
                     size: global.font-size
     earth:
-        data: { source: osm }
+        data: { source: mapzen }
         draw:
             blend-lines:
                 order: 1
                 color: [1., .6, .6]
                 width: global.line-width
     earth-labels:
-        data: { source: osm, layer: earth }
+        data: { source: mapzen, layer: earth }
         draw:
             text:
                 font:
                     family: global.font-family
                     size: global.font-size
     water:
-        data: { source: osm }
+        data: { source: mapzen }
         draw:
             blend-lines:
                 order: 2
                 color: [.6, .6, 1.]
                 width: global.line-width
     water-labels:
-        data: { source: osm, layer: water }
+        data: { source: mapzen, layer: water }
         draw:
             text:
                 font:
                     family: global.font-family
                     size: global.font-size
     buildings:
-        data: { source: osm }
+        data: { source: mapzen }
         draw:
             blend-lines:
                 order: 3
                 color: [1., .6, 1.]
                 width: global.line-width
     buildings-labels:
-        data: { source: osm, layer: buildings }
+        data: { source: mapzen, layer: buildings }
         draw:
             text:
                 font:
                     family: global.font-family
                     size: global.font-size
     landuse:
-        data: { source: osm }
+        data: { source: mapzen }
         draw:
             blend-lines:
                 order: 4
                 color: [.6, 1., .6]
                 width: global.line-width
     landuse_labels:
-        data: { source: osm }
+        data: { source: mapzen }
         draw:
             text:
                 font:
                     family: global.font-family
                     size: global.font-size
     labels:
-        data: { source: osm }
+        data: { source: mapzen }
         draw:
             text:
                 font:
                     family: global.font-family
                     size: global.font-size
     pois:
-        data: { source: osm }
+        data: { source: mapzen }
         draw:
             text:
                 font:
                     family: global.font-family
                     size: global.font-size
     places:
-        data: { source: osm }
+        data: { source: mapzen }
         draw:
             text:
                 font:
                     family: global.font-family
                     size: global.font-size
     roads:
-        data: { source: osm }
+        data: { source: mapzen }
         draw:
             blend-lines:
                 order: 5
                 color: [1., 1., 1.]
                 width: global.line-width
     roads-labels:
-        data: { source: osm, layer: roads }
+        data: { source: mapzen, layer: roads }
         draw:
             text:
                 font:
                     family: global.font-family
                     size: global.font-size
     transit:
-        data: { source: osm }
+        data: { source: mapzen }
         draw:
             blend-lines:
                 order: 6
                 color: [.6, .6, 1.]
                 width: global.line-width
     transit-labels:
-        data: { source: osm, layer: transit }
+        data: { source: mapzen, layer: transit }
         draw:
             text:
                 font:

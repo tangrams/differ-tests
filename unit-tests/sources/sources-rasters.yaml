@@ -2,7 +2,7 @@ sources:
     stamen-terrain:
         type: Raster
         url: http://a.tile.stamen.com/terrain-background/{z}/{x}/{y}.jpg
-    mapzen-osm:
+    mapzen-mapzen:
         type: TopoJSON
         url: https://tile.mapzen.com/mapzen/vector/v1/all/{z}/{x}/{y}.topojson
         url_params:
@@ -11,7 +11,7 @@ sources:
 
 layers:
     terrain:
-        data: { source: mapzen-osm, layer: landuse } # render landuse layer from vector data source
+        data: { source: mapzen-mapzen, layer: landuse } # render landuse layer from vector data source
         draw:
             raster:
                 order: 0

@@ -1,5 +1,5 @@
 sources:
-    osm:
+    mapzen:
         type: TopoJSON
         url:  https://tile.mapzen.com/mapzen/vector/v1/all/{z}/{x}/{y}.topojson
         url_params:
@@ -20,19 +20,19 @@ sources:
 
 layers:
     earth:
-        data: { source: osm }
+        data: { source: mapzen }
         draw:
             polygons:
                 order: 0
                 color: grey
     water:
-        data: { source: osm }
+        data: { source: mapzen }
         draw:
             polygons:
                 order: 0
                 color: lightgrey
     places:
-        data: { source: osm }
+        data: { source: mapzen }
         draw:
             text:
                 order: 1
