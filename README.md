@@ -2,7 +2,7 @@
 Test files, test suites, and reference images for Tangram's [Differ](http://github.com/tangrams/differ) test framework.
 
 **Master test suite**
-http://tangrams.github.io/differ/?1=https://github.com/tangrams/differ-tests/blob/gh-pages/unit-tests/unittests01.json&lib1=0.8&lib2=0.9&go
+http://tangrams.github.io/differ/?1=https://github.com/tangrams/differ-tests/blob/master/unit-tests/unittests01.json&lib1=0.12&go
 
 ## unit tests
 
