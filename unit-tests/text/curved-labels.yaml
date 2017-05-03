@@ -1,0 +1,21 @@
+sources:
+    curves:
+        type: GeoJSON
+        url: curves.geojson
+
+layers:
+    tests:
+        data: { source: curves }
+        draw:
+            lines:
+                order: 0
+                color: cyan
+                width: .5px
+            text:
+                # text_source: function() {return "LABEL"}
+                text_source: function() {return "LABEL LABEL LABEL LABEL LABEL"}
+                collide: false
+                order: 1
+                font:
+                    size: 10px
+                    fill: black

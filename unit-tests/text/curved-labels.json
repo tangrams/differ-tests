@@ -1,0 +1,31 @@
+{
+    "origin": {
+    },
+
+    "tests": {
+        "curved-labels1": {
+            "url": "curved-labels.yaml",
+            "location": "8/1.95/1.9"
+        },
+        "curved-labels2": {
+            "url": "curved-labels.yaml",
+            "location": "8/0.775/1.9"
+        },
+        "curved-labels3": {
+            "url": "curved-labels.yaml",
+            "location": "8/-1.143/0.544"
+        },
+        "curved-labels4": {
+            "url": "curved-labels.yaml",
+            "location": "9/-0.3598/0.4889"
+        },
+        "curved-labels5": {
+            "url": "curved-labels.yaml",
+            "location": "9/0.4477/0.2692"
+        },
+        "curved-labels6": {
+            "url": "curved-labels.yaml",
+            "location": "9/0.3818/-0.2664"
+        }
+   }
+}
