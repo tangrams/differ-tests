@@ -63,6 +63,9 @@
         "text": {
             "url": "text/text01.json"
         },
+        "curved-labels": {
+            "url": "text/curved-labels.json"
+        },
         "shaders": {
             "url": "shaders/shaders.json"
         },
