@@ -54,6 +54,9 @@
         "lines7": {
             "url": "lines/lines-outline.json"
         },
+        "lines8": {
+            "url": "lines/lines-offset-01.json"
+        },
         "textures": {
             "url": "textures/textures.json"
         },

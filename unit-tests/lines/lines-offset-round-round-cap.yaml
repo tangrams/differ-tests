@@ -1,0 +1,25 @@
+sources:
+    shapes:
+        type: GeoJSON
+        url: lines-offset.geojson
+
+layers:
+    lines:
+        data: { source: shapes }
+        draw:
+            lines1:
+                style: lines
+                order: 1
+                color: black
+                width: 10px
+                join: round
+                cap: round
+                offset: 0px
+            lines2:
+                style: lines
+                order: 2
+                color: green
+                width: 10px
+                join: round
+                cap: round
+                offset: 15px

@@ -1,0 +1,52 @@
+{
+    "tests": {
+        "lines-offset-square-01": {
+            "url": "lines-offset-square.yaml",
+            "location": "4/24.793/-53.007"
+        },
+        "lines-offset-square-02": {
+            "url": "lines-offset-square.yaml",
+            "location": "4/24.048/-36.988"
+        },
+        "lines-offset-round-cap-01": {
+            "url": "lines-offset-round-cap.yaml",
+            "location": "4/24.793/-53.007"
+        },
+        "lines-offset-round-cap-02": {
+            "url": "lines-offset-round-cap.yaml",
+            "location": "4/24.048/-36.988"
+        },
+        "lines-offset-bevel-01": {
+            "url": "lines-offset-bevel.yaml",
+            "location": "4/24.793/-53.007"
+        },
+        "lines-offset-bevel-02": {
+            "url": "lines-offset-bevel.yaml",
+            "location": "4/24.048/-36.988"
+        },
+        "lines-offset-bevel-round-cap-01": {
+            "url": "lines-offset-bevel-round-cap.yaml",
+            "location": "4/24.793/-53.007"
+        },
+        "lines-offset-bevel-round-cap-02": {
+            "url": "lines-offset-bevel-round-cap.yaml",
+            "location": "4/24.048/-36.988"
+        },
+        "lines-offset-miter-01": {
+            "url": "lines-offset-miter.yaml",
+            "location": "4/24.793/-53.007"
+        },
+        "lines-offset-miter-02": {
+            "url": "lines-offset-miter.yaml",
+            "location": "4/24.048/-36.988"
+        },
+        "lines-offset-miter-round-cap-01": {
+            "url": "lines-offset-miter-round-cap.yaml",
+            "location": "4/24.793/-53.007"
+        },
+        "lines-offset-miter-round-cap-02": {
+            "url": "lines-offset-miter-round-cap.yaml",
+            "location": "4/24.048/-36.988"
+        }
+    }
+}
