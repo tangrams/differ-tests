@@ -23,3 +23,11 @@ layers:
                 join: round
                 cap: round
                 offset: 15px
+            lines3:
+                style: lines
+                order: 3
+                color: green
+                width: 10px
+                join: round
+                cap: round
+                offset: -15px
