@@ -8,12 +8,12 @@
             "url": "lines-offset-square.yaml",
             "location": "4/24.048/-36.988"
         },
-        "lines-offset-round-cap-01": {
-            "url": "lines-offset-round-cap.yaml",
+        "lines-offset-square-round-cap-01": {
+            "url": "lines-offset-square-round-cap.yaml",
             "location": "4/24.793/-53.007"
         },
-        "lines-offset-round-cap-02": {
-            "url": "lines-offset-round-cap.yaml",
+        "lines-offset-square-round-cap-02": {
+            "url": "lines-offset-square-round-cap.yaml",
             "location": "4/24.048/-36.988"
         },
         "lines-offset-bevel-01": {
