@@ -13,6 +13,7 @@ layers:
                 color: black
                 width: 10px
                 join: round
+                cap: square
                 offset: 0px
             lines2:
                 style: lines
@@ -20,6 +21,7 @@ layers:
                 color: green
                 width: 10px
                 join: round
+                cap: square
                 offset: 15px
             lines3:
                 style: lines
@@ -27,4 +29,5 @@ layers:
                 color: green
                 width: 10px
                 join: round
+                cap: square
                 offset: -15px
