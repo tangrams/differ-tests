@@ -12,16 +12,19 @@ layers:
                 order: 1
                 color: black
                 width: 10px
+                join: square
                 offset: 0px
             lines2:
                 style: lines
                 order: 2
                 color: green
                 width: 10px
+                join: square
                 offset: 15px
             lines3:
                 style: lines
                 order: 3
                 color: green
                 width: 10px
+                join: square
                 offset: -15px
