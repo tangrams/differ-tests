@@ -7,65 +7,129 @@
             "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
             "location": "19/37.80700/-122.29740"
         },
+        "highways1-18.99": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "18.99/37.80700/-122.29740"
+        },
         "highways2": {
             "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
             "location": "19/37.80783/-122.30476"
+        },
+        "highways2-18.99": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "18.99/37.80783/-122.30476"
         },
         "highways3": {
             "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
             "location": "19/37.80763/-122.30640"
         },
+        "highways3-18.99": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "18.99/37.80763/-122.30640"
+        },
         "highways4": {
             "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
             "location": "19/37.80856/-122.31200"
+        },
+        "highways4-18.99": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "18.99/37.80856/-122.31200"
         },
         "highways5": {
             "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
             "location": "17/37.80476/-122.27858"
         },
+        "highways5-.99": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "16.99/37.80476/-122.27858"
+        },
         "highways6": {
             "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
             "location": "17/37.81198/-122.27361"
+        },
+        "highways6-.99": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "16.99/37.81198/-122.27361"
         },
         "highways7": {
             "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
             "location": "18/37.81737/-122.27022"
         },
+        "highways7-.99": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "17.99/37.81737/-122.27022"
+        },
         "highways8": {
             "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
             "location": "17/37.82442/-122.26815"
+        },
+        "highways8-.99": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "16.99/37.82442/-122.26815"
         },
         "highways9": {
             "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
             "location": "18/37.83795/-122.29712"
         },
+        "highways9-.99": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "17.99/37.83795/-122.29712"
+        },
         "highways10": {
             "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
             "location": "15/37.8468/-122.2992"
+        },
+        "highways10-.99": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "14.99/37.8468/-122.2992"
         },
         "highways11": {
             "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
             "location": "16/37.8468/-122.2992"
         },
+        "highways11-.99": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "15.99/37.8468/-122.2992"
+        },
         "highways12": {
             "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
             "location": "17/40.70150/-73.99191"
+        },
+        "highways12-.99": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "16.99/40.70150/-73.99191"
         },
         "highways13": {
             "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
             "location": "20/40.70289/-73.97720"
         },
+        "highways13-.99": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "19.99/40.70289/-73.97720"
+        },
         "highways14": {
             "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
             "location": "19/37.80205/-122.41902"
+        },
+        "highways14-.99": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "18.99/37.80205/-122.41902"
         },
         "highways15": {
             "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
             "location": "20/37.80325/-122.42168"
         },
+        "highways15-.99": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "19.99/37.80325/-122.42168"
+        },
         "highways16": {
             "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
             "location": "18/37.80318/-122.45215"
+        },
+        "highways16-.99": {
+            "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
+            "location": "17.99/37.80318/-122.45215"
         },
         "highways17": {
             "url": "https://github.com/tangrams/tangram/blob/master/demos/scene.yaml",
