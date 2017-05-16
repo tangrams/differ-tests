@@ -1,0 +1,31 @@
+{
+    "origin": {
+    },
+
+    "tests": {
+        "lines1": {
+            "url": "lines01.json"
+        },
+        "lines2": {
+            "url": "lines-blend-01.json"
+        },
+        "lines3": {
+            "url": "lines-uvs-01.json"
+        },
+        "lines4": {
+            "url": "lines-cameras-01.json"
+        },
+        "lines5": {
+            "url": "lines-lights-01.json"
+        },
+        "lines6": {
+            "url": "lines-caps-joins.json"
+        },
+        "lines7": {
+            "url": "lines-outline.json"
+        },
+        "lines8": {
+            "url": "lines-offset-01.json"
+        }
+    }
+}
