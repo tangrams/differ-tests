@@ -1,0 +1,37 @@
+{
+    "origin": {
+        "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36",
+        "devicePixelRatio": 2,
+        "time": "Tue Mar 29 2016 17:40:09 GMT-0400 (EDT)"
+    },
+
+    "tests": {
+        "polygons1": {
+            "url": "polygons/polygons-blend-01.json"
+        },
+        "lines1": {
+            "url": "lines/lines01.json"
+        },
+        "lines2": {
+            "url": "lines/lines-blend-01.json"
+        },
+        "lines3": {
+            "url": "lines/lines-uvs-01.json"
+        },
+        "lines4": {
+            "url": "lines/lines-cameras-01.json"
+        },
+        "lines5": {
+            "url": "lines/lines-lights-01.json"
+        },
+        "lines6": {
+            "url": "lines/lines-caps-joins.json"
+        },
+        "lines7": {
+            "url": "lines/lines-outline.json"
+        },
+        "lines8": {
+            "url": "lines/lines-offset-01.json"
+        }
+    }
+}
