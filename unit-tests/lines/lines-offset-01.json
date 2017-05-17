@@ -4,73 +4,145 @@
             "url": "lines-offset-miter-butt.yaml",
             "location": "4/24.793/-53.007"
         },
+        "lines-offset-miter-butt-01.99": {
+            "url": "lines-offset-miter-butt.yaml",
+            "location": "3.99/24.793/-53.007"
+        },
         "lines-offset-miter-butt-02": {
             "url": "lines-offset-miter-butt.yaml",
             "location": "4/24.048/-36.988"
+        },
+        "lines-offset-miter-butt-02.99": {
+            "url": "lines-offset-miter-butt.yaml",
+            "location": "3.99/24.048/-36.988"
         },
         "lines-offset-miter-square-01": {
             "url": "lines-offset-miter-square.yaml",
             "location": "4/24.793/-53.007"
         },
+        "lines-offset-miter-square-01.99": {
+            "url": "lines-offset-miter-square.yaml",
+            "location": "3.99/24.793/-53.007"
+        },
         "lines-offset-miter-square-02": {
             "url": "lines-offset-miter-square.yaml",
             "location": "4/24.048/-36.988"
+        },
+        "lines-offset-miter-square-02.99": {
+            "url": "lines-offset-miter-square.yaml",
+            "location": "3.99/24.048/-36.988"
         },
         "lines-offset-miter-round-01": {
             "url": "lines-offset-miter-round.yaml",
             "location": "4/24.793/-53.007"
         },
+        "lines-offset-miter-round-01.99": {
+            "url": "lines-offset-miter-round.yaml",
+            "location": "3.99/24.793/-53.007"
+        },
         "lines-offset-miter-round-02": {
             "url": "lines-offset-miter-round.yaml",
             "location": "4/24.048/-36.988"
+        },
+        "lines-offset-miter-round-02.99": {
+            "url": "lines-offset-miter-round.yaml",
+            "location": "3.99/24.048/-36.988"
         },
         "lines-offset-bevel-butt-01": {
             "url": "lines-offset-bevel-butt.yaml",
             "location": "4/24.793/-53.007"
         },
+        "lines-offset-bevel-butt-01.99": {
+            "url": "lines-offset-bevel-butt.yaml",
+            "location": "3.99/24.793/-53.007"
+        },
         "lines-offset-bevel-butt-02": {
             "url": "lines-offset-bevel-butt.yaml",
             "location": "4/24.048/-36.988"
+        },
+        "lines-offset-bevel-butt-02.99": {
+            "url": "lines-offset-bevel-butt.yaml",
+            "location": "3.99/24.048/-36.988"
         },
         "lines-offset-bevel-square-01": {
             "url": "lines-offset-bevel-square.yaml",
             "location": "4/24.793/-53.007"
         },
+        "lines-offset-bevel-square-01.99": {
+            "url": "lines-offset-bevel-square.yaml",
+            "location": "3.99/24.793/-53.007"
+        },
         "lines-offset-bevel-square-02": {
             "url": "lines-offset-bevel-square.yaml",
             "location": "4/24.048/-36.988"
+        },
+        "lines-offset-bevel-square-02.99": {
+            "url": "lines-offset-bevel-square.yaml",
+            "location": "3.99/24.048/-36.988"
         },
         "lines-offset-bevel-round-01": {
             "url": "lines-offset-bevel-round.yaml",
             "location": "4/24.793/-53.007"
         },
+        "lines-offset-bevel-round-01.99": {
+            "url": "lines-offset-bevel-round.yaml",
+            "location": "3.99/24.793/-53.007"
+        },
         "lines-offset-bevel-round-02": {
             "url": "lines-offset-bevel-round.yaml",
             "location": "4/24.048/-36.988"
+        },
+        "lines-offset-bevel-round-02.99": {
+            "url": "lines-offset-bevel-round.yaml",
+            "location": "3.99/24.048/-36.988"
         },
         "lines-offset-round-butt-01": {
             "url": "lines-offset-round-butt.yaml",
             "location": "4/24.793/-53.007"
         },
+        "lines-offset-round-butt-01.99": {
+            "url": "lines-offset-round-butt.yaml",
+            "location": "3.99/24.793/-53.007"
+        },
         "lines-offset-round-butt-02": {
             "url": "lines-offset-round-butt.yaml",
             "location": "4/24.048/-36.988"
+        },
+        "lines-offset-round-butt-02.99": {
+            "url": "lines-offset-round-butt.yaml",
+            "location": "3.99/24.048/-36.988"
         },
         "lines-offset-round-square-01": {
             "url": "lines-offset-round-square.yaml",
             "location": "4/24.793/-53.007"
         },
+        "lines-offset-round-square-01.99": {
+            "url": "lines-offset-round-square.yaml",
+            "location": "3.99/24.793/-53.007"
+        },
         "lines-offset-round-square-02": {
             "url": "lines-offset-round-square.yaml",
             "location": "4/24.048/-36.988"
+        },
+        "lines-offset-round-square-02.99": {
+            "url": "lines-offset-round-square.yaml",
+            "location": "3.99/24.048/-36.988"
         },
         "lines-offset-round-round-01": {
             "url": "lines-offset-round-round.yaml",
             "location": "4/24.793/-53.007"
         },
+        "lines-offset-round-round-01.99": {
+            "url": "lines-offset-round-round.yaml",
+            "location": "3.99/24.793/-53.007"
+        },
         "lines-offset-round-round-02": {
             "url": "lines-offset-round-round.yaml",
             "location": "4/24.048/-36.988"
+        },
+        "lines-offset-round-round-02.99": {
+            "url": "lines-offset-round-round.yaml",
+            "location": "3.99/24.048/-36.988"
         }
     }
 }
