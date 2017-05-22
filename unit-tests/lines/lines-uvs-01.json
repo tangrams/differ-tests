@@ -36,16 +36,16 @@
             "url": "lines-uvs-cap-square03.yaml",
             "location": "10/0.40/0.3825"
         },
-        "lines-uvs-cap-bevel1": {
-            "url": "lines-uvs-cap-bevel01.yaml",
+        "lines-uvs-join-bevel1": {
+            "url": "lines-uvs-join-bevel01.yaml",
             "location": "10/-0.5939/0.0591"
         },
-        "lines-uvs-cap-bevel2": {
-            "url": "lines-uvs-cap-bevel02.yaml",
+        "lines-uvs-join-bevel2": {
+            "url": "lines-uvs-join-bevel02.yaml",
             "location": "10/-0.5939/0.0591"
         },
-        "lines-uvs-cap-bevel3": {
-            "url": "lines-uvs-cap-bevel03.yaml",
+        "lines-uvs-join-bevel3": {
+            "url": "lines-uvs-join-bevel03.yaml",
             "location": "10/-0.5939/0.0591"
         },
         "lines-uvs-join-round1": {
