@@ -122,6 +122,14 @@
         "text-max-lines-align-right": {
             "url": "text-wrap.yaml",
             "location": "11/-2.5542/0.0484"
+        },
+        "text-shaders:color": {
+            "url": "text-shaders.yaml",
+            "location": "11/-2.2159/-0.3086"
+        },
+        "text-shaders:position": {
+            "url": "text-shaders.yaml",
+            "location": "11/-2.2235/0.0436"
         }
    }
 }

@@ -1,0 +1,49 @@
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../assets/shapes.geojson
+
+styles:
+    shaders-color:
+        base: text
+        shaders:
+            blocks:
+                color: |
+                    color.rgb = vec3(0., 1., 0.);
+    shaders-position:
+        base: text
+        shaders:
+            blocks:
+                position: |
+                    position.xy += vec2(500.0);
+
+layers:
+    tests:
+        data: { source: shapes }
+        color-test:
+            filter: { name: label1 }
+            draw:
+                shaders-color:
+                    order: 1
+                    font:
+                        size: 14pt
+                        fill: red
+        position-test:
+            filter: { name: label2 }
+            draw:
+                shaders-position:
+                # text:
+                    order: 3
+                    collide: false
+                    font:
+                        size: 14pt
+                        fill: "#00ff00"
+        position-unchanged:
+            filter: { name: label2 }
+            draw:
+                text:
+                    order: 2
+                    collide: false
+                    font:
+                        size: 14pt
+                        fill: black
