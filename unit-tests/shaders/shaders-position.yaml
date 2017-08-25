@@ -9,13 +9,15 @@ styles:
         shaders:
             blocks:
                 position: |
-                    position.y = position.y + sin(position.y) * 2500.;
-                    position.x = position.x + sin(position.x) * 2500.;
+                    position.xy += 1500.;
 
 layers:
     shapes:
         data: { source: shapes }
         draw:
-            test:
+            polygons:
                 order: 0
+                color: [.5, .5, .5]
+            test:
+                order: 1
                 color: [.5, 1., .5]
