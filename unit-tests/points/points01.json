@@ -7,6 +7,10 @@
             "url": "points01.yaml",
             "location": "11/-1.0244/0.0439"
         },
+        "points-outline": {
+            "url": "points-outline.yaml",
+            "location": "11/-1.0244/0.0439"
+        },
         "points-texture": {
             "url": "points-texture.yaml",
             "location": "11/-1.0244/0.0439"
