@@ -1,0 +1,16 @@
+
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../assets/shapes.geojson
+
+layers:
+    tests:
+        data: { source: shapes }
+        draw:
+            points:
+                color: green
+                size: 4px
+                outline:
+                    color: black
+                    width: .75px
