@@ -9,4 +9,4 @@ layers:
         draw:
             points:
                 color: green
-                width: 20px
+                size: 20px
