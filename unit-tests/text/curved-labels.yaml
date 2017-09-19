@@ -14,7 +14,6 @@ layers:
             text:
                 # text_source: function() {return "LABEL"}
                 text_source: function() {return "LABEL LABEL LABEL LABEL LABEL"}
-                collide: false
                 repeat_distance: 0px
                 order: 1
                 font:
