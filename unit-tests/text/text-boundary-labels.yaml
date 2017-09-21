@@ -1,0 +1,23 @@
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../assets/shapes.geojson
+
+layers:
+    tests:
+        data: { source: shapes }
+        draw:
+            lines:
+                order: 0
+                width: 1px
+                color: blue
+            text:
+                text_source:
+                    left: function() { return "left"; }
+                    right: function() { return "right"; }
+                order: 1
+                # collide: false
+                repeat_distance: 0px
+                font:
+                    size: 10pt
+                    fill: "#00ff00"

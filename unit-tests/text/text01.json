@@ -130,6 +130,34 @@
         "text-shaders:position": {
             "url": "text-shaders.yaml",
             "location": "11/-2.2235/0.0436"
+        },
+        "text-boundary-labels1": {
+            "url": "text-boundary-labels.yaml",
+            "location": "10/0.3687/-0.4079"
+        },
+        "text-boundary-labels2": {
+            "url": "text-boundary-labels.yaml",
+            "location": "10/-0.5939/0.0591"
+        },
+        "text-boundary-labels3": {
+            "url": "text-boundary-labels.yaml",
+            "location": "10/0.40/0.3825"
+        },
+        "text-boundary-labels4": {
+            "url": "text-boundary-labels.yaml",
+            "location": "10/0.3763/0.0096"
+        },
+        "text-boundary-labels4": {
+            "url": "text-boundary-labels.yaml",
+            "location": "10/0.1826/0.0247"
+        },
+        "text-boundary-labels4": {
+            "url": "text-boundary-labels.yaml",
+            "location": "10/0.0288/0.0439"
+        },
+        "text-boundary-labels4": {
+            "url": "text-boundary-labels.yaml",
+            "location": "9.49167/-0.2948/0.0115"
         }
    }
 }
