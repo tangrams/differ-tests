@@ -4,7 +4,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id" : "line1"
+        "id" : "line1",
+        "name:left" : "left",
+        "name:right" : "right"
       },
       "geometry": {
         "type": "LineString",
@@ -23,7 +25,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id" : "line2"
+        "id" : "line2",
+        "name:left" : "left",
+        "name:right" : "right"
       },
       "geometry": {
         "type": "LineString",
@@ -62,7 +66,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id" : "line3"
+        "id" : "line3",
+        "name:left" : "left",
+        "name:right" : "right"
       },
       "geometry": {
         "type": "LineString",
@@ -109,7 +115,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id" : "line4"
+        "id" : "line4",
+        "name:left" : "left",
+        "name:right" : "right"
       },
       "geometry": {
         "type": "LineString",
@@ -160,7 +168,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id" : "line5"
+        "id" : "line5",
+        "name:left" : "left",
+        "name:right" : "right"
       },
       "geometry": {
         "type": "LineString",
@@ -267,7 +277,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id" : "line6"
+        "id" : "line6",
+        "name:left" : "left",
+        "name:right" : "right"
       },
       "geometry": {
         "type": "LineString",
@@ -350,7 +362,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id" : "line7"
+        "id" : "line7",
+        "name:left" : "left",
+        "name:right" : "right"
       },
       "geometry": {
         "type": "LineString",
@@ -421,7 +435,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id" : "line8"
+        "id" : "line8",
+        "name:left" : "left",
+        "name:right" : "right"
       },
       "geometry": {
         "type": "LineString",
@@ -512,7 +528,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id" : "line9"
+        "id" : "line9",
+        "name:left" : "left",
+        "name:right" : "right"
       },
       "geometry": {
         "type": "LineString",
@@ -535,7 +553,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id" : "line10"
+        "id" : "line10",
+        "name:left" : "left",
+        "name:right" : "right"
       },
       "geometry": {
         "type": "LineString",
@@ -566,7 +586,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id" : "line11"
+        "id" : "line11",
+        "name:left" : "left",
+        "name:right" : "right"
       },
       "geometry": {
         "type": "LineString",
@@ -597,7 +619,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id" : "line12"
+        "id" : "line12",
+        "name:left" : "left",
+        "name:right" : "right"
       },
       "geometry": {
         "type": "LineString",
@@ -640,7 +664,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id" : "line13"
+        "id" : "line13",
+        "name:left" : "left",
+        "name:right" : "right"
       },
       "geometry": {
         "type": "LineString",
@@ -699,7 +725,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id" : "line14"
+        "id" : "line14",
+        "name:left" : "left",
+        "name:right" : "right"
       },
       "geometry": {
         "type": "LineString",
@@ -754,7 +782,9 @@
     {
       "type": "Feature",
       "properties": {
-        "id" : "line15"
+        "id" : "line15",
+        "name:left" : "left",
+        "name:right" : "right"
       },
       "geometry": {
         "type": "LineString",

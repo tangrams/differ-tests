@@ -26,6 +26,30 @@
         "curved-labels6": {
             "url": "curved-labels.yaml",
             "location": "9/0.3818/-0.2664"
+        },
+        "curved-boundary-labels1": {
+            "url": "curved-boundary-labels.yaml",
+            "location": "8/1.95/1.9"
+        },
+        "curved-boundary-labels2": {
+            "url": "curved-boundary-labels.yaml",
+            "location": "8/0.775/1.9"
+        },
+        "curved-boundary-labels3": {
+            "url": "curved-boundary-labels.yaml",
+            "location": "8/-1.143/0.544"
+        },
+        "curved-boundary-labels4": {
+            "url": "curved-boundary-labels.yaml",
+            "location": "9/-0.3598/0.4889"
+        },
+        "curved-boundary-labels5": {
+            "url": "curved-boundary-labels.yaml",
+            "location": "9/0.4477/0.2692"
+        },
+        "curved-boundary-labels6": {
+            "url": "curved-boundary-labels.yaml",
+            "location": "9/0.3818/-0.2664"
         }
    }
 }
