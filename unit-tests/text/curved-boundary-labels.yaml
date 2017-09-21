@@ -14,8 +14,8 @@ layers:
             text:
                 # text_source: function() {return "LABEL"}
                 text_source: 
-                    left: name:left
-                    right: name:right
+                    left: function() {return "LABEL LABEL LABEL LABEL LABEL"}
+                    right: function() {return "LABEL LABEL LABEL LABEL LABEL"}
                 offset: [0, 5px]
                 repeat_distance: 0px
                 order: 1
