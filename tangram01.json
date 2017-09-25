@@ -30,6 +30,14 @@
             "url": "https://github.com/tangrams/tangram/blob/v0.7.0/demos/scene.yaml",
             "location": [40.70532700869127,-74.0097749233246,18]
         },
+        "greenwood1": {
+            "url": "https://github.com/tangrams/tangram/blob/v0.7.0/demos/scene.yaml",
+            "location": [40.65346,-73.99053,16]
+        },
+        "greenwood2": {
+            "url": "https://github.com/tangrams/tangram/blob/v0.7.0/demos/scene.yaml",
+            "location": [40.65547,-73.99403,18]
+        },
         "zoo": {
             "url": "https://github.com/tangrams/tangram/blob/v0.7.0/demos/scene.yaml",
             "location": [40.767653506304654,-73.97185871788633,18.35]
