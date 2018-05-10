@@ -1,9 +1,9 @@
 sources:
     shapes:
         type: GeoJSON
-        url: https://tile.mapzen.com/mapzen/vector/v1/all/{z}/{x}/{y}.json
+        url: https://tile.nextzen.org/tilezen/vector/v1/all/{z}/{x}/{y}.json
         url_params:
-            api_key: mapzen-7AQT7zc
+            api_key: PGRXDGLpRZ2s_YwScLm3cw
 layers:
     earth:
         data: { source: shapes }
