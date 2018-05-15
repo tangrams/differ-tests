@@ -1,12 +1,12 @@
 sources:
-    mapzen:
+    nextzen:
         type: TopoJSON
         url:  https://tile.nextzen.org/tilezen/vector/v1/all/{z}/{x}/{y}.topojson
         url_params:
             api_key: PGRXDGLpRZ2s_YwScLm3cw
 layers:
     earth:
-        data: { source: mapzen }
+        data: { source: nextzen }
         draw:
             polygons:
                 order: 0

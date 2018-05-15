@@ -1,5 +1,5 @@
 sources:
-    mapzen:
+    nextzen:
         type: TopoJSON
         url: https://tile.nextzen.org/tilezen/vector/v1/all/{z}/{x}/{y}.topojson
         url_params:
@@ -11,7 +11,7 @@ cameras:
 
 layers:
     earth:
-        data: { source: mapzen }
+        data: { source: nextzen }
         draw:
             polygons:
                 order: 0
@@ -21,7 +21,7 @@ layers:
                 width: 2px
                 tile_edges: true
     water:
-        data: { source: mapzen }
+        data: { source: nextzen }
         draw:
             polygons:
                 order: 1
@@ -33,7 +33,7 @@ layers:
                 tile_edges: true
     
     landuse:
-        data: { source: mapzen }
+        data: { source: nextzen }
         draw:
             polygons:
                 order: 2

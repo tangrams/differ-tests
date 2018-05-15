@@ -1,5 +1,5 @@
 ﻿sources:
-    mapzen:
+    nextzen:
         type: TopoJSON
         url:  https://tile.nextzen.org/tilezen/vector/v1/all/{z}/{x}/{y}.topojson
         url_params:
@@ -16,7 +16,7 @@ styles:
 
 layers:
     earth:
-        data: { source: mapzen }
+        data: { source: nextzen }
         draw:
             data_url_texture:
                 order: 0

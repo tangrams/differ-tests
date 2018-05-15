@@ -13,19 +13,19 @@ lights:
         ambient: .2
 
 sources:
-    mapzen:
+    esb:
         type: GeoJSON
         url:  ../esb.geojson
 
 layers:
     earth:
-        data: { source: mapzen }
+        data: { source: esb }
         draw:
             polygons:
                 order: 0
                 color: white
     buildings:  
-        data: { source: mapzen }
+        data: { source: esb }
         draw:
             polygons:
                 order: 1

@@ -1,5 +1,5 @@
 sources:
-    mapzen:
+    nextzen:
         type: TopoJSON
         url:  https://tile.nextzen.org/tilezen/vector/v1/all/{z}/{x}/{y}.topojson
         url_params:
@@ -17,119 +17,119 @@ scene:
         color: black
 layers:
     boundaries:
-        data: { source: mapzen }
+        data: { source: nextzen }
         draw:
             blend-lines:
                 order: 0
                 color: [.6, .6, .6]
                 width: global.line-width
     boundaries-labels:
-        data: { source: mapzen, layer: boundaries }
+        data: { source: nextzen, layer: boundaries }
         draw:
             text:
                 font:
                     family: global.font-family
                     size: global.font-size
     earth:
-        data: { source: mapzen }
+        data: { source: nextzen }
         draw:
             blend-lines:
                 order: 1
                 color: [1., .6, .6]
                 width: global.line-width
     earth-labels:
-        data: { source: mapzen, layer: earth }
+        data: { source: nextzen, layer: earth }
         draw:
             text:
                 font:
                     family: global.font-family
                     size: global.font-size
     water:
-        data: { source: mapzen }
+        data: { source: nextzen }
         draw:
             blend-lines:
                 order: 2
                 color: [.6, .6, 1.]
                 width: global.line-width
     water-labels:
-        data: { source: mapzen, layer: water }
+        data: { source: nextzen, layer: water }
         draw:
             text:
                 font:
                     family: global.font-family
                     size: global.font-size
     buildings:
-        data: { source: mapzen }
+        data: { source: nextzen }
         draw:
             blend-lines:
                 order: 3
                 color: [1., .6, 1.]
                 width: global.line-width
     buildings-labels:
-        data: { source: mapzen, layer: buildings }
+        data: { source: nextzen, layer: buildings }
         draw:
             text:
                 font:
                     family: global.font-family
                     size: global.font-size
     landuse:
-        data: { source: mapzen }
+        data: { source: nextzen }
         draw:
             blend-lines:
                 order: 4
                 color: [.6, 1., .6]
                 width: global.line-width
     landuse_labels:
-        data: { source: mapzen }
+        data: { source: nextzen }
         draw:
             text:
                 font:
                     family: global.font-family
                     size: global.font-size
     labels:
-        data: { source: mapzen }
+        data: { source: nextzen }
         draw:
             text:
                 font:
                     family: global.font-family
                     size: global.font-size
     pois:
-        data: { source: mapzen }
+        data: { source: nextzen }
         draw:
             text:
                 font:
                     family: global.font-family
                     size: global.font-size
     places:
-        data: { source: mapzen }
+        data: { source: nextzen }
         draw:
             text:
                 font:
                     family: global.font-family
                     size: global.font-size
     roads:
-        data: { source: mapzen }
+        data: { source: nextzen }
         draw:
             blend-lines:
                 order: 5
                 color: [1., 1., 1.]
                 width: global.line-width
     roads-labels:
-        data: { source: mapzen, layer: roads }
+        data: { source: nextzen, layer: roads }
         draw:
             text:
                 font:
                     family: global.font-family
                     size: global.font-size
     transit:
-        data: { source: mapzen }
+        data: { source: nextzen }
         draw:
             blend-lines:
                 order: 6
                 color: [.6, .6, 1.]
                 width: global.line-width
     transit-labels:
-        data: { source: mapzen, layer: transit }
+        data: { source: nextzen, layer: transit }
         draw:
             text:
                 font:
