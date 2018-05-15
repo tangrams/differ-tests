@@ -1,11 +1,12 @@
-﻿sources:
+# test that a defined sprite is drawn with size specified as a ratio
+sources:
     test:
         type: GeoJSON
         url:  ../assets/point.geojson
 textures:
     burger:
         url: burger.png
-        filtering: nearest
+
 styles:
     burger-style:
         base: points
@@ -15,4 +16,4 @@ layers:
         data: { source: test }
         draw:
             burger-style:
-                size: 128px
+                size: [128px, 100%]

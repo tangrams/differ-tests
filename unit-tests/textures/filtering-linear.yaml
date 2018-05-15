@@ -1,9 +1,10 @@
 ﻿sources:
-    mapzen:
-        type: TopoJSON
-        url:  https://tile.nextzen.org/tilezen/vector/v1/all/{z}/{x}/{y}.topojson
-        url_params:
-            api_key: PGRXDGLpRZ2s_YwScLm3cw
+    test:
+        type: GeoJSON
+        url:  ../assets/point.geojson
+scene:
+    background:
+        color: pink
 textures:
     burger:
         url: burger.png
@@ -14,7 +15,7 @@ styles:
         texture: burger
 layers:
     places:
-        data: { source: mapzen }
+        data: { source: test }
         draw:
             burger-style:
                 size: 128px

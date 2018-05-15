@@ -6,15 +6,55 @@
         },
         "filtering-linear": {
             "url": "filtering-linear.yaml",
-            "location": "2.12387/77.85/-44.65"
+            "location": "0/0/0"
         },
         "filtering-mipmap": {
             "url": "filtering-mipmap.yaml",
-            "location": "2.12387/77.85/-44.65"
+            "location": "0/0/0"
         },
         "filtering-nearest": {
             "url": "filtering-nearest.yaml",
-            "location": "2.12387/77.85/-44.65"
+            "location": "0/0/0"
+        },
+        "sprites-defined-default": {
+            "url": "sprite-defined-default.yaml",
+            "location": "0/0/0"
+        },
+        "sprite-defined-px": {
+            "url": "sprite-defined-px.yaml",
+            "location": "0/0/0"
+        },
+        "sprite-defined-percent": {
+            "url": "sprite-defined-percent.yaml",
+            "location": "0/0/0"
+        },
+        "sprite-defined-ratio": {
+            "url": "sprite-defined-ratio.yaml",
+            "location": "0/0/0"
+        },
+        "sprite-defined-auto": {
+            "url": "sprite-defined-auto.yaml",
+            "location": "0/0/0"
+        },
+        "sprites-undefined-default": {
+            "url": "sprite-undefined-default.yaml",
+            "location": "0/0/0"
+        },
+        "sprite-undefined-px": {
+            "url": "sprite-undefined-px.yaml",
+            "location": "0/0/0"
+        },
+        "sprite-undefined-percent": {
+            "url": "sprite-undefined-percent.yaml",
+            "location": "0/0/0"
+        },
+        "sprite-undefined-ratio": {
+            "url": "sprite-undefined-ratio.yaml",
+            "location": "0/0/0"
+        },
+        "sprite-undefined-auto": {
+            "url": "sprite-undefined-auto.yaml",
+            "location": "0/0/0"
         }
     }
 }

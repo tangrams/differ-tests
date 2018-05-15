@@ -1,11 +1,12 @@
-﻿sources:
+# test that a defined sprite is drawn with size specified in px
+sources:
     test:
         type: GeoJSON
         url:  ../assets/point.geojson
 textures:
     burger:
         url: burger.png
-        filtering: nearest
+
 styles:
     burger-style:
         base: points

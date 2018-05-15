@@ -1,11 +1,14 @@
-﻿sources:
+# test that a defined sprite is drawn with size specified in percent
+sources:
     test:
         type: GeoJSON
         url:  ../assets/point.geojson
 textures:
     burger:
         url: burger.png
-        filtering: nearest
+        sprites:
+          sprite1: [0,0,38,38]
+
 styles:
     burger-style:
         base: points
@@ -15,4 +18,5 @@ layers:
         data: { source: test }
         draw:
             burger-style:
-                size: 128px
+                sprite: sprite1
+                size: 200%
