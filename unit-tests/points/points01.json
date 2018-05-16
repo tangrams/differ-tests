@@ -54,6 +54,10 @@
         "points-offset": {
             "url": "points-offset.yaml",
             "location": "12/-1.3549/0.0210"
+        },
+        "points-source-collide": {
+            "url": "points-source-collide.yaml",
+            "location": "1/0/0"
         }
     }
 }

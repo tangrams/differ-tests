@@ -1,0 +1,23 @@
+sources:
+    point1:
+        type: GeoJSON
+        url: ../assets/point.geojson
+    point2:
+        type: GeoJSON
+        url: ../assets/point2.geojson
+
+layers:
+    point1:
+        data: { source: point1 }
+        draw:
+            points:
+                priority: 0
+                size: 32px
+                color: green
+    point2:
+        data: { source: point2 }
+        draw:
+            points:
+                priority: 1
+                size: 32px
+                color: red
