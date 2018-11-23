@@ -6,6 +6,9 @@
     },
 
     "tests": {
+        "scene": {
+            "url": "scene/scene01.json"
+        },
         "cameras": {
             "url": "cameras/cameras01.json"
         },
