@@ -13,6 +13,14 @@
         "global": {
             "url": "global.yaml",
             "location": "2/51.7/21.4"
+        },
+        "global-nested": {
+            "url": "global-nested.yaml",
+            "location": "2/51.7/21.4"
+        },
+        "global-chained": {
+            "url": "global-chained.yaml",
+            "location": "2/51.7/21.4"
         }
     }
 }
