@@ -1,0 +1,13 @@
+global:
+    secret: global.secret2
+    secret2: global.color
+    color: red
+
+scene:
+    background:
+        color: global.secret
+
+sources:
+    shapes:
+        type: GeoJSON
+        url: /
