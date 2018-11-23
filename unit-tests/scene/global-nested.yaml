@@ -1,0 +1,12 @@
+global:
+    nested:
+        color: red    
+
+scene:
+    background:
+        color: global.nested.color
+
+sources:
+    shapes:
+        type: GeoJSON
+        url: /
