@@ -53,6 +53,14 @@
         "sources-rasters": {
             "url": "sources-rasters.yaml",
             "location": "13/40.7825/-73.9670"
+        },
+        "sources-rasters-mixed": {
+            "url": "sources-rasters-mixed.yaml",
+            "location": "7.5/47.1162/-121.0759"
+        },
+        "sources-rasters-mixed-pixel-sampler": {
+            "url": "sources-rasters-mixed-pixel-sampler.yaml",
+            "location": "7.5/47.1162/-121.0759"
         }
     }
 }
