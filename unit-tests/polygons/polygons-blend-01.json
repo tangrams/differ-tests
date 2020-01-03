@@ -177,6 +177,22 @@
         "polygons-alpha-blend-overlay3": {
             "url": "polygons-alpha-blend-overlay.yaml",
             "location": "10/-0.6173/0.0336"
+        },
+        "polygons-alpha-blend-translucent1": {
+            "url": "polygons-alpha-blend-translucent.yaml",
+            "location": [0, 0, 10]
+        },
+        "polygons-alpha-blend-translucent2": {
+            "url": "polygons-alpha-blend-translucent.yaml",
+            "location": "10/-0.6125/-0.3234"
+        },
+        "polygons-alpha-blend-translucent3": {
+            "url": "polygons-alpha-blend-translucent.yaml",
+            "location": "10/-0.6173/0.0336"
+        },
+        "polygons-alpha-blend-translucent4": {
+            "url": "polygons-alpha-blend-translucent.yaml",
+            "location": "10/-0.6365/0.3495"
         }
     }
 }
