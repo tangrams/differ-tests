@@ -1,0 +1,21 @@
+lights:
+    light1:
+        type: ambient
+        ambient: 1
+
+scene:
+    background:
+        color: black
+
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../assets/shapes.geojson
+
+layers:
+    polygons:
+        data: { source: shapes }
+        draw:
+            inlay_polygons:
+                order: 1
+                color: function(){ return feature.color }

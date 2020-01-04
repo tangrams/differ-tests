@@ -249,7 +249,9 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "color": "blue"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [

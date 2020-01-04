@@ -194,6 +194,10 @@
             "url": "polygons-alpha-blend-translucent.yaml",
             "location": "10/-0.6365/0.3495"
         },
+        "polygons-color-function": {
+            "url": "polygons-color-function.yaml",
+            "location": "10/-0.6365/0.3495"
+        },
         "polygons-alpha-param": {
             "url": "polygons-alpha-param.yaml",
             "location": "10/-0.6365/0.3495"
