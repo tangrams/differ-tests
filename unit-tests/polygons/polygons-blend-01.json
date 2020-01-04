@@ -193,6 +193,14 @@
         "polygons-alpha-blend-translucent4": {
             "url": "polygons-alpha-blend-translucent.yaml",
             "location": "10/-0.6365/0.3495"
+        },
+        "polygons-alpha-param": {
+            "url": "polygons-alpha-param.yaml",
+            "location": "10/-0.6365/0.3495"
+        },
+        "polygons-alpha-param-unset": {
+            "url": "polygons-alpha-param-unset.yaml",
+            "location": "10/-0.6365/0.3495"
         }
     }
 }
