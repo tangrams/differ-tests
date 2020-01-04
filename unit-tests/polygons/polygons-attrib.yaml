@@ -1,0 +1,41 @@
+lights:
+    light1:
+        type: ambient
+        ambient: 1
+
+scene:
+    background:
+        color: black
+
+sources:
+    shapes:
+        type: GeoJSON
+        url: ../assets/shapes.geojson
+
+styles:
+  custom_attrib:
+    base: polygons
+    blend: inlay
+    shaders:
+      attributes:
+        float_prop:
+          type: float
+      blocks:
+        # test attribute in vertex shader
+        position: |
+          position.x += float_prop * 2000.;
+        # test attribute in fragment shader
+        filter: |
+          color = vec4(float_prop / 10. + .5, 0., 0., float_prop / 10. + .5);
+    draw:
+      attributes:
+        float_prop: function(){ return feature.float_prop }
+        height: 100
+
+layers:
+    polygons:
+        data: { source: shapes }
+        draw:
+            custom_attrib:
+                order: 1
+                # color: function(){ return feature.color }

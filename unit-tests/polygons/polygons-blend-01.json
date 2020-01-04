@@ -205,6 +205,10 @@
         "polygons-alpha-param-unset": {
             "url": "polygons-alpha-param-unset.yaml",
             "location": "10/-0.6365/0.3495"
+        },
+        "polygons-attrib": {
+            "url": "polygons-attrib.yaml",
+            "location": "10/-0.6365/0.3495"
         }
     }
 }

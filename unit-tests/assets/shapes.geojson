@@ -250,7 +250,8 @@
     {
       "type": "Feature",
       "properties": {
-        "color": "blue"
+        "color": "blue",
+        "float_prop": 3
       },
       "geometry": {
         "type": "Polygon",
