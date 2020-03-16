@@ -15,7 +15,7 @@ layers:
                 color: [.7, .7, .7]
                 width: 20px
                 cap: square
-                extrude: 2000 # outline should extrude with inline
+                extrude: 10000 # outline should extrude with inline
                 outline:
                     color: [0, .7, 0]
                     width: 2px
