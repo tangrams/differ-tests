@@ -1,18 +1,18 @@
 sources:
     shapes:
         type: GeoJSON
-        url: lines-offset.geojson
+        url: ../assets/shapes.geojson
 
 layers:
     lines:
         data: { source: shapes }
         draw:
-            lines1:
-                style: lines
+            lines:
                 order: 1
-                color: black
-                width: 10px
+                color: [.7, .7, .7]
+                width: 20px
+                cap: square
                 extrude: 100 # outline should extrude with inline
                 outline:
-                    color: green
-                    width: 3px
+                    color: [0, .7, 0]
+                    width: 2px
