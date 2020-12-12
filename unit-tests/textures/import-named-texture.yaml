@@ -1,0 +1,5 @@
+import: deferred-named-texture.yaml
+
+textures:
+    candy-store:
+        url: candy-store.png

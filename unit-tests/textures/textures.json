@@ -55,6 +55,22 @@
         "sprite-undefined-auto": {
             "url": "sprite-undefined-auto.yaml",
             "location": "0/0/0"
+        },
+        "import-named-texture": {
+            "url": "import-named-texture.yaml",
+            "location": "0/0/0"
+        },
+        "global-url-texture": {
+            "url": "global-url-texture.yaml",
+            "location": "0/0/0"
+        },
+        "global-named-texture": {
+            "url": "global-named-texture.yaml",
+            "location": "0/0/0"
+        },
+        "global-nested-named-texture": {
+            "url": "global-nested-named-texture.yaml",
+            "location": "0/0/0"
         }
     }
 }

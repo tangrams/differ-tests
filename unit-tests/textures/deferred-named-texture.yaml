@@ -1,0 +1,14 @@
+sources:
+    test:
+        type: GeoJSON
+        url:  ../assets/point.geojson
+styles:
+    texture-style:
+        base: points
+        texture: candy-store
+layers:
+    places:
+        data: { source: test }
+        draw:
+            texture-style:
+                size: 128px
